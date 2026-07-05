@@ -54,7 +54,7 @@ const URDF_COACD_MANIFEST_NAME = "manifest.json";
 const DEFAULT_GS_ALIGNMENT_MODE = "none";
 const VISUAL_FRAME_ACTOR = "actor";
 const VISUAL_FRAME_WORLD = "world";
-const ASSET_CACHE_VERSION = "20260706_copy_polish";
+const ASSET_CACHE_VERSION = "20260706_github_pages_paths";
 
 await RAPIER.init();
 
@@ -3481,12 +3481,16 @@ function resolveAssetUrl(assetPath, manifestUrl) {
 
   const normalized = rawPath.replace(/\\/g, "/");
   if (/^(sessions|assets)\//.test(normalized)) {
-    return new URL(normalized, `${window.location.origin}/`).href;
+    return new URL(normalized, siteBaseUrl()).href;
+  }
+
+  if (/^\/(sessions|assets)\//.test(normalized)) {
+    return new URL(normalized.replace(/^\/+/, ""), siteBaseUrl()).href;
   }
 
   const sessionsIndex = normalized.indexOf("/sessions/");
   if (sessionsIndex >= 0) {
-    return new URL(normalized.slice(sessionsIndex), window.location.origin).href;
+    return new URL(normalized.slice(sessionsIndex + 1), siteBaseUrl()).href;
   }
 
   const projectIndex = normalized.indexOf("/project_page/");
@@ -3500,6 +3504,10 @@ function resolveAssetUrl(assetPath, manifestUrl) {
   }
 
   return new URL(normalized, manifestUrl).href;
+}
+
+function siteBaseUrl() {
+  return new URL("./", window.location.href);
 }
 
 function gsSceneUrlFromManifestUrl(manifestUrl) {

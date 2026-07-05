@@ -6,7 +6,7 @@ import { MeshoptDecoder } from "meshoptimizer";
 import { HybridSceneViewer } from "./hybrid-viewer.js";
 import { PAGE_DATA } from "./data.js";
 
-const PAGE_CACHE_VERSION = "20260706_copy_polish";
+const PAGE_CACHE_VERSION = "20260706_github_pages_paths";
 const transientViewers = new WeakMap();
 let playgroundHintTimer = 0;
 
