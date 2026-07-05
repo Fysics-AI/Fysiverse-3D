@@ -1,0 +1,68 @@
+{
+  "schema": "fysiverse_web_assets.v1",
+  "objects": [
+    {
+      "index": 0,
+      "mask_id": 1,
+      "name": "mask_001_object",
+      "semantic_label": "water pitcher",
+      "web_glb": "sessions/20260704_155258_c607afba/results/web_assets/web_objects/0000_mask_001_water_pitcher.glb"
+    },
+    {
+      "index": 1,
+      "mask_id": 2,
+      "name": "mask_002_object",
+      "semantic_label": "mug",
+      "web_glb": "sessions/20260704_155258_c607afba/results/web_assets/web_objects/0001_mask_002_mug.glb"
+    },
+    {
+      "index": 2,
+      "mask_id": 3,
+      "name": "mask_003_object",
+      "semantic_label": "small jar",
+      "web_glb": "sessions/20260704_155258_c607afba/results/web_assets/web_objects/0002_mask_003_small_jar.glb"
+    },
+    {
+      "index": 3,
+      "mask_id": 4,
+      "name": "mask_004_object",
+      "semantic_label": "orange sponge",
+      "web_glb": "sessions/20260704_155258_c607afba/results/web_assets/web_objects/0003_mask_004_orange_sponge.glb"
+    },
+    {
+      "index": 4,
+      "mask_id": 5,
+      "name": "mask_005_object",
+      "semantic_label": "yellow sponge",
+      "web_glb": "sessions/20260704_155258_c607afba/results/web_assets/web_objects/0004_mask_005_yellow_sponge.glb"
+    },
+    {
+      "index": 5,
+      "mask_id": 6,
+      "name": "mask_006_object",
+      "semantic_label": "avocado",
+      "web_glb": "sessions/20260704_155258_c607afba/results/web_assets/web_objects/0005_mask_006_avocado.glb"
+    },
+    {
+      "index": 6,
+      "mask_id": 7,
+      "name": "mask_007_object",
+      "semantic_label": "banana",
+      "web_glb": "sessions/20260704_155258_c607afba/results/web_assets/web_objects/0006_mask_007_banana.glb"
+    },
+    {
+      "index": 7,
+      "mask_id": 8,
+      "name": "mask_008_object",
+      "semantic_label": "plate",
+      "web_glb": "sessions/20260704_155258_c607afba/results/web_assets/web_objects/0007_mask_008_plate.glb"
+    },
+    {
+      "index": 8,
+      "mask_id": 9,
+      "name": "mask_009_object",
+      "semantic_label": "soap dispenser",
+      "web_glb": "sessions/20260704_155258_c607afba/results/web_assets/web_objects/0008_mask_009_soap_dispenser.glb"
+    }
+  ]
+}

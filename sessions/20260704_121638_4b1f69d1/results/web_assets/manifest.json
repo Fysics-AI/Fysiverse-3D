@@ -1,0 +1,145 @@
+{
+  "schema": "fysiverse_web_assets.v1",
+  "objects": [
+    {
+      "index": 0,
+      "mask_id": 1,
+      "name": "mask_001_object",
+      "semantic_label": "blue cup",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0000_mask_001_blue_cup.glb"
+    },
+    {
+      "index": 1,
+      "mask_id": 2,
+      "name": "mask_002_object",
+      "semantic_label": "mayo bottle",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0001_mask_002_mayo_bottle.glb"
+    },
+    {
+      "index": 2,
+      "mask_id": 3,
+      "name": "mask_003_object",
+      "semantic_label": "BBQ sauce bottle",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0002_mask_003_BBQ_sauce_bottle.glb"
+    },
+    {
+      "index": 3,
+      "mask_id": 4,
+      "name": "mask_004_object",
+      "semantic_label": "toy burger",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0003_mask_004_toy_burger.glb"
+    },
+    {
+      "index": 4,
+      "mask_id": 5,
+      "name": "mask_005_object",
+      "semantic_label": "teal tray",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0004_mask_005_teal_tray.glb"
+    },
+    {
+      "index": 5,
+      "mask_id": 6,
+      "name": "mask_006_object",
+      "semantic_label": "yellow cup",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0005_mask_006_yellow_cup.glb"
+    },
+    {
+      "index": 6,
+      "mask_id": 7,
+      "name": "mask_007_object",
+      "semantic_label": "green pear",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0006_mask_007_green_pear.glb"
+    },
+    {
+      "index": 7,
+      "mask_id": 8,
+      "name": "mask_008_object",
+      "semantic_label": "yellow bowl",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0007_mask_008_yellow_bowl.glb"
+    },
+    {
+      "index": 8,
+      "mask_id": 9,
+      "name": "mask_009_object",
+      "semantic_label": "black marker",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0008_mask_009_black_marker.glb"
+    },
+    {
+      "index": 9,
+      "mask_id": 10,
+      "name": "mask_010_object",
+      "semantic_label": "pen",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0009_mask_010_pen.glb"
+    },
+    {
+      "index": 10,
+      "mask_id": 11,
+      "name": "mask_011_object",
+      "semantic_label": "tape dispenser",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0010_mask_011_tape_dispenser.glb"
+    },
+    {
+      "index": 11,
+      "mask_id": 12,
+      "name": "mask_012_object",
+      "semantic_label": "wooden organizer",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0011_mask_012_wooden_organizer.glb"
+    },
+    {
+      "index": 12,
+      "mask_id": 13,
+      "name": "mask_013_object",
+      "semantic_label": "spray bottle",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0012_mask_013_spray_bottle.glb"
+    },
+    {
+      "index": 13,
+      "mask_id": 14,
+      "name": "mask_014_object",
+      "semantic_label": "blue marker",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0013_mask_014_blue_marker.glb"
+    },
+    {
+      "index": 14,
+      "mask_id": 15,
+      "name": "mask_015_object",
+      "semantic_label": "black base",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0014_mask_015_black_base.glb"
+    },
+    {
+      "index": 15,
+      "mask_id": 16,
+      "name": "mask_016_object",
+      "semantic_label": "baseball",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0015_mask_016_baseball.glb"
+    },
+    {
+      "index": 16,
+      "mask_id": 17,
+      "name": "mask_017_object",
+      "semantic_label": "pyramid stack",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0016_mask_017_pyramid_stack.glb"
+    },
+    {
+      "index": 17,
+      "mask_id": 18,
+      "name": "mask_018_object",
+      "semantic_label": "tennis ball",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0017_mask_018_tennis_ball.glb"
+    },
+    {
+      "index": 18,
+      "mask_id": 19,
+      "name": "mask_019_object",
+      "semantic_label": "red marker",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0018_mask_019_red_marker.glb"
+    },
+    {
+      "index": 19,
+      "mask_id": 20,
+      "name": "mask_020_object",
+      "semantic_label": "orange marker",
+      "web_glb": "sessions/20260704_121638_4b1f69d1/results/web_assets/web_objects/0019_mask_020_orange_marker.glb"
+    }
+  ]
+}

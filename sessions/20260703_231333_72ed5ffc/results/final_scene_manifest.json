@@ -1,0 +1,960 @@
+{
+  "schema": "fysiverse_final_scene_manifest.v1",
+  "support": {
+    "bbox_snap_mode": "global_support_aware",
+    "support_adjust": true,
+    "support_gap": 0.001,
+    "support_relation_source": "scene_graph",
+    "support_relations": [
+      {
+        "upper_index": 3,
+        "upper_name": "mask_004_object",
+        "upper_mask_id": 4,
+        "lower_index": 1,
+        "lower_name": "mask_002_object",
+        "lower_mask_id": 2,
+        "overlap_area": 0.013496776464891669,
+        "overlap_ratio_to_upper": 0.8362067225519177,
+        "upper_area_xy": 0.016140478306252426,
+        "lower_area_xy": 0.15270460072159353,
+        "bottom_to_lower_top_gap": 0.003217145800590515,
+        "confidence": 0.95,
+        "reason": "The soap bar is resting on the wipes package.",
+        "score_tuple": [
+          -0.95,
+          0.003217145800590515
+        ]
+      },
+      {
+        "upper_index": 2,
+        "upper_name": "mask_003_object",
+        "upper_mask_id": 3,
+        "lower_index": 1,
+        "lower_name": "mask_002_object",
+        "lower_mask_id": 2,
+        "overlap_area": 0.026070486278854332,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.026070486278854332,
+        "lower_area_xy": 0.15270460072159353,
+        "bottom_to_lower_top_gap": -0.027580633759498596,
+        "confidence": 0.95,
+        "reason": "The toothbrush is resting on the wipes package.",
+        "score_tuple": [
+          -0.95,
+          0.027580633759498596
+        ]
+      }
+    ],
+    "scene_graph_support_relations": [
+      {
+        "upper_mask_id": 3,
+        "lower_mask_id": 2,
+        "confidence": 0.95,
+        "reason": "The toothbrush is resting on the wipes package."
+      },
+      {
+        "upper_mask_id": 4,
+        "lower_mask_id": 2,
+        "confidence": 0.95,
+        "reason": "The soap bar is resting on the wipes package."
+      }
+    ],
+    "support_actions": [],
+    "support_skipped_actions": [
+      {
+        "child_index": 2,
+        "child_name": "mask_003_object",
+        "parent_index": 1,
+        "parent_name": "mask_002_object",
+        "reason": "convex_support_pair_not_colliding",
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.2154538482427597,
+          "child_bottom_before": 0.1878732144832611,
+          "current_gap_before": -0.027580633759498596,
+          "required_gap": 0.001,
+          "translation_along_up": 0.0,
+          "needs_translation": false,
+          "convex_current_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 4,
+            "part_count_i": 8,
+            "part_count_j": 2,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 12
+          },
+          "convex_current_elapsed_sec": 0.02066345000639558,
+          "convex_total_elapsed_sec": 0.020685148891061544,
+          "reason": "convex_support_pair_not_colliding"
+        }
+      },
+      {
+        "child_index": 3,
+        "child_name": "mask_004_object",
+        "parent_index": 1,
+        "parent_name": "mask_002_object",
+        "reason": "convex_support_pair_not_colliding",
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.2154538482427597,
+          "child_bottom_before": 0.21867099404335022,
+          "current_gap_before": 0.003217145800590515,
+          "required_gap": 0.001,
+          "translation_along_up": 0.0,
+          "needs_translation": false,
+          "convex_current_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 1,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 8
+          },
+          "convex_current_elapsed_sec": 3.230525180697441e-05,
+          "convex_total_elapsed_sec": 3.6712270230054855e-05,
+          "reason": "convex_support_pair_not_colliding"
+        }
+      }
+    ],
+    "root_names": null,
+    "global_translation": null,
+    "coordinate_system": "Blender/SAPIEN Z-up; all vertical support movement is along Blender Z."
+  },
+  "objects": [
+    {
+      "mask_id": 1,
+      "final_3d_object_name": "mask_001_object",
+      "semantic_label": "black pump bottle",
+      "description": "A black bottle with a pump dispenser, labeled Chai Tang, standing upright.",
+      "web_asset_glb": "sessions/20260703_231333_72ed5ffc/results/web_assets/web_objects/0000_mask_001_black_pump_bottle.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9990711212158203,
+            0.0019575287587940693,
+            0.04304699972271919,
+            0.3748979866504669
+          ],
+          [
+            0.003000733908265829,
+            0.9933821558952332,
+            -0.11481683701276779,
+            -1.2324042320251465
+          ],
+          [
+            -0.042986880987882614,
+            0.1148393526673317,
+            0.9924535751342773,
+            0.1950824111700058
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_001_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.36693018674850464
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.2125301361083984
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.37712621688842773
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.27581077814102173,
+          -1.3082555532455444,
+          0.17703239619731903
+        ],
+        "bbox_max": [
+          0.45804956555366516,
+          -1.1168047189712524,
+          0.5772200226783752
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_000.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_001.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_002.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_003.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_004.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_005.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_006.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 2,
+      "final_3d_object_name": "mask_002_object",
+      "semantic_label": "wipes package",
+      "description": "A teal and white package of Nice 'n Clean wipes lying flat.",
+      "web_asset_glb": "sessions/20260703_231333_72ed5ffc/results/web_assets/web_objects/0001_mask_002_wipes_package.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9876335859298706,
+            -0.006724937818944454,
+            -0.15663562715053558,
+            0.1739787608385086
+          ],
+          [
+            -0.002128141699358821,
+            0.998412549495697,
+            -0.056284040212631226,
+            -1.3944915533065796
+          ],
+          [
+            0.15676547586917877,
+            0.05592135339975357,
+            0.9860514402389526,
+            0.03798814117908478
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_002_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.18047656118869781
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.3926242589950562
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.16168302297592163
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.002732456661760807,
+          -1.6074057817459106,
+          0.10791224241256714
+        ],
+        "bbox_max": [
+          0.3582206666469574,
+          -1.1778427362442017,
+          0.21545381844043732
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_000.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_001.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_002.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_003.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_004.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_005.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_006.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 3,
+      "final_3d_object_name": "mask_003_object",
+      "semantic_label": "toothbrush",
+      "description": "A black toothbrush lying on top of the wipes package.",
+      "web_asset_glb": "sessions/20260703_231333_72ed5ffc/results/web_assets/web_objects/0002_mask_003_toothbrush.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9958604574203491,
+            -0.0328417643904686,
+            -0.08475494384765625,
+            0.181119903922081
+          ],
+          [
+            0.021715320646762848,
+            0.991405725479126,
+            -0.12900826334953308,
+            -1.3771132230758667
+          ],
+          [
+            0.08826339244842529,
+            0.12663373351097107,
+            0.9880149364471436,
+            0.0953923761844635
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_003_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.18770164251327515
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.3717148303985596
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.23717531561851501
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.15238139033317566,
+          -1.556244134902954,
+          0.18787315487861633
+        ],
+        "bbox_max": [
+          0.22302190959453583,
+          -1.1871856451034546,
+          0.2864774763584137
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0002_mask_003_object_coacd/0002_mask_003_object_coacd_000.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0002_mask_003_object_coacd/0002_mask_003_object_coacd_001.obj"
+        ],
+        "collision_part_count": 2
+      }
+    },
+    {
+      "mask_id": 4,
+      "final_3d_object_name": "mask_004_object",
+      "semantic_label": "soap bar",
+      "description": "A small round bar of soap wrapped in plastic, sitting on the wipes package.",
+      "web_asset_glb": "sessions/20260703_231333_72ed5ffc/results/web_assets/web_objects/0003_mask_004_soap_bar.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.991475522518158,
+            -0.1274590790271759,
+            0.027027025818824768,
+            0.05554606020450592
+          ],
+          [
+            0.12734365463256836,
+            0.9918407797813416,
+            0.005956368055194616,
+            -1.2873659133911133
+          ],
+          [
+            -0.027565699070692062,
+            -0.0024638730101287365,
+            0.9996169805526733,
+            0.08442885428667068
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_004_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.049835678189992905
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.2743909358978271
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.24068263173103333
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.013101568445563316,
+          -1.3385041952133179,
+          0.2186710089445114
+        ],
+        "bbox_max": [
+          0.11277292668819427,
+          -1.2102775573730469,
+          0.26269423961639404
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0003_mask_004_object_coacd/0003_mask_004_object_coacd_000.obj"
+        ],
+        "collision_part_count": 1
+      }
+    },
+    {
+      "mask_id": 5,
+      "final_3d_object_name": "mask_005_object",
+      "semantic_label": "orange tube",
+      "description": "An orange tube of Acure product lying on the surface.",
+      "web_asset_glb": "sessions/20260703_231333_72ed5ffc/results/web_assets/web_objects/0004_mask_005_orange_tube.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9139388203620911,
+            0.0863778367638588,
+            0.3965536057949066,
+            0.006105057895183563
+          ],
+          [
+            0.0016782581806182861,
+            0.9762763381004333,
+            -0.2165217399597168,
+            -1.1493290662765503
+          ],
+          [
+            -0.40584859251976013,
+            0.1985531449317932,
+            0.8921118974685669,
+            0.07815666496753693
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_005_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.011381477117538452
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.143064260482788
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1732616275548935
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.15511766076087952,
+          -1.2949270009994507,
+          0.12605127692222595
+        ],
+        "bbox_max": [
+          0.17788061499595642,
+          -0.991201639175415,
+          0.22047197818756104
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_000.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_001.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_002.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_003.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_004.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_005.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_006.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 6,
+      "final_3d_object_name": "mask_006_object",
+      "semantic_label": "white tube",
+      "description": "A white tube of Aveeno Positively Radiant scrub standing upright.",
+      "web_asset_glb": "sessions/20260703_231333_72ed5ffc/results/web_assets/web_objects/0005_mask_006_white_tube.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.99995356798172,
+            -0.0007770736701786518,
+            -0.009604222141206264,
+            -0.016299303621053696
+          ],
+          [
+            0.00048212139518000185,
+            0.9995293021202087,
+            -0.030674932524561882,
+            -1.4779223203659058
+          ],
+          [
+            0.00962353777140379,
+            0.03066887892782688,
+            0.9994832873344421,
+            0.15686295926570892
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_006_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.014733962714672089
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.47296142578125
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.29971927404403687
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.10466967523097992,
+          -1.5199813842773438,
+          0.1420263946056366
+        ],
+        "bbox_max": [
+          0.07520174980163574,
+          -1.4259413480758667,
+          0.4574121832847595
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0005_mask_006_object_coacd/0005_mask_006_object_coacd_000.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0005_mask_006_object_coacd/0005_mask_006_object_coacd_001.obj"
+        ],
+        "collision_part_count": 2
+      }
+    },
+    {
+      "mask_id": 7,
+      "final_3d_object_name": "mask_007_object",
+      "semantic_label": "white pump bottle",
+      "description": "A white Dove bottle with a red pump, standing in the background.",
+      "web_asset_glb": "sessions/20260703_231333_72ed5ffc/results/web_assets/web_objects/0006_mask_007_white_pump_bottle.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.998244047164917,
+            0.0026982107665389776,
+            0.059173911809921265,
+            0.04267338663339615
+          ],
+          [
+            0.003516573691740632,
+            0.9945006966590881,
+            -0.10467064380645752,
+            -1.8174114227294922
+          ],
+          [
+            -0.059130921959877014,
+            0.10469493269920349,
+            0.9927449226379395,
+            0.2719365656375885
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_007_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.026084035634994507
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.7881860733032227
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.3171192407608032
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.10090252757072449,
+          -1.9181197881698608,
+          0.036843083798885345
+        ],
+        "bbox_max": [
+          0.1530705988407135,
+          -1.658252477645874,
+          0.5973954200744629
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_000.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_001.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_002.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_003.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_004.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_005.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_006.obj"
+        ],
+        "collision_part_count": 7
+      }
+    },
+    {
+      "mask_id": 8,
+      "final_3d_object_name": "mask_008_object",
+      "semantic_label": "white pump bottle",
+      "description": "A white Head & Shoulders bottle with a blue pump, standing in the background.",
+      "web_asset_glb": "sessions/20260703_231333_72ed5ffc/results/web_assets/web_objects/0007_mask_008_white_pump_bottle.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9995148777961731,
+            0.0010409438982605934,
+            0.03112845867872238,
+            -0.27346983551979065
+          ],
+          [
+            0.0028075764421373606,
+            0.9923611879348755,
+            -0.12333431839942932,
+            -1.6455638408660889
+          ],
+          [
+            -0.03101905807852745,
+            0.12336188554763794,
+            0.9918768405914307,
+            0.280252069234848
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_008_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.2819260358810425
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.610647201538086
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.42640212178230286
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.39825451374053955,
+          -1.7178727388381958,
+          0.13856260478496552
+        ],
+        "bbox_max": [
+          -0.16559752821922302,
+          -1.503421664237976,
+          0.714241623878479
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_000.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_001.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_002.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_003.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_004.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_005.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_006.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 9,
+      "final_3d_object_name": "mask_009_object",
+      "semantic_label": "toothpaste tube",
+      "description": "A white tube of Colgate Total toothpaste lying on the surface.",
+      "web_asset_glb": "sessions/20260703_231333_72ed5ffc/results/web_assets/web_objects/0008_mask_009_toothpaste_tube.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9936352968215942,
+            -0.07053264230489731,
+            -0.08782986551523209,
+            -0.35521334409713745
+          ],
+          [
+            0.035105228424072266,
+            0.9347671866416931,
+            -0.35352224111557007,
+            -1.379036545753479
+          ],
+          [
+            0.107035331428051,
+            0.3481888771057129,
+            0.9312937259674072,
+            0.02888481877744198
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_009_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.3541639447212219
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.3721702098846436
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1876167356967926
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.5514312982559204,
+          -1.5475672483444214,
+          0.14651601016521454
+        ],
+        "bbox_max": [
+          -0.15689659118652344,
+          -1.1967731714248657,
+          0.22871747612953186
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0008_mask_009_object_coacd/0008_mask_009_object_coacd_000.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0008_mask_009_object_coacd/0008_mask_009_object_coacd_001.obj"
+        ],
+        "collision_part_count": 2
+      }
+    },
+    {
+      "mask_id": 10,
+      "final_3d_object_name": "mask_010_object",
+      "semantic_label": "grey bottle",
+      "description": "A grey bottle of Method Men body wash lying on the surface.",
+      "web_asset_glb": "sessions/20260703_231333_72ed5ffc/results/web_assets/web_objects/0009_mask_010_grey_bottle.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9917972087860107,
+            -0.01896381564438343,
+            -0.12640686333179474,
+            -0.14738015830516815
+          ],
+          [
+            0.008442554622888565,
+            0.9964925050735474,
+            -0.08325495570898056,
+            -1.223859190940857
+          ],
+          [
+            0.12754233181476593,
+            0.08150482922792435,
+            0.9884786009788513,
+            0.05026758089661598
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_010_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.13694129884243011
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.2176611423492432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.16711607575416565
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.2625856399536133,
+          -1.4330053329467773,
+          0.10404784232378006
+        ],
+        "bbox_max": [
+          -0.01129696425050497,
+          -1.0023170709609985,
+          0.23018431663513184
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0009_mask_010_object_coacd/0009_mask_010_object_coacd_000.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0009_mask_010_object_coacd/0009_mask_010_object_coacd_001.obj",
+          "sessions/20260703_231333_72ed5ffc/results/sam3d_moge_separated_sapien_gravity/objects/0009_mask_010_object_coacd/0009_mask_010_object_coacd_002.obj"
+        ],
+        "collision_part_count": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "fysiverse_web_assets.v1",
+  "objects": [
+    {
+      "index": 0,
+      "mask_id": 1,
+      "name": "mask_001_object",
+      "semantic_label": "box of spoons",
+      "web_glb": "sessions/20260704_123755_257c3780/results/web_assets/web_objects/0000_mask_001_box_of_spoons.glb"
+    },
+    {
+      "index": 1,
+      "mask_id": 2,
+      "name": "mask_002_object",
+      "semantic_label": "plate",
+      "web_glb": "sessions/20260704_123755_257c3780/results/web_assets/web_objects/0001_mask_002_plate.glb"
+    },
+    {
+      "index": 2,
+      "mask_id": 3,
+      "name": "mask_003_object",
+      "semantic_label": "ladle",
+      "web_glb": "sessions/20260704_123755_257c3780/results/web_assets/web_objects/0002_mask_003_ladle.glb"
+    },
+    {
+      "index": 3,
+      "mask_id": 4,
+      "name": "mask_004_object",
+      "semantic_label": "spoon",
+      "web_glb": "sessions/20260704_123755_257c3780/results/web_assets/web_objects/0003_mask_004_spoon.glb"
+    },
+    {
+      "index": 4,
+      "mask_id": 5,
+      "name": "mask_005_object",
+      "semantic_label": "stack of lids",
+      "web_glb": "sessions/20260704_123755_257c3780/results/web_assets/web_objects/0004_mask_005_stack_of_lids.glb"
+    },
+    {
+      "index": 5,
+      "mask_id": 6,
+      "name": "mask_006_object",
+      "semantic_label": "stack of cups",
+      "web_glb": "sessions/20260704_123755_257c3780/results/web_assets/web_objects/0005_mask_006_stack_of_cups.glb"
+    },
+    {
+      "index": 6,
+      "mask_id": 7,
+      "name": "mask_007_object",
+      "semantic_label": "creamer bottle",
+      "web_glb": "sessions/20260704_123755_257c3780/results/web_assets/web_objects/0006_mask_007_creamer_bottle.glb"
+    },
+    {
+      "index": 7,
+      "mask_id": 8,
+      "name": "mask_008_object",
+      "semantic_label": "creamer bottle",
+      "web_glb": "sessions/20260704_123755_257c3780/results/web_assets/web_objects/0007_mask_008_creamer_bottle.glb"
+    },
+    {
+      "index": 8,
+      "mask_id": 9,
+      "name": "mask_009_object",
+      "semantic_label": "creamer bottle",
+      "web_glb": "sessions/20260704_123755_257c3780/results/web_assets/web_objects/0008_mask_009_creamer_bottle.glb"
+    },
+    {
+      "index": 9,
+      "mask_id": 10,
+      "name": "mask_010_object",
+      "semantic_label": "cardboard carrier",
+      "web_glb": "sessions/20260704_123755_257c3780/results/web_assets/web_objects/0009_mask_010_cardboard_carrier.glb"
+    }
+  ]
+}

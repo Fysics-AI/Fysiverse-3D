@@ -1,0 +1,47 @@
+{
+  "schema": "fysics_session_background_3dgs.v1",
+  "status": "ok",
+  "ksplat": "background.ksplat",
+  "scene_json": "scene.json",
+  "camera": {
+    "position": [
+      0.0024916809052228928,
+      0.01774897240102291,
+      0.9246588349342346
+    ],
+    "look_at": [
+      -0.00413713863050826,
+      -0.7257599991200777,
+      0.2559657304242524
+    ],
+    "quaternion_xyzw": [
+      0.00475342573145303,
+      0.40697772417718253,
+      0.9134222261172996,
+      -0.0025246390422158883
+    ],
+    "camera_source": "nvdiffrast_optimized",
+    "intrinsics_pixels": null,
+    "intrinsics_normalized": [
+      [
+        0.8611351847648621,
+        0,
+        0.5
+      ],
+      [
+        0,
+        1.1481802463531494,
+        0.5
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "image_size": [
+      640,
+      480
+    ]
+  }
+}

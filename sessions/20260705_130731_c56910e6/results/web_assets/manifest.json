@@ -1,0 +1,145 @@
+{
+  "schema": "fysiverse_web_assets.v1",
+  "objects": [
+    {
+      "index": 0,
+      "mask_id": 1,
+      "name": "mask_001_object",
+      "semantic_label": "plate of shrimp",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0000_mask_001_plate_of_shrimp.glb"
+    },
+    {
+      "index": 1,
+      "mask_id": 2,
+      "name": "mask_002_object",
+      "semantic_label": "plate of green vegetables",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0001_mask_002_plate_of_green_vegetables.glb"
+    },
+    {
+      "index": 2,
+      "mask_id": 3,
+      "name": "mask_003_object",
+      "semantic_label": "plate of silkworm pupae",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0002_mask_003_plate_of_silkworm_pupae.glb"
+    },
+    {
+      "index": 3,
+      "mask_id": 4,
+      "name": "mask_004_object",
+      "semantic_label": "stir-fry with bok choy",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0003_mask_004_stir-fry_with_bok_choy.glb"
+    },
+    {
+      "index": 4,
+      "mask_id": 5,
+      "name": "mask_005_object",
+      "semantic_label": "braised pork trotters",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0004_mask_005_braised_pork_trotters.glb"
+    },
+    {
+      "index": 5,
+      "mask_id": 6,
+      "name": "mask_006_object",
+      "semantic_label": "braised whole fish",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0005_mask_006_braised_whole_fish.glb"
+    },
+    {
+      "index": 6,
+      "mask_id": 7,
+      "name": "mask_007_object",
+      "semantic_label": "mixed vegetable salad",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0006_mask_007_mixed_vegetable_salad.glb"
+    },
+    {
+      "index": 7,
+      "mask_id": 8,
+      "name": "mask_008_object",
+      "semantic_label": "braised mushrooms and meat",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0007_mask_008_braised_mushrooms_and_meat.glb"
+    },
+    {
+      "index": 8,
+      "mask_id": 9,
+      "name": "mask_009_object",
+      "semantic_label": "fruit platter",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0008_mask_009_fruit_platter.glb"
+    },
+    {
+      "index": 9,
+      "mask_id": 10,
+      "name": "mask_010_object",
+      "semantic_label": "shredded cabbage salad",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0009_mask_010_shredded_cabbage_salad.glb"
+    },
+    {
+      "index": 10,
+      "mask_id": 11,
+      "name": "mask_011_object",
+      "semantic_label": "white bowl",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0010_mask_011_white_bowl.glb"
+    },
+    {
+      "index": 11,
+      "mask_id": 12,
+      "name": "mask_012_object",
+      "semantic_label": "glass of dark liquid",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0011_mask_012_glass_of_dark_liquid.glb"
+    },
+    {
+      "index": 12,
+      "mask_id": 13,
+      "name": "mask_013_object",
+      "semantic_label": "chopsticks",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0012_mask_013_chopsticks.glb"
+    },
+    {
+      "index": 13,
+      "mask_id": 14,
+      "name": "mask_014_object",
+      "semantic_label": "white bowl",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0013_mask_014_white_bowl.glb"
+    },
+    {
+      "index": 14,
+      "mask_id": 15,
+      "name": "mask_015_object",
+      "semantic_label": "chopsticks",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0014_mask_015_chopsticks.glb"
+    },
+    {
+      "index": 15,
+      "mask_id": 16,
+      "name": "mask_016_object",
+      "semantic_label": "glass of dark liquid",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0015_mask_016_glass_of_dark_liquid.glb"
+    },
+    {
+      "index": 16,
+      "mask_id": 17,
+      "name": "mask_017_object",
+      "semantic_label": "glass of dark liquid",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0016_mask_017_glass_of_dark_liquid.glb"
+    },
+    {
+      "index": 17,
+      "mask_id": 18,
+      "name": "mask_018_object",
+      "semantic_label": "chopsticks",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0017_mask_018_chopsticks.glb"
+    },
+    {
+      "index": 18,
+      "mask_id": 19,
+      "name": "mask_019_object",
+      "semantic_label": "white bowl",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0018_mask_019_white_bowl.glb"
+    },
+    {
+      "index": 19,
+      "mask_id": 20,
+      "name": "mask_020_object",
+      "semantic_label": "small wooden object",
+      "web_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0019_mask_020_small_wooden_object.glb"
+    }
+  ]
+}

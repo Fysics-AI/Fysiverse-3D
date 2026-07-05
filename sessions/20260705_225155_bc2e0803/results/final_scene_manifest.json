@@ -1,0 +1,1710 @@
+{
+  "schema": "fysiverse_final_scene_manifest.v1",
+  "support": {
+    "bbox_snap_mode": "global_support_aware",
+    "support_adjust": true,
+    "support_gap": 0.001,
+    "support_relation_source": "scene_graph",
+    "support_relations": [
+      {
+        "upper_index": 12,
+        "upper_name": "mask_013_object",
+        "upper_mask_id": 13,
+        "lower_index": 14,
+        "lower_name": "mask_015_object",
+        "lower_mask_id": 15,
+        "overlap_area": 0.02243837708608254,
+        "overlap_ratio_to_upper": 0.8688347848404637,
+        "upper_area_xy": 0.02582582727762528,
+        "lower_area_xy": 0.12565203753041487,
+        "bottom_to_lower_top_gap": -0.06134319305419922,
+        "confidence": 0.95,
+        "reason": "The spoon is physically resting on the surface of the plate.",
+        "score_tuple": [
+          -0.95,
+          0.06134319305419922
+        ]
+      },
+      {
+        "upper_index": 15,
+        "upper_name": "mask_016_object",
+        "upper_mask_id": 16,
+        "lower_index": 16,
+        "lower_name": "mask_017_object",
+        "lower_mask_id": 17,
+        "overlap_area": 0.10862756968844245,
+        "overlap_ratio_to_upper": 0.8360526775743988,
+        "upper_area_xy": 0.12992909729515922,
+        "lower_area_xy": 0.2808580906854736,
+        "bottom_to_lower_top_gap": -0.06812432408332825,
+        "confidence": 0.95,
+        "reason": "The pink pan is placed on the heating surface of the cooktop.",
+        "score_tuple": [
+          -0.95,
+          0.06812432408332825
+        ]
+      },
+      {
+        "upper_index": 13,
+        "upper_name": "mask_014_object",
+        "upper_mask_id": 14,
+        "lower_index": 14,
+        "lower_name": "mask_015_object",
+        "lower_mask_id": 15,
+        "overlap_area": 0.027768999474048428,
+        "overlap_ratio_to_upper": 0.7556955695274934,
+        "upper_area_xy": 0.03674627799050256,
+        "lower_area_xy": 0.12565203753041487,
+        "bottom_to_lower_top_gap": -0.07438647747039795,
+        "confidence": 0.95,
+        "reason": "The fork is physically resting on the surface of the plate.",
+        "score_tuple": [
+          -0.95,
+          0.07438647747039795
+        ]
+      }
+    ],
+    "scene_graph_support_relations": [
+      {
+        "upper_mask_id": 13,
+        "lower_mask_id": 15,
+        "confidence": 0.95,
+        "reason": "The spoon is physically resting on the surface of the plate."
+      },
+      {
+        "upper_mask_id": 14,
+        "lower_mask_id": 15,
+        "confidence": 0.95,
+        "reason": "The fork is physically resting on the surface of the plate."
+      },
+      {
+        "upper_mask_id": 16,
+        "lower_mask_id": 17,
+        "confidence": 0.95,
+        "reason": "The pink pan is placed on the heating surface of the cooktop."
+      }
+    ],
+    "support_actions": [
+      {
+        "child_index": 13,
+        "child_name": "mask_014_object",
+        "parent_index": 14,
+        "parent_name": "mask_015_object",
+        "subtree_indices": [
+          13
+        ],
+        "subtree_names": [
+          "mask_014_object"
+        ],
+        "parent_top_before": 0.19178853929042816,
+        "child_bottom_before": 0.11740206182003021,
+        "current_gap_before": -0.07438647747039795,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.0492364838719368
+        ],
+        "translation_along_up": 0.049236483708878155,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.19178853929042816,
+          "child_bottom_before": 0.11740206182003021,
+          "current_gap_before": -0.07438647747039795,
+          "required_gap": 0.001,
+          "translation_along_up": 0.049236483708878155,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.01481567695736885,
+            "mtv_axis_i_to_j": [
+              0.2981223165988922,
+              -0.06090965121984482,
+              0.9525822997093201
+            ],
+            "mtv_horizontal_length": 0.3042809577775337,
+            "axis_count": 638,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 95,
+            "edge_axis_count_j": 96,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 0,
+            "part_j": 1,
+            "part_pair_count": 9,
+            "part_count_i": 8,
+            "part_count_j": 4,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 23,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 4,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 32
+          },
+          "convex_min_non_colliding_translation": 0.048236483708878154,
+          "convex_current_elapsed_sec": 0.3442951408214867,
+          "convex_high_search_elapsed_sec": 9.73651185631752e-05,
+          "convex_binary_search_elapsed_sec": 1.4427629001438618,
+          "convex_total_elapsed_sec": 1.7872889298014343,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 12,
+        "child_name": "mask_013_object",
+        "parent_index": 14,
+        "parent_name": "mask_015_object",
+        "subtree_indices": [
+          12
+        ],
+        "subtree_names": [
+          "mask_013_object"
+        ],
+        "parent_top_before": 0.19178853929042816,
+        "child_bottom_before": 0.13044534623622894,
+        "current_gap_before": -0.06134319305419922,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.02213919535279274
+        ],
+        "translation_along_up": 0.022139196120811833,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.19178853929042816,
+          "child_bottom_before": 0.13044534623622894,
+          "current_gap_before": -0.06134319305419922,
+          "required_gap": 0.001,
+          "translation_along_up": 0.022139196120811833,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.012062564492225647,
+            "mtv_axis_i_to_j": [
+              0.0,
+              0.4611723721027374,
+              0.8873105049133301
+            ],
+            "mtv_horizontal_length": 0.4611723721027374,
+            "axis_count": 635,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 95,
+            "edge_axis_count_j": 96,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 7,
+            "part_j": 0,
+            "part_pair_count": 4,
+            "part_count_i": 8,
+            "part_count_j": 6,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 44,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 6,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 48
+          },
+          "convex_min_non_colliding_translation": 0.021139196120811832,
+          "convex_current_elapsed_sec": 0.16226957878097892,
+          "convex_high_search_elapsed_sec": 0.00012726616114377975,
+          "convex_binary_search_elapsed_sec": 0.9397613438777626,
+          "convex_total_elapsed_sec": 1.102279630023986,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 15,
+        "child_name": "mask_016_object",
+        "parent_index": 16,
+        "parent_name": "mask_017_object",
+        "subtree_indices": [
+          15
+        ],
+        "subtree_names": [
+          "mask_016_object"
+        ],
+        "parent_top_before": 0.3158223330974579,
+        "child_bottom_before": 0.24769800901412964,
+        "current_gap_before": -0.06812432408332825,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.009585825726389885
+        ],
+        "translation_along_up": 0.00958582602863435,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.3158223330974579,
+          "child_bottom_before": 0.24769800901412964,
+          "current_gap_before": -0.06812432408332825,
+          "required_gap": 0.001,
+          "translation_along_up": 0.00958582602863435,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.008537322282791138,
+            "mtv_axis_i_to_j": [
+              0.0,
+              0.10723957419395447,
+              0.9942331910133362
+            ],
+            "mtv_horizontal_length": 0.10723957419395447,
+            "axis_count": 640,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 96,
+            "edge_axis_count_j": 94,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 2,
+            "part_j": 0,
+            "part_pair_count": 6,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 58,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 1,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 63
+          },
+          "convex_min_non_colliding_translation": 0.00858582602863435,
+          "convex_current_elapsed_sec": 0.08034547418355942,
+          "convex_high_search_elapsed_sec": 0.003934287931770086,
+          "convex_binary_search_elapsed_sec": 0.9736529188230634,
+          "convex_total_elapsed_sec": 1.058040359057486,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      }
+    ],
+    "support_skipped_actions": [],
+    "root_names": null,
+    "global_translation": null,
+    "coordinate_system": "Blender/SAPIEN Z-up; all vertical support movement is along Blender Z."
+  },
+  "objects": [
+    {
+      "mask_id": 1,
+      "final_3d_object_name": "mask_001_object",
+      "semantic_label": "brown bag",
+      "description": "a large brown paper bag, likely containing food or chips, standing upright",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0000_mask_001_brown_bag.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9972066283226013,
+            -0.07468578219413757,
+            -0.0009680287912487984,
+            0.8585860133171082
+          ],
+          [
+            0.0682288408279419,
+            0.9161140322685242,
+            -0.3950694799423218,
+            -1.1895251274108887
+          ],
+          [
+            0.030392900109291077,
+            0.3938998579978943,
+            0.91865074634552,
+            0.21692116558551788
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_001_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.8529610633850098
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.0932443141937256
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2852211892604828
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.7015256285667419,
+          -1.3044742345809937,
+          0.021936781704425812
+        ],
+        "bbox_max": [
+          1.0043964385986328,
+          -0.882014274597168,
+          0.5485056042671204
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 2,
+      "final_3d_object_name": "mask_002_object",
+      "semantic_label": "glass cup",
+      "description": "a translucent greyish glass cup sitting in a rack",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0001_mask_002_glass_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9889175295829773,
+            0.1325652003288269,
+            0.06684751808643341,
+            0.6631593108177185
+          ],
+          [
+            -0.10130028426647186,
+            0.9316491484642029,
+            -0.3489529490470886,
+            -1.1644145250320435
+          ],
+          [
+            -0.1085374504327774,
+            0.3383139967918396,
+            0.9347530603408813,
+            0.11418774724006653
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_002_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.6488649845123291
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1161850690841675
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2032826542854309
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.5615250468254089,
+          -1.2437796592712402,
+          0.06329213082790375
+        ],
+        "bbox_max": [
+          0.736204981803894,
+          -0.9885905385017395,
+          0.3432731628417969
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 3,
+      "final_3d_object_name": "mask_003_object",
+      "semantic_label": "glass cup",
+      "description": "another translucent greyish glass cup next to the first one",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0002_mask_003_glass_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9935691356658936,
+            -0.008989478461444378,
+            -0.11286991089582443,
+            0.47848424315452576
+          ],
+          [
+            0.0048205917701125145,
+            0.9992979168891907,
+            -0.03715406730771065,
+            -1.0916904211044312
+          ],
+          [
+            0.11312466114759445,
+            0.036371033638715744,
+            0.9929148554801941,
+            0.09250877052545547
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_003_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.48524290323257446
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.0909597873687744
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.18839958310127258
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.3817366063594818,
+          -1.2057785987854004,
+          0.08796039968729019
+        ],
+        "bbox_max": [
+          0.5887492299079895,
+          -0.976141095161438,
+          0.28883877396583557
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 4,
+      "final_3d_object_name": "mask_004_object",
+      "semantic_label": "pink cup",
+      "description": "a pink plastic cup or mug standing in the rack",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0003_mask_004_pink_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9999258518218994,
+            9.607733227312565e-05,
+            0.012178604491055012,
+            0.3239402174949646
+          ],
+          [
+            -0.00018578011076897383,
+            0.9999728798866272,
+            0.0073646861128509045,
+            -1.106653094291687
+          ],
+          [
+            -0.01217756699770689,
+            -0.007366402540355921,
+            0.9998987317085266,
+            0.07899041473865509
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_004_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.3238576054573059
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1066312789916992
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.23855674266815186
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.25030919909477234,
+          -1.1922978162765503,
+          0.15844868123531342
+        ],
+        "bbox_max": [
+          0.3974060118198395,
+          -1.0209646224975586,
+          0.3186648190021515
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 5,
+      "final_3d_object_name": "mask_005_object",
+      "semantic_label": "white cup",
+      "description": "a white cup or container placed upside down in the rack",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0004_mask_005_white_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.999956488609314,
+            0.009311886504292488,
+            -0.0005387091659940779,
+            0.340163916349411
+          ],
+          [
+            -0.009238790720701218,
+            0.9808531403541565,
+            -0.19452959299087524,
+            -1.327372670173645
+          ],
+          [
+            -0.0012830430641770363,
+            0.19452610611915588,
+            0.9808964729309082,
+            0.08839458227157593
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_005_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.3409718871116638
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.307814121246338
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.26084670424461365
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.2508852779865265,
+          -1.3925697803497314,
+          0.15441010892391205
+        ],
+        "bbox_max": [
+          0.43105846643447876,
+          -1.2230583429336548,
+          0.36728328466415405
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 6,
+      "final_3d_object_name": "mask_006_object",
+      "semantic_label": "oil bottle",
+      "description": "a clear glass bottle with a beige lid containing yellow oil",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0005_mask_006_oil_bottle.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9990969300270081,
+            -0.00026829924900084734,
+            0.042487673461437225,
+            0.12428134679794312
+          ],
+          [
+            -0.0004081385559402406,
+            0.9998733401298523,
+            0.015911325812339783,
+            -1.1273400783538818
+          ],
+          [
+            -0.042486563324928284,
+            -0.015914298593997955,
+            0.9989702701568604,
+            0.14411874115467072
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_006_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.1202053651213646
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1288663148880005
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.31154686212539673
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.037236299365758896,
+          -1.274458885192871,
+          0.1637474149465561
+        ],
+        "bbox_max": [
+          0.20317442715168,
+          -0.9832736849784851,
+          0.45934629440307617
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 7,
+      "final_3d_object_name": "mask_007_object",
+      "semantic_label": "small white cup",
+      "description": "a small white enamel cup with a blue rim",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0006_mask_007_small_white_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9976584911346436,
+            0.004176392685621977,
+            0.06826469302177429,
+            0.3439897894859314
+          ],
+          [
+            0.006570001598447561,
+            0.9876652359962463,
+            -0.15644244849681854,
+            -0.9540424942970276
+          ],
+          [
+            -0.06807602941989899,
+            0.1565246433019638,
+            0.9853251576423645,
+            0.05859201401472092
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_007_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.3396105170249939
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.9442591667175293
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.17837360501289368
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.2827666103839874,
+          -1.0332188606262207,
+          0.1134561151266098
+        ],
+        "bbox_max": [
+          0.396454393863678,
+          -0.8552995324134827,
+          0.24329107999801636
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 8,
+      "final_3d_object_name": "mask_008_object",
+      "semantic_label": "small white cup",
+      "description": "another small white enamel cup with a blue rim",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0007_mask_008_small_white_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.999747097492218,
+            0.0005770113784819841,
+            0.022480914369225502,
+            0.25289779901504517
+          ],
+          [
+            0.002957790857180953,
+            0.9876125454902649,
+            -0.15688450634479523,
+            -0.9726210832595825
+          ],
+          [
+            -0.022292958572506905,
+            0.15691132843494415,
+            0.9873610734939575,
+            0.05308010056614876
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_008_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.2520178556442261
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.9663518667221069
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.18509718775749207
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.2081332504749298,
+          -1.038063406944275,
+          0.13158543407917023
+        ],
+        "bbox_max": [
+          0.2959024906158447,
+          -0.894640326499939,
+          0.2386089265346527
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 9,
+      "final_3d_object_name": "mask_009_object",
+      "semantic_label": "small white cup",
+      "description": "a small white enamel cup with a blue rim and a cartoon character on it",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0008_mask_009_small_white_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9999183416366577,
+            0.00886994507163763,
+            -0.0091986283659935,
+            0.2617214322090149
+          ],
+          [
+            -0.01036884170025587,
+            0.9839084148406982,
+            -0.1783723682165146,
+            -0.8292444944381714
+          ],
+          [
+            0.007468454539775848,
+            0.17845319211483002,
+            0.9839200377464294,
+            0.04062119498848915
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_009_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.2625340521335602
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.8231287002563477
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.18955698609352112
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.21087326109409332,
+          -0.876980185508728,
+          0.14309871196746826
+        ],
+        "bbox_max": [
+          0.31419482827186584,
+          -0.7692771553993225,
+          0.23601526021957397
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 10,
+      "final_3d_object_name": "mask_010_object",
+      "semantic_label": "black mug",
+      "description": "a matte black mug with a handle",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0009_mask_010_black_mug.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9996537566184998,
+            -0.0012504011392593384,
+            0.026282932609319687,
+            0.14702890813350677
+          ],
+          [
+            0.003684799652546644,
+            0.9956798553466797,
+            -0.09277977794408798,
+            -0.8073567152023315
+          ],
+          [
+            -0.026053372770547867,
+            0.09284450858831406,
+            0.9953396916389465,
+            0.10311203449964523
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_010_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.1442844271659851
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.7972339987754822
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.22268237173557281
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.06919501721858978,
+          -0.937953770160675,
+          0.11414235830307007
+        ],
+        "bbox_max": [
+          0.21937385201454163,
+          -0.6565142273902893,
+          0.33122238516807556
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 11,
+      "final_3d_object_name": "mask_011_object",
+      "semantic_label": "small white cup",
+      "description": "a small white enamel cup with a blue rim",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0010_mask_011_small_white_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9989317655563354,
+            0.016389083117246628,
+            0.04320535436272621,
+            0.43239885568618774
+          ],
+          [
+            -0.004542062524706125,
+            0.9652881622314453,
+            -0.26114770770072937,
+            -0.8404985070228577
+          ],
+          [
+            -0.045985590666532516,
+            0.2606724798679352,
+            0.9643314480781555,
+            0.0754363089799881
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_011_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.4290090501308441
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.8214362859725952
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.17238777875900269
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.3554365634918213,
+          -0.8832031488418579,
+          0.09165991842746735
+        ],
+        "bbox_max": [
+          0.5025815367698669,
+          -0.7596694827079773,
+          0.2531156539916992
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 12,
+      "final_3d_object_name": "mask_012_object",
+      "semantic_label": "small white cup",
+      "description": "a small white enamel cup with a blue rim",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0011_mask_012_small_white_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9999948740005493,
+            0.0008064534631557763,
+            0.003100879490375519,
+            0.34339672327041626
+          ],
+          [
+            -0.00042851007310673594,
+            0.9927733540534973,
+            -0.12000389397144318,
+            -0.729638934135437
+          ],
+          [
+            -0.0031752479262650013,
+            0.12000194191932678,
+            0.9927685856819153,
+            0.05808659642934799
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_012_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.3437870144844055
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.7254091501235962
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.16940759122371674
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.2618829309940338,
+          -0.7835992574691772,
+          0.10685747861862183
+        ],
+        "bbox_max": [
+          0.4256910979747772,
+          -0.6672191023826599,
+          0.23195770382881165
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 13,
+      "final_3d_object_name": "mask_013_object",
+      "semantic_label": "spoon",
+      "description": "a metal spoon resting inside a white plate",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0012_mask_013_spoon.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9357751607894897,
+            0.24657078087329865,
+            0.25204703211784363,
+            0.5872969031333923
+          ],
+          [
+            -0.08333928883075714,
+            0.8492453098297119,
+            -0.5213798880577087,
+            -0.8961331248283386
+          ],
+          [
+            -0.3426068127155304,
+            0.4668889045715332,
+            0.8152517080307007,
+            0.07007811218500137
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_013_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.585541307926178
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.8906862735748291
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.18804284930229187
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.47011905908584595,
+          -0.9466239809989929,
+          0.1525845229625702
+        ],
+        "bbox_max": [
+          0.70096355676651,
+          -0.8347485661506653,
+          0.22350116074085236
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 14,
+      "final_3d_object_name": "mask_014_object",
+      "semantic_label": "fork",
+      "description": "a metal fork resting inside a white plate",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0013_mask_014_fork.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9932667016983032,
+            0.02805391512811184,
+            0.11240193992853165,
+            0.6190298199653625
+          ],
+          [
+            0.005819352343678474,
+            0.9569300413131714,
+            -0.2902601957321167,
+            -0.7249863147735596
+          ],
+          [
+            -0.11570372432470322,
+            0.28895992040634155,
+            0.9503235220909119,
+            0.07691040635108948
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_014_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.615978479385376
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.7143163681030273
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1905679702758789
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.4136502742767334,
+          -0.7597206830978394,
+          0.1666385382413864
+        ],
+        "bbox_max": [
+          0.8183066248893738,
+          -0.6689120531082153,
+          0.2144973874092102
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 15,
+      "final_3d_object_name": "mask_015_object",
+      "semantic_label": "white plate",
+      "description": "a white oval plate or shallow bowl containing a fork and spoon",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0014_mask_015_white_plate.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9998939037322998,
+            0.0004206969460938126,
+            -0.01456121914088726,
+            0.6841623187065125
+          ],
+          [
+            -0.0011340081691741943,
+            0.9987974762916565,
+            -0.04901353269815445,
+            -0.7829530239105225
+          ],
+          [
+            0.014523088932037354,
+            0.04902484267950058,
+            0.998691976070404,
+            0.03819025307893753
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_015_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.684154748916626
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.7819645404815674
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1481451392173767
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.51093590259552,
+          -0.9633131623268127,
+          0.10450173169374466
+        ],
+        "bbox_max": [
+          0.8573735952377319,
+          -0.6006158590316772,
+          0.19178855419158936
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 16,
+      "final_3d_object_name": "mask_016_object",
+      "semantic_label": "small pink pan",
+      "description": "a small pink frying pan with a light pink handle",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0015_mask_016_small_pink_pan.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.988169252872467,
+            -0.006797711364924908,
+            0.15321652591228485,
+            -0.3242711126804352
+          ],
+          [
+            0.02592310681939125,
+            0.992046058177948,
+            -0.12317715585231781,
+            -1.0483659505844116
+          ],
+          [
+            -0.15116052329540253,
+            0.1256917268037796,
+            0.9804856181144714,
+            0.10991591960191727
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_016_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.32379359006881714
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.0368626117706299
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2995888590812683
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.5666221380233765,
+          -1.1706289052963257,
+          0.2572837769985199
+        ],
+        "bbox_max": [
+          -0.0809650719165802,
+          -0.9030964374542236,
+          0.3418939709663391
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 17,
+      "final_3d_object_name": "mask_017_object",
+      "semantic_label": "induction cooktop",
+      "description": "a circular white and black electric induction cooktop",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0016_mask_017_induction_cooktop.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9998857378959656,
+            0.0034793007653206587,
+            -0.014711132273077965,
+            -0.23253604769706726
+          ],
+          [
+            -0.005077257286757231,
+            0.9939162135124207,
+            -0.1100216880440712,
+            -1.018639087677002
+          ],
+          [
+            0.014238834381103516,
+            0.11008381098508835,
+            0.993820309638977,
+            0.06686457991600037
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_017_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.2303922176361084
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.0109381675720215
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.22552525997161865
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.4869999587535858,
+          -1.2845640182495117,
+          0.13522812724113464
+        ],
+        "bbox_max": [
+          0.026215508580207825,
+          -0.7373122572898865,
+          0.31582239270210266
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 18,
+      "final_3d_object_name": "mask_018_object",
+      "semantic_label": "black frying pan",
+      "description": "a black frying pan with a green exterior rim and black handle",
+      "web_asset_glb": "sessions/20260705_225155_bc2e0803/results/web_assets/web_objects/0017_mask_018_black_frying_pan.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9941834807395935,
+            0.0009854395175352693,
+            0.10769514739513397,
+            -0.62398761510849
+          ],
+          [
+            0.004517633933573961,
+            0.9986964464187622,
+            -0.050842706114053726,
+            -0.6456368565559387
+          ],
+          [
+            -0.10760486125946045,
+            0.05103350803256035,
+            0.9928830862045288,
+            0.05194901302456856
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_018_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.6293456554412842
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.6428007483482361
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.17654436826705933
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.8400053977966309,
+          -0.9160028696060181,
+          0.12445247918367386
+        ],
+        "bbox_max": [
+          -0.4186858534812927,
+          -0.3695986270904541,
+          0.2286362648010254
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    }
+  ]
+}

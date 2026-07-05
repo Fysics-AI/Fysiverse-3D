@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "scene": "kitchen_2_demo",
+  "world_up": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "splat": {
+    "url": "background.ksplat",
+    "format": "ksplat",
+    "position": [
+      -0.0023731510154902935,
+      -0.6565060019493103,
+      0.45726507902145386
+    ],
+    "quaternion_xyzw": [
+      -0.2045554667711258,
+      0.08591794222593307,
+      0.40453410148620605,
+      0.8872019648551941
+    ],
+    "scale": [
+      0.8846067786216736,
+      0.8846067786216736,
+      0.8846067786216736
+    ]
+  },
+  "objects": [
+    {
+      "name": "rao_s_homemade_marinara_sauce_vxadjo_1",
+      "category": "rao_s_homemade_marinara_sauce",
+      "url": "objects/005_object_mesh_rao_s_homemade_marinara_sauce__rao_s_homemade_marinara_sauce_vxadjo.glb",
+      "position": [
+        0.1579418182373047,
+        0.0562303364276886,
+        0.07941721379756927
+      ],
+      "quaternion_xyzw": [
+        0.18712586164474487,
+        -0.05127624049782753,
+        -0.16951505839824677,
+        0.9662397503852844
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "stainless_steel_pitcher_kruenf_2",
+      "category": "stainless_steel_pitcher",
+      "url": "objects/006_object_mesh_stainless_steel_pitcher__stainless_steel_pitcher_kruenf.glb",
+      "position": [
+        0.006011859979480505,
+        0.18471574783325195,
+        0.040564026683568954
+      ],
+      "quaternion_xyzw": [
+        -0.0009786486625671387,
+        -0.0010586753487586975,
+        -0.4533124566078186,
+        0.8913506269454956
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "white_plate_duexeu_10",
+      "category": "white_plate",
+      "url": "objects/007_object_mesh_white_plate__white_plate_duexeu.glb",
+      "position": [
+        -0.20797483623027802,
+        0.12004447728395462,
+        0.025869913399219513
+      ],
+      "quaternion_xyzw": [
+        -0.05608882009983063,
+        -0.3932660222053528,
+        0.9166239500045776,
+        0.0446811243891716
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "white_plastic_fork_phiatn_5",
+      "category": "white_plastic_fork",
+      "url": "objects/008_object_mesh_white_plastic_fork__white_plastic_fork_phiatn.glb",
+      "position": [
+        -0.01249989029020071,
+        -0.014559505507349968,
+        0.02618907392024994
+      ],
+      "quaternion_xyzw": [
+        -0.041597846895456314,
+        0.010899649932980537,
+        0.4481312334537506,
+        0.8929329514503479
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "yellow_banana_xjdpkr_9",
+      "category": "yellow_banana",
+      "url": "objects/009_object_mesh_yellow_banana__yellow_banana_xjdpkr.glb",
+      "position": [
+        -0.1973993331193924,
+        0.10084401816129684,
+        0.04044928401708603
+      ],
+      "quaternion_xyzw": [
+        -0.2182202786207199,
+        -0.0504927858710289,
+        0.18453319370746613,
+        0.9569628834724426
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "coffee_mate_creamer_bottle_pkeghi_3",
+      "category": "coffee_mate_creamer_bottle",
+      "url": "objects/010_object_mesh_coffee_mate_creamer_bottle__coffee_mate_creamer_bottle_pkeghi.glb",
+      "position": [
+        -0.07887532562017441,
+        0.2708871066570282,
+        0.07915849983692169
+      ],
+      "quaternion_xyzw": [
+        0.032631661742925644,
+        -0.013773668557405472,
+        0.17265057563781738,
+        0.9843461513519287
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "white_mug_sckngv_0",
+      "category": "white_mug",
+      "url": "objects/011_object_mesh_white_mug__white_mug_sckngv.glb",
+      "position": [
+        -0.1651066541671753,
+        -0.08097483962774277,
+        0.040282707661390305
+      ],
+      "quaternion_xyzw": [
+        -0.1912461668252945,
+        -0.01109132170677185,
+        0.3204282224178314,
+        0.9277002215385437
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "bread_roll_lkfbdm_4",
+      "category": "bread_roll",
+      "url": "objects/012_object_mesh_bread_roll__bread_roll_lkfbdm.glb",
+      "position": [
+        -0.23355942964553833,
+        0.17761702835559845,
+        0.05477021262049675
+      ],
+      "quaternion_xyzw": [
+        -0.09505630284547806,
+        0.0067600347101688385,
+        0.2759167551994324,
+        0.9564456939697266
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "blue_pasta_box_ebzwwv_8",
+      "category": "blue_pasta_box",
+      "url": "objects/013_object_mesh_blue_pasta_box__blue_pasta_box_ebzwwv.glb",
+      "position": [
+        0.18133234977722168,
+        0.16361843049526215,
+        0.03170343488454819
+      ],
+      "quaternion_xyzw": [
+        -0.015210992656648159,
+        0.0011538456892594695,
+        -0.25640925765037537,
+        0.9664480686187744
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "small_red_plate_nduvff_6",
+      "category": "small_red_plate",
+      "url": "objects/014_object_mesh_small_red_plate__small_red_plate_nduvff.glb",
+      "position": [
+        -0.00995699968189001,
+        -0.008602268993854523,
+        0.0103656817227602
+      ],
+      "quaternion_xyzw": [
+        -0.00044676652760244906,
+        0.0018192862626165152,
+        0.2698223888874054,
+        0.9629082679748535
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "silver_spoon_kyccon_7",
+      "category": "silver_spoon",
+      "url": "objects/015_object_mesh_silver_spoon__silver_spoon_kyccon.glb",
+      "position": [
+        0.026754101738333702,
+        -0.0034317555837333202,
+        0.024176841601729393
+      ],
+      "quaternion_xyzw": [
+        -0.02019798941910267,
+        -0.048149362206459045,
+        0.36985135078430176,
+        0.9276227355003357
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      -0.012373185716569424,
+      -0.7465057969093323,
+      0.477264940738678
+    ],
+    "quaternion_xyzw": [
+      0.5160458087921143,
+      0.0010497290641069412,
+      -0.0017423926619812846,
+      0.8565585613250732
+    ]
+  },
+  "controls": {
+    "enablePan": false,
+    "minDistance": 0.433,
+    "maxDistance": 1.2,
+    "leftAzimuthDelta": 0.85,
+    "rightAzimuthDelta": 1.636,
+    "maxPolarDelta": 0.35
+  }
+}

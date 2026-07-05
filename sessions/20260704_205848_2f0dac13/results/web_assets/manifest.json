@@ -1,0 +1,54 @@
+{
+  "schema": "fysiverse_web_assets.v1",
+  "objects": [
+    {
+      "index": 0,
+      "mask_id": 1,
+      "name": "mask_001_object",
+      "semantic_label": "bowl of soup",
+      "web_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0000_mask_001_bowl_of_soup.glb"
+    },
+    {
+      "index": 1,
+      "mask_id": 2,
+      "name": "mask_002_object",
+      "semantic_label": "roasted sweet potato",
+      "web_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0001_mask_002_roasted_sweet_potato.glb"
+    },
+    {
+      "index": 2,
+      "mask_id": 3,
+      "name": "mask_003_object",
+      "semantic_label": "spicy fried chicken",
+      "web_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0002_mask_003_spicy_fried_chicken.glb"
+    },
+    {
+      "index": 3,
+      "mask_id": 4,
+      "name": "mask_004_object",
+      "semantic_label": "fried food pieces",
+      "web_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0003_mask_004_fried_food_pieces.glb"
+    },
+    {
+      "index": 4,
+      "mask_id": 5,
+      "name": "mask_005_object",
+      "semantic_label": "sesame cake",
+      "web_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0004_mask_005_sesame_cake.glb"
+    },
+    {
+      "index": 5,
+      "mask_id": 6,
+      "name": "mask_006_object",
+      "semantic_label": "Roujiamo bag",
+      "web_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0005_mask_006_Roujiamo_bag.glb"
+    },
+    {
+      "index": 6,
+      "mask_id": 7,
+      "name": "mask_007_object",
+      "semantic_label": "food tray",
+      "web_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0006_mask_007_food_tray.glb"
+    }
+  ]
+}

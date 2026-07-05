@@ -1,0 +1,960 @@
+{
+  "schema": "fysiverse_final_scene_manifest.v1",
+  "support": {
+    "bbox_snap_mode": "global_support_aware",
+    "support_adjust": true,
+    "support_gap": 0.001,
+    "support_relation_source": "scene_graph",
+    "support_relations": [
+      {
+        "upper_index": 1,
+        "upper_name": "mask_002_object",
+        "upper_mask_id": 2,
+        "lower_index": 3,
+        "lower_name": "mask_004_object",
+        "lower_mask_id": 4,
+        "overlap_area": 0.01710159803852207,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.01710159803852207,
+        "lower_area_xy": 0.22906473063375454,
+        "bottom_to_lower_top_gap": -0.00373898446559906,
+        "confidence": 0.95,
+        "reason": "The white plate rests on top of the wooden tray.",
+        "score_tuple": [
+          -0.95,
+          0.00373898446559906
+        ]
+      },
+      {
+        "upper_index": 2,
+        "upper_name": "mask_003_object",
+        "upper_mask_id": 3,
+        "lower_index": 3,
+        "lower_name": "mask_004_object",
+        "lower_mask_id": 4,
+        "overlap_area": 0.017417453961579454,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.017417453961579454,
+        "lower_area_xy": 0.22906473063375454,
+        "bottom_to_lower_top_gap": -0.0061583444476127625,
+        "confidence": 0.95,
+        "reason": "The teapot rests on top of the wooden tray.",
+        "score_tuple": [
+          -0.95,
+          0.0061583444476127625
+        ]
+      },
+      {
+        "upper_index": 0,
+        "upper_name": "mask_001_object",
+        "upper_mask_id": 1,
+        "lower_index": 3,
+        "lower_name": "mask_004_object",
+        "lower_mask_id": 4,
+        "overlap_area": 0.013913328948682135,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.013913328948682135,
+        "lower_area_xy": 0.22906473063375454,
+        "bottom_to_lower_top_gap": -0.02322959154844284,
+        "confidence": 0.95,
+        "reason": "The green tin rests on top of the wooden tray.",
+        "score_tuple": [
+          -0.95,
+          0.02322959154844284
+        ]
+      }
+    ],
+    "scene_graph_support_relations": [
+      {
+        "upper_mask_id": 1,
+        "lower_mask_id": 4,
+        "confidence": 0.95,
+        "reason": "The green tin rests on top of the wooden tray."
+      },
+      {
+        "upper_mask_id": 2,
+        "lower_mask_id": 4,
+        "confidence": 0.95,
+        "reason": "The white plate rests on top of the wooden tray."
+      },
+      {
+        "upper_mask_id": 3,
+        "lower_mask_id": 4,
+        "confidence": 0.95,
+        "reason": "The teapot rests on top of the wooden tray."
+      }
+    ],
+    "support_actions": [],
+    "support_skipped_actions": [
+      {
+        "child_index": 1,
+        "child_name": "mask_002_object",
+        "parent_index": 3,
+        "parent_name": "mask_004_object",
+        "reason": "convex_support_pair_not_colliding",
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.06126780807971954,
+          "child_bottom_before": 0.05752882361412048,
+          "current_gap_before": -0.00373898446559906,
+          "required_gap": 0.001,
+          "translation_along_up": 0.0,
+          "needs_translation": false,
+          "convex_current_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 64
+          },
+          "convex_current_elapsed_sec": 0.00016080494970083237,
+          "convex_total_elapsed_sec": 0.00016675377264618874,
+          "reason": "convex_support_pair_not_colliding"
+        }
+      },
+      {
+        "child_index": 2,
+        "child_name": "mask_003_object",
+        "parent_index": 3,
+        "parent_name": "mask_004_object",
+        "reason": "convex_support_pair_not_colliding",
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.06126780807971954,
+          "child_bottom_before": 0.05510946363210678,
+          "current_gap_before": -0.0061583444476127625,
+          "required_gap": 0.001,
+          "translation_along_up": 0.0,
+          "needs_translation": false,
+          "convex_current_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 1,
+            "part_count_i": 8,
+            "part_count_j": 7,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 55
+          },
+          "convex_current_elapsed_sec": 0.011191335041075945,
+          "convex_total_elapsed_sec": 0.01120834331959486,
+          "reason": "convex_support_pair_not_colliding"
+        }
+      },
+      {
+        "child_index": 0,
+        "child_name": "mask_001_object",
+        "parent_index": 3,
+        "parent_name": "mask_004_object",
+        "reason": "convex_support_pair_not_colliding",
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.06126780807971954,
+          "child_bottom_before": 0.0380382165312767,
+          "current_gap_before": -0.02322959154844284,
+          "required_gap": 0.001,
+          "translation_along_up": 0.0,
+          "needs_translation": false,
+          "convex_current_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 2,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 62
+          },
+          "convex_current_elapsed_sec": 0.004076868295669556,
+          "convex_total_elapsed_sec": 0.004084337968379259,
+          "reason": "convex_support_pair_not_colliding"
+        }
+      }
+    ],
+    "root_names": null,
+    "global_translation": null,
+    "coordinate_system": "Blender/SAPIEN Z-up; all vertical support movement is along Blender Z."
+  },
+  "objects": [
+    {
+      "mask_id": 1,
+      "final_3d_object_name": "mask_001_object",
+      "semantic_label": "green biscuit tin",
+      "description": "a light green cylindrical tin with a clamp lid, labeled Sea Salted Caramel Biscuits",
+      "web_asset_glb": "sessions/20260704_184725_c2acdd53/results/web_assets/web_objects/0000_mask_001_green_biscuit_tin.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9998064041137695,
+            0.004835366737097502,
+            0.019071832299232483,
+            0.5336153507232666
+          ],
+          [
+            -0.005203687120229006,
+            0.9998000264167786,
+            0.01931016519665718,
+            -1.1631888151168823
+          ],
+          [
+            -0.01897464692592621,
+            -0.01940567046403885,
+            0.9996316432952881,
+            0.09207107871770859
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_001_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.5319569110870361
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1645753383636475
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.11875888705253601
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.47221821546554565,
+          -1.2228010892868042,
+          0.03803820535540581
+        ],
+        "bbox_max": [
+          0.5916955471038818,
+          -1.1063494682312012,
+          0.19947956502437592
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_000.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_001.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_002.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_003.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_004.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_005.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_006.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0000_mask_001_object_coacd/0000_mask_001_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 2,
+      "final_3d_object_name": "mask_002_object",
+      "semantic_label": "small white plate",
+      "description": "a small oval white plate with faint floral patterns",
+      "web_asset_glb": "sessions/20260704_184725_c2acdd53/results/web_assets/web_objects/0001_mask_002_small_white_plate.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9993723034858704,
+            0.0007463530637323856,
+            0.03541825711727142,
+            0.4041423201560974
+          ],
+          [
+            -0.0010527045233175159,
+            0.9999622106552124,
+            0.008631676435470581,
+            -1.1248811483383179
+          ],
+          [
+            -0.035410478711128235,
+            -0.008663542568683624,
+            0.9993352890014648,
+            0.021633677184581757
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_002_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.4040270149707794
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.124903678894043
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.06875775009393692
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.3390282690525055,
+          -1.1906803846359253,
+          0.05752881243824959
+        ],
+        "bbox_max": [
+          0.46902576088905334,
+          -1.0591270923614502,
+          0.07998669147491455
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_000.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_001.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_002.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_003.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_004.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_005.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_006.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0001_mask_002_object_coacd/0001_mask_002_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 3,
+      "final_3d_object_name": "mask_003_object",
+      "semantic_label": "brown teapot",
+      "description": "a small round brown ceramic teapot",
+      "web_asset_glb": "sessions/20260704_184725_c2acdd53/results/web_assets/web_objects/0002_mask_003_brown_teapot.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9992461800575256,
+            -0.0022675825748592615,
+            0.03875468671321869,
+            0.3296794593334198
+          ],
+          [
+            0.00559312105178833,
+            0.9962864518165588,
+            -0.08591845631599426,
+            -1.263114094734192
+          ],
+          [
+            -0.03841594606637955,
+            0.08607044816017151,
+            0.9955481290817261,
+            0.053785037249326706
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_003_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.3278152644634247
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.2591373920440674
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.09954234957695007
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.24682572484016418,
+          -1.3129018545150757,
+          0.05510949343442917
+        ],
+        "bbox_max": [
+          0.4088048040866852,
+          -1.205372929573059,
+          0.14397521317005157
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0002_mask_003_object_coacd/0002_mask_003_object_coacd_000.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0002_mask_003_object_coacd/0002_mask_003_object_coacd_001.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0002_mask_003_object_coacd/0002_mask_003_object_coacd_002.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0002_mask_003_object_coacd/0002_mask_003_object_coacd_003.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0002_mask_003_object_coacd/0002_mask_003_object_coacd_004.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0002_mask_003_object_coacd/0002_mask_003_object_coacd_005.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0002_mask_003_object_coacd/0002_mask_003_object_coacd_006.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0002_mask_003_object_coacd/0002_mask_003_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 4,
+      "final_3d_object_name": "mask_004_object",
+      "semantic_label": "wooden tray",
+      "description": "a rectangular light wooden tray holding the tin, plate, and teapot",
+      "web_asset_glb": "sessions/20260704_184725_c2acdd53/results/web_assets/web_objects/0003_mask_004_wooden_tray.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9998425245285034,
+            7.633527275174856e-06,
+            -0.01774583011865616,
+            0.4184020459651947
+          ],
+          [
+            0.0005406765267252922,
+            0.9995225667953491,
+            0.030892962589859962,
+            -1.2274718284606934
+          ],
+          [
+            0.01773759350180626,
+            -0.03089769370853901,
+            0.9993651509284973,
+            0.02092457376420498
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_004_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.41891244053840637
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.228244662284851
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.03199537843465805
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.17351438105106354,
+          -1.4616050720214844,
+          0.0027230223640799522
+        ],
+        "bbox_max": [
+          0.6643105149269104,
+          -0.9948842525482178,
+          0.06126773729920387
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0003_mask_004_object_coacd/0003_mask_004_object_coacd_000.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0003_mask_004_object_coacd/0003_mask_004_object_coacd_001.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0003_mask_004_object_coacd/0003_mask_004_object_coacd_002.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0003_mask_004_object_coacd/0003_mask_004_object_coacd_003.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0003_mask_004_object_coacd/0003_mask_004_object_coacd_004.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0003_mask_004_object_coacd/0003_mask_004_object_coacd_005.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0003_mask_004_object_coacd/0003_mask_004_object_coacd_006.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0003_mask_004_object_coacd/0003_mask_004_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 5,
+      "final_3d_object_name": "mask_005_object",
+      "semantic_label": "wooden box",
+      "description": "a rectangular wooden box with a floral carving on the lid",
+      "web_asset_glb": "sessions/20260704_184725_c2acdd53/results/web_assets/web_objects/0004_mask_005_wooden_box.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9999582171440125,
+            -0.0018929233774542809,
+            -0.008940777741372585,
+            0.08063025027513504
+          ],
+          [
+            0.00102752516977489,
+            0.9953978657722473,
+            -0.09582272171974182,
+            -0.9696581959724426
+          ],
+          [
+            0.009081016294658184,
+            0.09580953419208527,
+            0.9953582882881165,
+            0.03902836889028549
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_005_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.08101440221071243
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.9652167558670044
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.07042118161916733
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.0017989394254982471,
+          -1.0698078870773315,
+          0.0235427338629961
+        ],
+        "bbox_max": [
+          0.1602298617362976,
+          -0.8606256246566772,
+          0.1172996312379837
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_000.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_001.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_002.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_003.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_004.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_005.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_006.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0004_mask_005_object_coacd/0004_mask_005_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 6,
+      "final_3d_object_name": "mask_006_object",
+      "semantic_label": "orange pumpkin decoration",
+      "description": "a small orange pumpkin-shaped object, likely a candle or decoration",
+      "web_asset_glb": "sessions/20260704_184725_c2acdd53/results/web_assets/web_objects/0005_mask_006_orange_pumpkin_decoration.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9997158050537109,
+            -0.006367643363773823,
+            0.022973019629716873,
+            -0.07492315024137497
+          ],
+          [
+            0.009434125386178493,
+            0.9906706213951111,
+            -0.13595108687877655,
+            -0.9792706966400146
+          ],
+          [
+            -0.021893009543418884,
+            0.13612918555736542,
+            0.9904491901397705,
+            0.0376480333507061
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_006_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.07593798637390137
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.9738045930862427
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.07453590631484985
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.1189412921667099,
+          -1.0176361799240112,
+          0.03463160619139671
+        ],
+        "bbox_max": [
+          -0.03293468430638313,
+          -0.9299730658531189,
+          0.1144402027130127
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0005_mask_006_object_coacd/0005_mask_006_object_coacd_000.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0005_mask_006_object_coacd/0005_mask_006_object_coacd_001.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0005_mask_006_object_coacd/0005_mask_006_object_coacd_002.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0005_mask_006_object_coacd/0005_mask_006_object_coacd_003.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0005_mask_006_object_coacd/0005_mask_006_object_coacd_004.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0005_mask_006_object_coacd/0005_mask_006_object_coacd_005.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0005_mask_006_object_coacd/0005_mask_006_object_coacd_006.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0005_mask_006_object_coacd/0005_mask_006_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 7,
+      "final_3d_object_name": "mask_007_object",
+      "semantic_label": "straw hat",
+      "description": "a wide-brimmed straw hat with a red ribbon band",
+      "web_asset_glb": "sessions/20260704_184725_c2acdd53/results/web_assets/web_objects/0006_mask_007_straw_hat.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9876356720924377,
+            -0.004085554275661707,
+            -0.15671324729919434,
+            -0.4469794034957886
+          ],
+          [
+            -0.0021896774414926767,
+            0.9992033243179321,
+            -0.039849236607551575,
+            -1.0468764305114746
+          ],
+          [
+            0.15675121545791626,
+            0.03969968110322952,
+            0.9868398904800415,
+            0.03910055756568909
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_007_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.43865400552749634
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.0446252822875977
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.08253120630979538
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.6103172302246094,
+          -1.2243598699569702,
+          0.0194100234657526
+        ],
+        "bbox_max": [
+          -0.2669908106327057,
+          -0.8648905754089355,
+          0.1456523835659027
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_000.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_001.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_002.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_003.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_004.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_005.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_006.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0006_mask_007_object_coacd/0006_mask_007_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 8,
+      "final_3d_object_name": "mask_008_object",
+      "semantic_label": "tissue box",
+      "description": "a colorful tissue box with a tropical bird pattern",
+      "web_asset_glb": "sessions/20260704_184725_c2acdd53/results/web_assets/web_objects/0007_mask_008_tissue_box.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9995925426483154,
+            0.0005485705332830548,
+            -0.028537802398204803,
+            -0.2601996064186096
+          ],
+          [
+            -0.0024078963324427605,
+            0.9978719353675842,
+            -0.06515959650278091,
+            -1.213879942893982
+          ],
+          [
+            0.028441328555345535,
+            0.0652017667889595,
+            0.9974666833877563,
+            0.054323092103004456
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_008_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.2581745386123657
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.2099831104278564
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.10167425870895386
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.37996819615364075,
+          -1.3304729461669922,
+          0.039172764867544174
+        ],
+        "bbox_max": [
+          -0.1363808661699295,
+          -1.0894931554794312,
+          0.16417574882507324
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_000.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_001.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_002.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_003.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_004.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_005.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_006.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0007_mask_008_object_coacd/0007_mask_008_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    },
+    {
+      "mask_id": 9,
+      "final_3d_object_name": "mask_009_object",
+      "semantic_label": "laptop",
+      "description": "a silver laptop computer, open, with an Apple logo on the back",
+      "web_asset_glb": "sessions/20260704_184725_c2acdd53/results/web_assets/web_objects/0008_mask_009_laptop.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9989485144615173,
+            -9.686703560873866e-05,
+            0.04584643617272377,
+            0.047041598707437515
+          ],
+          [
+            0.0018837100360542536,
+            0.9992400407791138,
+            -0.0389329269528389,
+            -1.392664909362793
+          ],
+          [
+            -0.04580782726407051,
+            0.03897835314273834,
+            0.9981895089149475,
+            0.11168046295642853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_009_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.041899025440216064
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.388303518295288
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1441187709569931
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.15084391832351685,
+          -1.5631159543991089,
+          0.0238052811473608
+        ],
+        "bbox_max": [
+          0.23464196920394897,
+          -1.2134912014007568,
+          0.26443225145339966
+        ],
+        "collision_path": "",
+        "collision_paths": [
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0008_mask_009_object_coacd/0008_mask_009_object_coacd_000.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0008_mask_009_object_coacd/0008_mask_009_object_coacd_001.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0008_mask_009_object_coacd/0008_mask_009_object_coacd_002.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0008_mask_009_object_coacd/0008_mask_009_object_coacd_003.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0008_mask_009_object_coacd/0008_mask_009_object_coacd_004.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0008_mask_009_object_coacd/0008_mask_009_object_coacd_005.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0008_mask_009_object_coacd/0008_mask_009_object_coacd_006.obj",
+          "sessions/20260704_184725_c2acdd53/results/sam3d_moge_separated_sapien_gravity/objects/0008_mask_009_object_coacd/0008_mask_009_object_coacd_007.obj"
+        ],
+        "collision_part_count": 8
+      }
+    }
+  ]
+}

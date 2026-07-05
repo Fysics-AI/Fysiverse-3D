@@ -1,0 +1,1919 @@
+{
+  "schema": "fysiverse_final_scene_manifest.v1",
+  "support": {
+    "bbox_snap_mode": "global_support_aware",
+    "support_adjust": true,
+    "support_gap": 0.001,
+    "support_relation_source": "scene_graph",
+    "support_relations": [
+      {
+        "upper_index": 2,
+        "upper_name": "mask_003_object",
+        "upper_mask_id": 3,
+        "lower_index": 3,
+        "lower_name": "mask_004_object",
+        "lower_mask_id": 4,
+        "overlap_area": 0.01528241559737964,
+        "overlap_ratio_to_upper": 0.5414181211974327,
+        "upper_area_xy": 0.0282266422179962,
+        "lower_area_xy": 0.019814771227967043,
+        "bottom_to_lower_top_gap": 0.026376068592071533,
+        "confidence": 0.95,
+        "reason": "The white cup is physically resting on the blue cup.",
+        "score_tuple": [
+          -0.95,
+          0.026376068592071533
+        ]
+      },
+      {
+        "upper_index": 12,
+        "upper_name": "mask_013_object",
+        "upper_mask_id": 13,
+        "lower_index": 13,
+        "lower_name": "mask_014_object",
+        "lower_mask_id": 14,
+        "overlap_area": 0.12324457620702356,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.12324457620702356,
+        "lower_area_xy": 0.5165205829089707,
+        "bottom_to_lower_top_gap": -0.09008727967739105,
+        "confidence": 0.95,
+        "reason": "The teapot is resting on the tray.",
+        "score_tuple": [
+          -0.95,
+          0.09008727967739105
+        ]
+      },
+      {
+        "upper_index": 3,
+        "upper_name": "mask_004_object",
+        "upper_mask_id": 4,
+        "lower_index": 4,
+        "lower_name": "mask_005_object",
+        "lower_mask_id": 5,
+        "overlap_area": 0.006261783833210188,
+        "overlap_ratio_to_upper": 0.3160159540157676,
+        "upper_area_xy": 0.019814771227967043,
+        "lower_area_xy": 0.030234494586878213,
+        "bottom_to_lower_top_gap": -0.11290439963340759,
+        "confidence": 0.95,
+        "reason": "The blue cup is physically resting on the pink cup.",
+        "score_tuple": [
+          -0.95,
+          0.11290439963340759
+        ]
+      },
+      {
+        "upper_index": 11,
+        "upper_name": "mask_012_object",
+        "upper_mask_id": 12,
+        "lower_index": 13,
+        "lower_name": "mask_014_object",
+        "lower_mask_id": 14,
+        "overlap_area": 0.02897611836127789,
+        "overlap_ratio_to_upper": 0.9701383058545382,
+        "upper_area_xy": 0.02986802828670343,
+        "lower_area_xy": 0.5165205829089707,
+        "bottom_to_lower_top_gap": -0.13262826204299927,
+        "confidence": 0.95,
+        "reason": "The green cup is resting on the tray.",
+        "score_tuple": [
+          -0.95,
+          0.13262826204299927
+        ]
+      },
+      {
+        "upper_index": 8,
+        "upper_name": "mask_009_object",
+        "upper_mask_id": 9,
+        "lower_index": 13,
+        "lower_name": "mask_014_object",
+        "lower_mask_id": 14,
+        "overlap_area": 0.02757994219648019,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.02757994219648019,
+        "lower_area_xy": 0.5165205829089707,
+        "bottom_to_lower_top_gap": -0.141629159450531,
+        "confidence": 0.95,
+        "reason": "The yellow cup is resting on the tray.",
+        "score_tuple": [
+          -0.95,
+          0.141629159450531
+        ]
+      },
+      {
+        "upper_index": 10,
+        "upper_name": "mask_011_object",
+        "upper_mask_id": 11,
+        "lower_index": 13,
+        "lower_name": "mask_014_object",
+        "lower_mask_id": 14,
+        "overlap_area": 0.02974764001202601,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.02974764001202601,
+        "lower_area_xy": 0.5165205829089707,
+        "bottom_to_lower_top_gap": -0.14582110196352005,
+        "confidence": 0.95,
+        "reason": "The orange cup is resting on the tray.",
+        "score_tuple": [
+          -0.95,
+          0.14582110196352005
+        ]
+      },
+      {
+        "upper_index": 5,
+        "upper_name": "mask_006_object",
+        "upper_mask_id": 6,
+        "lower_index": 7,
+        "lower_name": "mask_008_object",
+        "lower_mask_id": 8,
+        "overlap_area": 0.02120210070890849,
+        "overlap_ratio_to_upper": 0.7666581448084699,
+        "upper_area_xy": 0.027655221368847904,
+        "lower_area_xy": 0.12336544768172786,
+        "bottom_to_lower_top_gap": -0.15511851012706757,
+        "confidence": 0.95,
+        "reason": "The pear is resting inside the bowl.",
+        "score_tuple": [
+          -0.95,
+          0.15511851012706757
+        ]
+      },
+      {
+        "upper_index": 9,
+        "upper_name": "mask_010_object",
+        "upper_mask_id": 10,
+        "lower_index": 13,
+        "lower_name": "mask_014_object",
+        "lower_mask_id": 14,
+        "overlap_area": 0.02436075468498622,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.02436075468498622,
+        "lower_area_xy": 0.5165205829089707,
+        "bottom_to_lower_top_gap": -0.15616524964571,
+        "confidence": 0.95,
+        "reason": "The white cup is resting on the tray.",
+        "score_tuple": [
+          -0.95,
+          0.15616524964571
+        ]
+      },
+      {
+        "upper_index": 6,
+        "upper_name": "mask_007_object",
+        "upper_mask_id": 7,
+        "lower_index": 7,
+        "lower_name": "mask_008_object",
+        "lower_mask_id": 8,
+        "overlap_area": 0.02189238440874064,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.02189238440874064,
+        "lower_area_xy": 0.12336544768172786,
+        "bottom_to_lower_top_gap": -0.17846262454986572,
+        "confidence": 0.95,
+        "reason": "The apple is resting inside the bowl.",
+        "score_tuple": [
+          -0.95,
+          0.17846262454986572
+        ]
+      }
+    ],
+    "scene_graph_support_relations": [
+      {
+        "upper_mask_id": 3,
+        "lower_mask_id": 4,
+        "confidence": 0.95,
+        "reason": "The white cup is physically resting on the blue cup."
+      },
+      {
+        "upper_mask_id": 4,
+        "lower_mask_id": 5,
+        "confidence": 0.95,
+        "reason": "The blue cup is physically resting on the pink cup."
+      },
+      {
+        "upper_mask_id": 6,
+        "lower_mask_id": 8,
+        "confidence": 0.95,
+        "reason": "The pear is resting inside the bowl."
+      },
+      {
+        "upper_mask_id": 7,
+        "lower_mask_id": 8,
+        "confidence": 0.95,
+        "reason": "The apple is resting inside the bowl."
+      },
+      {
+        "upper_mask_id": 9,
+        "lower_mask_id": 14,
+        "confidence": 0.95,
+        "reason": "The yellow cup is resting on the tray."
+      },
+      {
+        "upper_mask_id": 10,
+        "lower_mask_id": 14,
+        "confidence": 0.95,
+        "reason": "The white cup is resting on the tray."
+      },
+      {
+        "upper_mask_id": 11,
+        "lower_mask_id": 14,
+        "confidence": 0.95,
+        "reason": "The orange cup is resting on the tray."
+      },
+      {
+        "upper_mask_id": 12,
+        "lower_mask_id": 14,
+        "confidence": 0.95,
+        "reason": "The green cup is resting on the tray."
+      },
+      {
+        "upper_mask_id": 13,
+        "lower_mask_id": 14,
+        "confidence": 0.95,
+        "reason": "The teapot is resting on the tray."
+      }
+    ],
+    "support_actions": [
+      {
+        "child_index": 9,
+        "child_name": "mask_010_object",
+        "parent_index": 13,
+        "parent_name": "mask_014_object",
+        "subtree_indices": [
+          9
+        ],
+        "subtree_names": [
+          "mask_010_object"
+        ],
+        "parent_top_before": 0.24270212650299072,
+        "child_bottom_before": 0.08653687685728073,
+        "current_gap_before": -0.15616524964571,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.01460947934538126
+        ],
+        "translation_along_up": 0.014609479648282533,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.24270212650299072,
+          "child_bottom_before": 0.08653687685728073,
+          "current_gap_before": -0.15616524964571,
+          "required_gap": 0.001,
+          "translation_along_up": 0.014609479648282533,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.013409631326794624,
+            "mtv_axis_i_to_j": [
+              0.1225099191069603,
+              0.11953821033239365,
+              0.9852420687675476
+            ],
+            "mtv_horizontal_length": 0.17116677250291756,
+            "axis_count": 636,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 96,
+            "edge_axis_count_j": 96,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 1,
+            "part_j": 0,
+            "part_pair_count": 9,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 55,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 64
+          },
+          "convex_min_non_colliding_translation": 0.013609479648282533,
+          "convex_current_elapsed_sec": 0.35877291206270456,
+          "convex_high_search_elapsed_sec": 0.00031220586970448494,
+          "convex_binary_search_elapsed_sec": 3.9969706260599196,
+          "convex_total_elapsed_sec": 4.356194564141333,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 8,
+        "child_name": "mask_009_object",
+        "parent_index": 13,
+        "parent_name": "mask_014_object",
+        "subtree_indices": [
+          8
+        ],
+        "subtree_names": [
+          "mask_009_object"
+        ],
+        "parent_top_before": 0.24270212650299072,
+        "child_bottom_before": 0.10107296705245972,
+        "current_gap_before": -0.141629159450531,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.02152768149971962
+        ],
+        "translation_along_up": 0.02152768226773654,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.24270212650299072,
+          "child_bottom_before": 0.10107296705245972,
+          "current_gap_before": -0.141629159450531,
+          "required_gap": 0.001,
+          "translation_along_up": 0.02152768226773654,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.020225731655955315,
+            "mtv_axis_i_to_j": [
+              0.1225099191069603,
+              0.11953821033239365,
+              0.9852420687675476
+            ],
+            "mtv_horizontal_length": 0.17116677250291756,
+            "axis_count": 639,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 96,
+            "edge_axis_count_j": 94,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 1,
+            "part_j": 3,
+            "part_pair_count": 21,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 43,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 1,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 63
+          },
+          "convex_min_non_colliding_translation": 0.02052768226773654,
+          "convex_current_elapsed_sec": 0.20842738403007388,
+          "convex_high_search_elapsed_sec": 0.0032662120647728443,
+          "convex_binary_search_elapsed_sec": 3.6990100517868996,
+          "convex_total_elapsed_sec": 3.910825570113957,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 10,
+        "child_name": "mask_011_object",
+        "parent_index": 13,
+        "parent_name": "mask_014_object",
+        "subtree_indices": [
+          10
+        ],
+        "subtree_names": [
+          "mask_011_object"
+        ],
+        "parent_top_before": 0.24270212650299072,
+        "child_bottom_before": 0.09688102453947067,
+        "current_gap_before": -0.14582110196352005,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.017749659717082977
+        ],
+        "translation_along_up": 0.017749660484633792,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.24270212650299072,
+          "child_bottom_before": 0.09688102453947067,
+          "current_gap_before": -0.14582110196352005,
+          "required_gap": 0.001,
+          "translation_along_up": 0.017749660484633792,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.01650347001850605,
+            "mtv_axis_i_to_j": [
+              0.1225099191069603,
+              0.11953821033239365,
+              0.9852420687675476
+            ],
+            "mtv_horizontal_length": 0.17116677250291756,
+            "axis_count": 633,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 96,
+            "edge_axis_count_j": 96,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 1,
+            "part_j": 1,
+            "part_pair_count": 6,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 58,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 64
+          },
+          "convex_min_non_colliding_translation": 0.01674966048463379,
+          "convex_current_elapsed_sec": 0.20031777303665876,
+          "convex_high_search_elapsed_sec": 0.00013662874698638916,
+          "convex_binary_search_elapsed_sec": 2.524629312567413,
+          "convex_total_elapsed_sec": 2.725183340255171,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 11,
+        "child_name": "mask_012_object",
+        "parent_index": 13,
+        "parent_name": "mask_014_object",
+        "subtree_indices": [
+          11
+        ],
+        "subtree_names": [
+          "mask_012_object"
+        ],
+        "parent_top_before": 0.24270212650299072,
+        "child_bottom_before": 0.11007386445999146,
+        "current_gap_before": -0.13262826204299927,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.016668159514665604
+        ],
+        "translation_along_up": 0.016668160282820872,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.24270212650299072,
+          "child_bottom_before": 0.11007386445999146,
+          "current_gap_before": -0.13262826204299927,
+          "required_gap": 0.001,
+          "translation_along_up": 0.016668160282820872,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.015437936410307884,
+            "mtv_axis_i_to_j": [
+              0.1225099191069603,
+              0.11953821033239365,
+              0.9852420687675476
+            ],
+            "mtv_horizontal_length": 0.17116677250291756,
+            "axis_count": 633,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 96,
+            "edge_axis_count_j": 96,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 1,
+            "part_j": 0,
+            "part_pair_count": 6,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 58,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 64
+          },
+          "convex_min_non_colliding_translation": 0.01566816028282087,
+          "convex_current_elapsed_sec": 0.2870298852212727,
+          "convex_high_search_elapsed_sec": 0.0001386529766023159,
+          "convex_binary_search_elapsed_sec": 1.9834847715683281,
+          "convex_total_elapsed_sec": 2.2707660072483122,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 6,
+        "child_name": "mask_007_object",
+        "parent_index": 7,
+        "parent_name": "mask_008_object",
+        "subtree_indices": [
+          6
+        ],
+        "subtree_names": [
+          "mask_007_object"
+        ],
+        "parent_top_before": 0.3577055335044861,
+        "child_bottom_before": 0.17924290895462036,
+        "current_gap_before": -0.17846262454986572,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.017992114648222923
+        ],
+        "translation_along_up": 0.017992115415955502,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.3577055335044861,
+          "child_bottom_before": 0.17924290895462036,
+          "current_gap_before": -0.17846262454986572,
+          "required_gap": 0.001,
+          "translation_along_up": 0.017992115415955502,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.010932110249996185,
+            "mtv_axis_i_to_j": [
+              -0.02615739218890667,
+              -0.7651634216308594,
+              0.6433045864105225
+            ],
+            "mtv_horizontal_length": 0.7656103911050115,
+            "axis_count": 544,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 95,
+            "edge_axis_count_j": 96,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 5,
+            "part_j": 6,
+            "part_pair_count": 12,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 52,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 64
+          },
+          "convex_min_non_colliding_translation": 0.0169921154159555,
+          "convex_current_elapsed_sec": 0.4561772486194968,
+          "convex_high_search_elapsed_sec": 0.00014341576024889946,
+          "convex_binary_search_elapsed_sec": 5.739491164218634,
+          "convex_total_elapsed_sec": 6.195936485659331,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 5,
+        "child_name": "mask_006_object",
+        "parent_index": 7,
+        "parent_name": "mask_008_object",
+        "subtree_indices": [
+          5
+        ],
+        "subtree_names": [
+          "mask_006_object"
+        ],
+        "parent_top_before": 0.3577055335044861,
+        "child_bottom_before": 0.20258702337741852,
+        "current_gap_before": -0.15511851012706757,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.08925434201955795
+        ],
+        "translation_along_up": 0.08925434371996346,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.3577055335044861,
+          "child_bottom_before": 0.20258702337741852,
+          "current_gap_before": -0.15511851012706757,
+          "required_gap": 0.001,
+          "translation_along_up": 0.08925434371996346,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.04299820214509964,
+            "mtv_axis_i_to_j": [
+              -0.4378298223018646,
+              0.852000892162323,
+              0.2870531678199768
+            ],
+            "mtv_horizontal_length": 0.9579146483597987,
+            "axis_count": 587,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 95,
+            "edge_axis_count_j": 96,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 1,
+            "part_j": 5,
+            "part_pair_count": 11,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 53,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 64
+          },
+          "convex_min_non_colliding_translation": 0.08825434371996346,
+          "convex_current_elapsed_sec": 0.9095763210207224,
+          "convex_high_search_elapsed_sec": 0.00012787897139787674,
+          "convex_binary_search_elapsed_sec": 5.792162276804447,
+          "convex_total_elapsed_sec": 6.701983115170151,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 3,
+        "child_name": "mask_004_object",
+        "parent_index": 4,
+        "parent_name": "mask_005_object",
+        "subtree_indices": [
+          3,
+          2
+        ],
+        "subtree_names": [
+          "mask_004_object",
+          "mask_003_object"
+        ],
+        "parent_top_before": 0.5195580124855042,
+        "child_bottom_before": 0.40665361285209656,
+        "current_gap_before": -0.11290439963340759,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.1091098040342331
+        ],
+        "translation_along_up": 0.10910980573451078,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.5195580124855042,
+          "child_bottom_before": 0.40665361285209656,
+          "current_gap_before": -0.11290439963340759,
+          "required_gap": 0.001,
+          "translation_along_up": 0.10910980573451078,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.018402690067887306,
+            "mtv_axis_i_to_j": [
+              -0.9818681478500366,
+              0.1802891343832016,
+              -0.05857250839471817
+            ],
+            "mtv_horizontal_length": 0.9982831420689751,
+            "axis_count": 619,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 96,
+            "edge_axis_count_j": 96,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 1,
+            "part_j": 3,
+            "part_pair_count": 7,
+            "part_count_i": 2,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 9,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 2,
+            "part_count_i": 2,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 14
+          },
+          "convex_min_non_colliding_translation": 0.10810980573451077,
+          "convex_current_elapsed_sec": 0.23948507569730282,
+          "convex_high_search_elapsed_sec": 0.018646128941327333,
+          "convex_binary_search_elapsed_sec": 2.3759311572648585,
+          "convex_total_elapsed_sec": 2.634151362814009,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      }
+    ],
+    "support_skipped_actions": [
+      {
+        "child_index": 12,
+        "child_name": "mask_013_object",
+        "parent_index": 13,
+        "parent_name": "mask_014_object",
+        "reason": "convex_support_pair_not_colliding",
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.24270212650299072,
+          "child_bottom_before": 0.15261484682559967,
+          "current_gap_before": -0.09008727967739105,
+          "required_gap": 0.001,
+          "translation_along_up": 0.0,
+          "needs_translation": false,
+          "convex_current_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 5,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 59
+          },
+          "convex_current_elapsed_sec": 0.024834672920405865,
+          "convex_total_elapsed_sec": 0.02485775901004672,
+          "reason": "convex_support_pair_not_colliding"
+        }
+      },
+      {
+        "child_index": 2,
+        "child_name": "mask_003_object",
+        "parent_index": 3,
+        "parent_name": "mask_004_object",
+        "reason": "convex_support_pair_not_colliding",
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.6956929564476013,
+          "child_bottom_before": 0.7220690250396729,
+          "current_gap_before": 0.026376068592071533,
+          "required_gap": 0.001,
+          "translation_along_up": 0.0,
+          "needs_translation": false,
+          "convex_current_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 64
+          },
+          "convex_current_elapsed_sec": 0.00018557626754045486,
+          "convex_total_elapsed_sec": 0.00019397307187318802,
+          "reason": "convex_support_pair_not_colliding"
+        }
+      }
+    ],
+    "root_names": null,
+    "global_translation": null,
+    "coordinate_system": "Blender/SAPIEN Z-up; all vertical support movement is along Blender Z."
+  },
+  "objects": [
+    {
+      "mask_id": 1,
+      "final_3d_object_name": "mask_001_object",
+      "semantic_label": "blue vase with flowers",
+      "description": "A dark blue vase holding dried flowers including a pink flower and white fluffy stems.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0000_mask_001_blue_vase_with_flowers.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9777186512947083,
+            -0.01577388308942318,
+            -0.20932604372501373,
+            0.23324623703956604
+          ],
+          [
+            -0.015700334683060646,
+            0.9888850450515747,
+            -0.14785102009773254,
+            -1.557348370552063
+          ],
+          [
+            0.20933158695697784,
+            0.14784318208694458,
+            0.966603696346283,
+            0.2791460156440735
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_001_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.2937350869178772
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.514625072479248
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.44005391001701355
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.15848319232463837,
+          -1.6534215211868286,
+          0.15236009657382965
+        ],
+        "bbox_max": [
+          0.4289869964122772,
+          -1.3758286237716675,
+          0.7277477383613586
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 2,
+      "final_3d_object_name": "mask_002_object",
+      "semantic_label": "yellow vase with flowers",
+      "description": "A small yellow vase holding a bouquet of dried flowers including a yellow sunflower and blue baby's breath.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0001_mask_002_yellow_vase_with_flowers.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9858066439628601,
+            -0.018632404506206512,
+            -0.16684743762016296,
+            -0.2887965738773346
+          ],
+          [
+            -0.0021252240985631943,
+            0.9923576712608337,
+            -0.12337660789489746,
+            -1.4265341758728027
+          ],
+          [
+            0.1678711473941803,
+            0.12198007106781006,
+            0.9782331585884094,
+            0.21554724872112274
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_002_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.2533409893512726
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.402711033821106
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.42387455701828003
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.41718730330467224,
+          -1.5650492906570435,
+          0.20544582605361938
+        ],
+        "bbox_max": [
+          -0.08949465304613113,
+          -1.2403727769851685,
+          0.6423032879829407
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 3,
+      "final_3d_object_name": "mask_003_object",
+      "semantic_label": "white cup",
+      "description": "The top white cup in a stack of three inverted cups.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0002_mask_003_white_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.32163214683532715,
+            -0.16713345050811768,
+            0.9319974780082703,
+            -0.27216342091560364
+          ],
+          [
+            0.8256663680076599,
+            -0.4323141574859619,
+            -0.36246341466903687,
+            -1.1511728763580322
+          ],
+          [
+            0.46349531412124634,
+            0.8860988020896912,
+            -0.0010497570037841797,
+            0.08476290106773376
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_003_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.43665197491645813
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.0661362409591675
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8414726257324219
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.5189812183380127,
+          -1.1518489122390747,
+          0.7220690250396729
+        ],
+        "bbox_max": [
+          -0.35432273149490356,
+          -0.9804235696792603,
+          0.9608761668205261
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 4,
+      "final_3d_object_name": "mask_004_object",
+      "semantic_label": "blue cup",
+      "description": "The middle blue cup in a stack of three inverted cups.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0003_mask_004_blue_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.5863908529281616,
+            -0.4054053723812103,
+            0.7012791037559509,
+            -0.4288792610168457
+          ],
+          [
+            0.10011467337608337,
+            0.8953807950019836,
+            0.43390128016471863,
+            -1.0206025838851929
+          ],
+          [
+            -0.8038176894187927,
+            -0.18422743678092957,
+            0.5656301379203796,
+            0.20372813940048218
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_004_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.43339216709136963
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.0203566551208496
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6057282090187073
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.50069260597229,
+          -1.09396231174469,
+          0.5157634615898132
+        ],
+        "bbox_max": [
+          -0.3660917580127716,
+          -0.9467509388923645,
+          0.6956929564476013
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 5,
+      "final_3d_object_name": "mask_005_object",
+      "semantic_label": "pink cup",
+      "description": "The bottom pink cup in a stack of three inverted cups.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0004_mask_005_pink_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9627401232719421,
+            -0.018254989758133888,
+            -0.26981139183044434,
+            -0.5487412810325623
+          ],
+          [
+            -0.0532827153801918,
+            0.965356171131134,
+            -0.25543761253356934,
+            -1.1421743631362915
+          ],
+          [
+            0.26512712240219116,
+            0.2602963447570801,
+            0.9284144639968872,
+            0.13150691986083984
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_005_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.5066533088684082
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1036131381988525
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.35937362909317017
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.5927954316139221,
+          -1.1913591623306274,
+          0.1991892158985138
+        ],
+        "bbox_max": [
+          -0.4205111861228943,
+          -1.0158672332763672,
+          0.5195580124855042
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 6,
+      "final_3d_object_name": "mask_006_object",
+      "semantic_label": "green pear",
+      "description": "A green pear sitting inside a white bowl.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0005_mask_006_green_pear.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.537042498588562,
+            -0.8401880264282227,
+            -0.07529622316360474,
+            -0.277892142534256
+          ],
+          [
+            0.7711553573608398,
+            0.5251694917678833,
+            -0.3598838746547699,
+            -0.8962258100509644
+          ],
+          [
+            0.3419134020805359,
+            0.135207861661911,
+            0.9299538135528564,
+            0.20047883689403534
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_006_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.19684024155139923
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.815058708190918
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.37695080041885376
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.2976459264755249,
+          -0.883644163608551,
+          0.29184141755104065
+        ],
+        "bbox_max": [
+          -0.09603454917669296,
+          -0.7464732527732849,
+          0.4620601534843445
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 7,
+      "final_3d_object_name": "mask_007_object",
+      "semantic_label": "red apple",
+      "description": "A red apple sitting inside a white bowl next to a pear.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0006_mask_007_red_apple.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.7249687910079956,
+            -0.4612569510936737,
+            -0.5115293860435486,
+            -0.3899064064025879
+          ],
+          [
+            -0.3601934611797333,
+            0.3791341781616211,
+            -0.8523602485656738,
+            -0.8436638712882996
+          ],
+          [
+            0.587095320224762,
+            0.8021841049194336,
+            0.10871875286102295,
+            0.10640154778957367
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_007_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.3398151397705078
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.7419887781143188
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.27197471261024475
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.4161812961101532,
+          -0.8136578798294067,
+          0.1972350776195526
+        ],
+        "bbox_max": [
+          -0.2634489834308624,
+          -0.6703196167945862,
+          0.3467143476009369
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 8,
+      "final_3d_object_name": "mask_008_object",
+      "semantic_label": "white bowl",
+      "description": "A translucent white bowl containing a pear and an apple.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0007_mask_008_white_bowl.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.985315203666687,
+            -0.024470314383506775,
+            -0.16898253560066223,
+            -0.34073421359062195
+          ],
+          [
+            -0.016445234417915344,
+            0.9714754819869995,
+            -0.2365691214799881,
+            -0.8267900943756104
+          ],
+          [
+            0.16995131969451904,
+            0.23587410151958466,
+            0.9568071365356445,
+            0.09899626672267914
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_008_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.3218756318092346
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.8012197017669678
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.24262261390686035
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.4985876977443695,
+          -0.9757485389709473,
+          0.127539724111557
+        ],
+        "bbox_max": [
+          -0.14516358077526093,
+          -0.6266908049583435,
+          0.3577055037021637
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 9,
+      "final_3d_object_name": "mask_009_object",
+      "semantic_label": "yellow cup",
+      "description": "A yellow ceramic cup sitting on a tray.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0008_mask_009_yellow_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9970456957817078,
+            -0.06640219688415527,
+            0.03860831633210182,
+            0.4024665653705597
+          ],
+          [
+            0.07398390769958496,
+            0.9653233885765076,
+            -0.2503541111946106,
+            -1.0747298002243042
+          ],
+          [
+            -0.020645450800657272,
+            0.2524709105491638,
+            0.9673842191696167,
+            0.11401639133691788
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_009_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.40371912717819214
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.0391337871551514
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2040354609489441
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.3211027681827545,
+          -1.1225916147232056,
+          0.12260065972805023
+        ],
+        "bbox_max": [
+          0.48633551597595215,
+          -0.9556758999824524,
+          0.28547027707099915
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 10,
+      "final_3d_object_name": "mask_010_object",
+      "semantic_label": "white cup",
+      "description": "A white ceramic cup sitting on a tray.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0009_mask_010_white_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9938061833381653,
+            -0.033833350986242294,
+            -0.10585150867700577,
+            0.42733708024024963
+          ],
+          [
+            -0.0038954922929406166,
+            0.9413344860076904,
+            -0.33745256066322327,
+            -0.9386278390884399
+          ],
+          [
+            0.11105882376432419,
+            0.33577480912208557,
+            0.9353722333908081,
+            0.1516803503036499
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_010_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.46436262130737305
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.879572868347168
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.17646028101444244
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.38430097699165344,
+          -0.9556416273117065,
+          0.10114637762308121
+        ],
+        "bbox_max": [
+          0.544424295425415,
+          -0.8035041689872742,
+          0.2517741918563843
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 11,
+      "final_3d_object_name": "mask_011_object",
+      "semantic_label": "orange cup",
+      "description": "An orange ceramic cup sitting on a tray.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0010_mask_011_orange_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9912657737731934,
+            -0.0836818590760231,
+            -0.10192910581827164,
+            0.27650755643844604
+          ],
+          [
+            0.008985131978988647,
+            0.8139539957046509,
+            -0.580859899520874,
+            -0.8837021589279175
+          ],
+          [
+            0.13157303631305695,
+            0.5748707056045532,
+            0.8075965642929077,
+            0.15291954576969147
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_011_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.30387812852859497
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.8145586252212524
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.20194506645202637
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.21847105026245117,
+          -0.901634693145752,
+          0.11463064700365067
+        ],
+        "bbox_max": [
+          0.38928520679473877,
+          -0.7274826169013977,
+          0.28925949335098267
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 12,
+      "final_3d_object_name": "mask_012_object",
+      "semantic_label": "green cup",
+      "description": "A green ceramic cup sitting on a tray.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0011_mask_012_green_cup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9818167686462402,
+            -0.02807804010808468,
+            -0.18774300813674927,
+            0.07724137604236603
+          ],
+          [
+            -0.08131160587072372,
+            0.8314764499664307,
+            -0.5495774745941162,
+            -0.8071017861366272
+          ],
+          [
+            0.1715349555015564,
+            0.5548501014709473,
+            0.8140743970870972,
+            0.1530618518590927
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_012_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.11012579500675201
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.7468984127044678
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.20896273851394653
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.02412615530192852,
+          -0.8337244391441345,
+          0.12674196064472198
+        ],
+        "bbox_max": [
+          0.19612543284893036,
+          -0.660072386264801,
+          0.2911835014820099
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 13,
+      "final_3d_object_name": "mask_013_object",
+      "semantic_label": "white teapot",
+      "description": "A white teapot with a lid sitting on a tray.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0012_mask_013_white_teapot.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9879093766212463,
+            -0.04913313686847687,
+            -0.1470409780740738,
+            0.1223519891500473
+          ],
+          [
+            0.009954776614904404,
+            0.9665983319282532,
+            -0.2561027407646179,
+            -1.0540128946304321
+          ],
+          [
+            0.15471269190311432,
+            0.25154250860214233,
+            0.9554006457328796,
+            0.1490381807088852
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_013_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.14536741375923157
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.014904499053955
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.27167487144470215
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.07902028411626816,
+          -1.1522166728973389,
+          0.15261489152908325
+        ],
+        "bbox_max": [
+          0.3697551190853119,
+          -0.8775924444198608,
+          0.39073482155799866
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 14,
+      "final_3d_object_name": "mask_014_object",
+      "semantic_label": "tray",
+      "description": "A rectangular white tray with a grid pattern holding a teapot and four cups.",
+      "web_asset_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0013_mask_014_tray.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9857103228569031,
+            -0.010074758902192116,
+            -0.16814787685871124,
+            0.21232721209526062
+          ],
+          [
+            -0.021826470270752907,
+            0.982155978679657,
+            -0.18679726123809814,
+            -1.032020926475525
+          ],
+          [
+            0.16702939569950104,
+            0.18779805302619934,
+            0.967901349067688,
+            0.04957672953605652
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_014_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.2281818836927414
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.0169298648834229
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.12135112285614014
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.1390073597431183,
+          -1.3686017990112305,
+          1.1920928955078125e-07
+        ],
+        "bbox_max": [
+          0.5953711271286011,
+          -0.66525799036026,
+          0.24270212650299072
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    }
+  ]
+}

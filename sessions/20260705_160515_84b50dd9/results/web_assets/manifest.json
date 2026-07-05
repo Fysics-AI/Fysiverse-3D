@@ -1,0 +1,75 @@
+{
+  "schema": "fysiverse_web_assets.v1",
+  "objects": [
+    {
+      "index": 0,
+      "mask_id": 1,
+      "name": "mask_001_object",
+      "semantic_label": "blue coffee bag",
+      "web_glb": "sessions/20260705_160515_84b50dd9/results/web_assets/web_objects/0000_mask_001_blue_coffee_bag.glb"
+    },
+    {
+      "index": 1,
+      "mask_id": 2,
+      "name": "mask_002_object",
+      "semantic_label": "red coffee box",
+      "web_glb": "sessions/20260705_160515_84b50dd9/results/web_assets/web_objects/0001_mask_002_red_coffee_box.glb"
+    },
+    {
+      "index": 2,
+      "mask_id": 3,
+      "name": "mask_003_object",
+      "semantic_label": "white mug",
+      "web_glb": "sessions/20260705_160515_84b50dd9/results/web_assets/web_objects/0002_mask_003_white_mug.glb"
+    },
+    {
+      "index": 3,
+      "mask_id": 4,
+      "name": "mask_004_object",
+      "semantic_label": "small patterned cup",
+      "web_glb": "sessions/20260705_160515_84b50dd9/results/web_assets/web_objects/0003_mask_004_small_patterned_cup.glb"
+    },
+    {
+      "index": 4,
+      "mask_id": 5,
+      "name": "mask_005_object",
+      "semantic_label": "metal spoon",
+      "web_glb": "sessions/20260705_160515_84b50dd9/results/web_assets/web_objects/0004_mask_005_metal_spoon.glb"
+    },
+    {
+      "index": 5,
+      "mask_id": 6,
+      "name": "mask_006_object",
+      "semantic_label": "white saucer",
+      "web_glb": "sessions/20260705_160515_84b50dd9/results/web_assets/web_objects/0005_mask_006_white_saucer.glb"
+    },
+    {
+      "index": 6,
+      "mask_id": 7,
+      "name": "mask_007_object",
+      "semantic_label": "metal portafilter",
+      "web_glb": "sessions/20260705_160515_84b50dd9/results/web_assets/web_objects/0006_mask_007_metal_portafilter.glb"
+    },
+    {
+      "index": 7,
+      "mask_id": 8,
+      "name": "mask_008_object",
+      "semantic_label": "beige box",
+      "web_glb": "sessions/20260705_160515_84b50dd9/results/web_assets/web_objects/0007_mask_008_beige_box.glb"
+    },
+    {
+      "index": 8,
+      "mask_id": 9,
+      "name": "mask_009_object",
+      "semantic_label": "white tumbler",
+      "web_glb": "sessions/20260705_160515_84b50dd9/results/web_assets/web_objects/0008_mask_009_white_tumbler.glb"
+    },
+    {
+      "index": 9,
+      "mask_id": 10,
+      "name": "mask_010_object",
+      "semantic_label": "moka pot",
+      "web_glb": "sessions/20260705_160515_84b50dd9/results/web_assets/web_objects/0009_mask_010_moka_pot.glb"
+    }
+  ]
+}

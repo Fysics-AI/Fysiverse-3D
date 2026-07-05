@@ -1,0 +1,1065 @@
+{
+  "schema": "fysiverse_final_scene_manifest.v1",
+  "support": {
+    "bbox_snap_mode": "global_support_aware",
+    "support_adjust": true,
+    "support_gap": 0.001,
+    "support_relation_source": "scene_graph",
+    "support_relations": [
+      {
+        "upper_index": 3,
+        "upper_name": "mask_004_object",
+        "upper_mask_id": 4,
+        "lower_index": 6,
+        "lower_name": "mask_007_object",
+        "lower_mask_id": 7,
+        "overlap_area": 0.15666570158480442,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.15666570158480442,
+        "lower_area_xy": 1.420382158790892,
+        "bottom_to_lower_top_gap": -0.10799404978752136,
+        "confidence": 0.95,
+        "reason": "The fried food pieces rest on the surface of the tray compartment.",
+        "score_tuple": [
+          -0.95,
+          0.10799404978752136
+        ]
+      },
+      {
+        "upper_index": 4,
+        "upper_name": "mask_005_object",
+        "upper_mask_id": 5,
+        "lower_index": 6,
+        "lower_name": "mask_007_object",
+        "lower_mask_id": 7,
+        "overlap_area": 0.1615781109705381,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.1615781109705381,
+        "lower_area_xy": 1.420382158790892,
+        "bottom_to_lower_top_gap": -0.11747458577156067,
+        "confidence": 0.95,
+        "reason": "The sesame cake rests on the surface of the tray compartment.",
+        "score_tuple": [
+          -0.95,
+          0.11747458577156067
+        ]
+      },
+      {
+        "upper_index": 1,
+        "upper_name": "mask_002_object",
+        "upper_mask_id": 2,
+        "lower_index": 6,
+        "lower_name": "mask_007_object",
+        "lower_mask_id": 7,
+        "overlap_area": 0.13843519474605614,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.13843519474605614,
+        "lower_area_xy": 1.420382158790892,
+        "bottom_to_lower_top_gap": -0.12847350537776947,
+        "confidence": 0.95,
+        "reason": "The sweet potato rests on the surface of the tray compartment.",
+        "score_tuple": [
+          -0.95,
+          0.12847350537776947
+        ]
+      },
+      {
+        "upper_index": 5,
+        "upper_name": "mask_006_object",
+        "upper_mask_id": 6,
+        "lower_index": 6,
+        "lower_name": "mask_007_object",
+        "lower_mask_id": 7,
+        "overlap_area": 0.19809158621095335,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.19809158621095335,
+        "lower_area_xy": 1.420382158790892,
+        "bottom_to_lower_top_gap": -0.15502987802028656,
+        "confidence": 0.95,
+        "reason": "The paper bag rests on the surface of the tray.",
+        "score_tuple": [
+          -0.95,
+          0.15502987802028656
+        ]
+      },
+      {
+        "upper_index": 2,
+        "upper_name": "mask_003_object",
+        "upper_mask_id": 3,
+        "lower_index": 6,
+        "lower_name": "mask_007_object",
+        "lower_mask_id": 7,
+        "overlap_area": 0.20519438664441658,
+        "overlap_ratio_to_upper": 1.0,
+        "upper_area_xy": 0.20519438664441658,
+        "lower_area_xy": 1.420382158790892,
+        "bottom_to_lower_top_gap": -0.15818016231060028,
+        "confidence": 0.95,
+        "reason": "The chicken dish rests on the surface of the tray compartment.",
+        "score_tuple": [
+          -0.95,
+          0.15818016231060028
+        ]
+      }
+    ],
+    "scene_graph_support_relations": [
+      {
+        "upper_mask_id": 2,
+        "lower_mask_id": 7,
+        "confidence": 0.95,
+        "reason": "The sweet potato rests on the surface of the tray compartment."
+      },
+      {
+        "upper_mask_id": 3,
+        "lower_mask_id": 7,
+        "confidence": 0.95,
+        "reason": "The chicken dish rests on the surface of the tray compartment."
+      },
+      {
+        "upper_mask_id": 4,
+        "lower_mask_id": 7,
+        "confidence": 0.95,
+        "reason": "The fried food pieces rest on the surface of the tray compartment."
+      },
+      {
+        "upper_mask_id": 5,
+        "lower_mask_id": 7,
+        "confidence": 0.95,
+        "reason": "The sesame cake rests on the surface of the tray compartment."
+      },
+      {
+        "upper_mask_id": 6,
+        "lower_mask_id": 7,
+        "confidence": 0.95,
+        "reason": "The paper bag rests on the surface of the tray."
+      }
+    ],
+    "support_actions": [
+      {
+        "child_index": 2,
+        "child_name": "mask_003_object",
+        "parent_index": 6,
+        "parent_name": "mask_007_object",
+        "subtree_indices": [
+          2
+        ],
+        "subtree_names": [
+          "mask_003_object"
+        ],
+        "parent_top_before": 0.35468024015426636,
+        "child_bottom_before": 0.19650007784366608,
+        "current_gap_before": -0.15818016231060028,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.0748467892408371
+        ],
+        "translation_along_up": 0.07484679094140946,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.35468024015426636,
+          "child_bottom_before": 0.19650007784366608,
+          "current_gap_before": -0.15818016231060028,
+          "required_gap": 0.001,
+          "translation_along_up": 0.07484679094140946,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.055100610945373774,
+            "mtv_axis_i_to_j": [
+              0.026036206632852554,
+              -0.9996609687805176,
+              -0.0
+            ],
+            "mtv_horizontal_length": 0.9999999682795152,
+            "axis_count": 627,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 96,
+            "edge_axis_count_j": 96,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 6,
+            "part_j": 2,
+            "part_pair_count": 11,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 53,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 64
+          },
+          "convex_min_non_colliding_translation": 0.07384679094140946,
+          "convex_current_elapsed_sec": 0.29650839883834124,
+          "convex_high_search_elapsed_sec": 0.00012871203944087029,
+          "convex_binary_search_elapsed_sec": 2.216742480173707,
+          "convex_total_elapsed_sec": 2.513459379784763,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 4,
+        "child_name": "mask_005_object",
+        "parent_index": 6,
+        "parent_name": "mask_007_object",
+        "subtree_indices": [
+          4
+        ],
+        "subtree_names": [
+          "mask_005_object"
+        ],
+        "parent_top_before": 0.35468024015426636,
+        "child_bottom_before": 0.2372056543827057,
+        "current_gap_before": -0.11747458577156067,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.04051485285162926
+        ],
+        "translation_along_up": 0.04051485268787874,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.35468024015426636,
+          "child_bottom_before": 0.2372056543827057,
+          "current_gap_before": -0.11747458577156067,
+          "required_gap": 0.001,
+          "translation_along_up": 0.04051485268787874,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.03442765027284622,
+            "mtv_axis_i_to_j": [
+              0.466054767370224,
+              -0.15409442782402039,
+              0.8712335228919983
+            ],
+            "mtv_horizontal_length": 0.4908687593185431,
+            "axis_count": 589,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 94,
+            "edge_axis_count_j": 95,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 7,
+            "part_j": 2,
+            "part_pair_count": 10,
+            "part_count_i": 8,
+            "part_count_j": 7,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 46,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 7,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 56
+          },
+          "convex_min_non_colliding_translation": 0.039514852687878736,
+          "convex_current_elapsed_sec": 0.309457466006279,
+          "convex_high_search_elapsed_sec": 0.00011749193072319031,
+          "convex_binary_search_elapsed_sec": 2.0518232816830277,
+          "convex_total_elapsed_sec": 2.361498170066625,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 3,
+        "child_name": "mask_004_object",
+        "parent_index": 6,
+        "parent_name": "mask_007_object",
+        "subtree_indices": [
+          3
+        ],
+        "subtree_names": [
+          "mask_004_object"
+        ],
+        "parent_top_before": 0.35468024015426636,
+        "child_bottom_before": 0.246686190366745,
+        "current_gap_before": -0.10799404978752136,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.07555463910102844
+        ],
+        "translation_along_up": 0.0755546408004264,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.35468024015426636,
+          "child_bottom_before": 0.246686190366745,
+          "current_gap_before": -0.10799404978752136,
+          "required_gap": 0.001,
+          "translation_along_up": 0.0755546408004264,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.07209939509630203,
+            "mtv_axis_i_to_j": [
+              -0.1352470964193344,
+              0.2155953049659729,
+              0.9670713543891907
+            ],
+            "mtv_horizontal_length": 0.2545056239324224,
+            "axis_count": 523,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 95,
+            "edge_axis_count_j": 95,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 4,
+            "part_j": 1,
+            "part_pair_count": 26,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 38,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 1,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 63
+          },
+          "convex_min_non_colliding_translation": 0.0745546408004264,
+          "convex_current_elapsed_sec": 0.38224025210365653,
+          "convex_high_search_elapsed_sec": 0.022746422328054905,
+          "convex_binary_search_elapsed_sec": 2.449082611128688,
+          "convex_total_elapsed_sec": 2.854170843027532,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 5,
+        "child_name": "mask_006_object",
+        "parent_index": 6,
+        "parent_name": "mask_007_object",
+        "subtree_indices": [
+          5
+        ],
+        "subtree_names": [
+          "mask_006_object"
+        ],
+        "parent_top_before": 0.35468024015426636,
+        "child_bottom_before": 0.1996503621339798,
+        "current_gap_before": -0.15502987802028656,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.016721567139029503
+        ],
+        "translation_along_up": 0.01672156790747572,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.35468024015426636,
+          "child_bottom_before": 0.1996503621339798,
+          "current_gap_before": -0.15502987802028656,
+          "required_gap": 0.001,
+          "translation_along_up": 0.01672156790747572,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.009116505272686481,
+            "mtv_axis_i_to_j": [
+              -0.02091134898364544,
+              -0.925586998462677,
+              0.3779570162296295
+            ],
+            "mtv_horizontal_length": 0.9258231884325773,
+            "axis_count": 640,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 96,
+            "edge_axis_count_j": 96,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 6,
+            "part_j": 5,
+            "part_pair_count": 10,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 54,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 0,
+            "part_count_i": 8,
+            "part_count_j": 8,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 64
+          },
+          "convex_min_non_colliding_translation": 0.01572156790747572,
+          "convex_current_elapsed_sec": 0.07353201182559133,
+          "convex_high_search_elapsed_sec": 0.00013905391097068787,
+          "convex_binary_search_elapsed_sec": 1.8784765540622175,
+          "convex_total_elapsed_sec": 1.952235640026629,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      },
+      {
+        "child_index": 1,
+        "child_name": "mask_002_object",
+        "parent_index": 6,
+        "parent_name": "mask_007_object",
+        "subtree_indices": [
+          1
+        ],
+        "subtree_names": [
+          "mask_002_object"
+        ],
+        "parent_top_before": 0.35468024015426636,
+        "child_bottom_before": 0.2262067347764969,
+        "current_gap_before": -0.12847350537776947,
+        "required_gap": 0.001,
+        "translation": [
+          0.0,
+          0.0,
+          0.1128891333937645
+        ],
+        "translation_along_up": 0.11288913509339164,
+        "separation": {
+          "method": "convex_hull_sat",
+          "parent_top_before": 0.35468024015426636,
+          "child_bottom_before": 0.2262067347764969,
+          "current_gap_before": -0.12847350537776947,
+          "required_gap": 0.001,
+          "translation_along_up": 0.11288913509339164,
+          "needs_translation": true,
+          "convex_current_collision": {
+            "colliding": true,
+            "reason": "sat_overlap",
+            "penetration_depth": 0.10706429230049253,
+            "mtv_axis_i_to_j": [
+              -0.03224128857254982,
+              0.19573624432086945,
+              0.9801264405250549
+            ],
+            "mtv_horizontal_length": 0.1983738340347777,
+            "axis_count": 595,
+            "face_axis_count_i": 128,
+            "face_axis_count_j": 128,
+            "edge_axis_count_i": 95,
+            "edge_axis_count_j": 85,
+            "cross_axis_count": 384,
+            "collision_i_status": "ok",
+            "collision_j_status": "ok",
+            "part_i": 4,
+            "part_j": 2,
+            "part_pair_count": 6,
+            "part_count_i": 8,
+            "part_count_j": 5,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 34,
+            "decomposition_method_i": "coacd",
+            "decomposition_method_j": "coacd"
+          },
+          "convex_resolved_collision": {
+            "colliding": false,
+            "reason": "convex_part_bbox_separated",
+            "part_i": 0,
+            "part_j": 0,
+            "part_pair_count": 2,
+            "part_count_i": 8,
+            "part_count_j": 5,
+            "skipped_part_pair_count": 0,
+            "bbox_skipped_part_pair_count": 38
+          },
+          "convex_min_non_colliding_translation": 0.11188913509339164,
+          "convex_current_elapsed_sec": 0.3792090439237654,
+          "convex_high_search_elapsed_sec": 0.13590773474425077,
+          "convex_binary_search_elapsed_sec": 6.520542377140373,
+          "convex_total_elapsed_sec": 7.0357734598219395,
+          "reason": "convex_support_pair_vertical_separation"
+        }
+      }
+    ],
+    "support_skipped_actions": [],
+    "root_names": null,
+    "global_translation": null,
+    "coordinate_system": "Blender/SAPIEN Z-up; all vertical support movement is along Blender Z."
+  },
+  "objects": [
+    {
+      "mask_id": 1,
+      "final_3d_object_name": "mask_001_object",
+      "semantic_label": "bowl of soup",
+      "description": "White ceramic bowl containing a creamy porridge or soup with red beans, with a spoon inside.",
+      "web_asset_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0000_mask_001_bowl_of_soup.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9996383190155029,
+            -0.0033437670208513737,
+            -0.026684364303946495,
+            0.667786717414856
+          ],
+          [
+            -0.0010406669462099671,
+            0.986687421798706,
+            -0.16262497007846832,
+            -0.9066110253334045
+          ],
+          [
+            0.02687290497124195,
+            0.16259391605854034,
+            0.986327052116394,
+            0.160936176776886
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_001_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.6722748279571533
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.8787067532539368
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.34401699900627136
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.41215062141418457,
+          -1.1373023986816406,
+          0.16936393082141876
+        ],
+        "bbox_max": [
+          0.9323989748954773,
+          -0.6201111078262329,
+          0.5186700820922852
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 2,
+      "final_3d_object_name": "mask_002_object",
+      "semantic_label": "roasted sweet potato",
+      "description": "A whole roasted sweet potato with dark purple/brown skin, sitting in a tray compartment.",
+      "web_asset_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0001_mask_002_roasted_sweet_potato.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9856839776039124,
+            0.008887563832104206,
+            0.1683688908815384,
+            0.1271103322505951
+          ],
+          [
+            0.0009904010221362114,
+            0.9982872605323792,
+            -0.0584939680993557,
+            -0.6455799341201782
+          ],
+          [
+            -0.168600395321846,
+            0.05782331898808479,
+            0.9839869737625122,
+            0.31562429666519165
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_002_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.10939263552427292
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.6354010701179504
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.44354307651519775
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.010353636927902699,
+          -0.9244188070297241,
+          0.3390958607196808
+        ],
+        "bbox_max": [
+          0.22913891077041626,
+          -0.34638330340385437,
+          0.5479903221130371
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 3,
+      "final_3d_object_name": "mask_003_object",
+      "semantic_label": "spicy fried chicken",
+      "description": "A serving of fried chicken chunks mixed with green peppers and dried red chilies.",
+      "web_asset_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0002_mask_003_spicy_fried_chicken.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9989020228385925,
+            0.018175233155488968,
+            0.043178632855415344,
+            -0.04865903779864311
+          ],
+          [
+            -0.01090386975556612,
+            0.9865620732307434,
+            -0.1630227267742157,
+            -0.30238401889801025
+          ],
+          [
+            -0.04556138068437576,
+            0.1623729169368744,
+            0.9856770038604736,
+            0.2562541663646698
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_003_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.05397552251815796
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.2766609787940979
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.3455142378807068
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.268812358379364,
+          -0.5154403448104858,
+          0.2713468372821808
+        ],
+        "bbox_max": [
+          0.1608613133430481,
+          -0.03788158297538757,
+          0.4196816086769104
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 4,
+      "final_3d_object_name": "mask_004_object",
+      "semantic_label": "fried food pieces",
+      "description": "Several pieces of golden-brown fried food, possibly chicken or fish, in a tray compartment.",
+      "web_asset_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0003_mask_004_fried_food_pieces.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.999937117099762,
+            -0.010950548574328423,
+            -0.0024159972090274096,
+            -0.23507565259933472
+          ],
+          [
+            0.01110127568244934,
+            0.9971053004264832,
+            0.0752185508608818,
+            -0.6721476912498474
+          ],
+          [
+            0.0015853190561756492,
+            -0.07524064928293228,
+            0.9971641302108765,
+            0.27576854825019836
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_004_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.24062858521938324
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.6598472595214844
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.3867698013782501
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.4616087079048157,
+          -0.8370867967605591,
+          0.3222408592700958
+        ],
+        "bbox_max": [
+          -0.019648460671305656,
+          -0.4826076626777649,
+          0.4512987434864044
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 5,
+      "final_3d_object_name": "mask_005_object",
+      "semantic_label": "sesame cake",
+      "description": "A round, dark purple cake or cookie densely covered with white sesame seeds.",
+      "web_asset_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0004_mask_005_sesame_cake.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.991065263748169,
+            -0.015869498252868652,
+            0.1324303299188614,
+            -0.6329652070999146
+          ],
+          [
+            0.029592998325824738,
+            0.9943119883537292,
+            -0.10231314599514008,
+            -0.7536554336547852
+          ],
+          [
+            -0.13005341589450836,
+            0.10531800985336304,
+            0.9858976602554321,
+            0.25215741991996765
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_005_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.6559056043624878
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.7261964082717896
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.3430311679840088
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.8533903956413269,
+          -0.930741548538208,
+          0.27772054076194763
+        ],
+        "bbox_max": [
+          -0.4584208130836487,
+          -0.5216512680053711,
+          0.40834182500839233
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 6,
+      "final_3d_object_name": "mask_006_object",
+      "semantic_label": "Roujiamo bag",
+      "description": "A brown paper bag printed with a pagoda and Chinese characters 'Roujiamo' (meat burger).",
+      "web_asset_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0005_mask_006_Roujiamo_bag.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9495397210121155,
+            -0.061882033944129944,
+            -0.30748167634010315,
+            -0.6686414480209351
+          ],
+          [
+            -0.026904873549938202,
+            0.9606595635414124,
+            -0.2764224112033844,
+            -0.3013121783733368
+          ],
+          [
+            0.3124907910823822,
+            0.27074679732322693,
+            0.9105194807052612,
+            0.290770024061203
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_006_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.6508927941322327
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.24711716175079346
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.34460559487342834
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.8954190611839294,
+          -0.4496430456638336,
+          0.21637193858623505
+        ],
+        "bbox_max": [
+          -0.4063664972782135,
+          -0.044591277837753296,
+          0.47283923625946045
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 7,
+      "final_3d_object_name": "mask_007_object",
+      "semantic_label": "food tray",
+      "description": "A white, compartmentalized plastic cafeteria tray holding various food items.",
+      "web_asset_glb": "sessions/20260704_205848_2f0dac13/results/web_assets/web_objects/0006_mask_007_food_tray.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9979828000068665,
+            0.00188632111530751,
+            0.06345651298761368,
+            -0.3026414215564728
+          ],
+          [
+            0.004918891005218029,
+            0.9942560195922852,
+            -0.10691504180431366,
+            -0.4841916263103485
+          ],
+          [
+            -0.0632936879992485,
+            0.10701151192188263,
+            0.9922411441802979,
+            0.11628910899162292
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_007_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.312650203704834
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.46878179907798767
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.17734010517597198
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -1.0138508081436157,
+          -0.9751926064491272,
+          -2.9336661100387573e-08
+        ],
+        "bbox_max": [
+          0.38855043053627014,
+          0.03762901946902275,
+          0.35468024015426636
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "scene": "outdoor_1_demo",
+  "world_up": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "splat": {
+    "url": "background.ksplat",
+    "format": "ksplat",
+    "position": [
+      0.13931816816329956,
+      -0.8158701658248901,
+      0.5500807166099548
+    ],
+    "quaternion_xyzw": [
+      -0.15055273473262787,
+      -0.13287483155727386,
+      -0.5714312195777893,
+      0.7957037687301636
+    ],
+    "scale": [
+      1.9188954830169678,
+      1.9188954830169678,
+      1.9188954830169678
+    ]
+  },
+  "objects": [
+    {
+      "name": "white_water_bottle_mtsvwo_5",
+      "category": "white_water_bottle",
+      "url": "objects/005_object_mesh_white_water_bottle__white_water_bottle_mtsvwo.glb",
+      "position": [
+        -0.14611655473709106,
+        0.1734994798898697,
+        0.120598204433918
+      ],
+      "quaternion_xyzw": [
+        0.017812579870224,
+        0.05945369601249695,
+        0.02446986734867096,
+        0.997772216796875
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "white_mug_rokvfg_4",
+      "category": "white_mug",
+      "url": "objects/006_object_mesh_white_mug__white_mug_rokvfg.glb",
+      "position": [
+        0.006839481182396412,
+        0.16079534590244293,
+        0.043939221650362015
+      ],
+      "quaternion_xyzw": [
+        -0.0004050135612487793,
+        0.001740783452987671,
+        -0.12498646974563599,
+        0.9921569228172302
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "green_folded_umbrella_ccjlae_1",
+      "category": "green_folded_umbrella",
+      "url": "objects/007_object_mesh_green_folded_umbrella__green_folded_umbrella_ccjlae.glb",
+      "position": [
+        0.08476700633764267,
+        -0.00236551184207201,
+        0.03016921877861023
+      ],
+      "quaternion_xyzw": [
+        -0.19855110347270966,
+        -0.5418669581413269,
+        -0.2783868908882141,
+        0.7677620649337769
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "yellow_tape_measure_ilsxws_2",
+      "category": "yellow_tape_measure",
+      "url": "objects/008_object_mesh_yellow_tape_measure__yellow_tape_measure_ilsxws.glb",
+      "position": [
+        0.25351157784461975,
+        0.029171042144298553,
+        0.019931044429540634
+      ],
+      "quaternion_xyzw": [
+        0.48649823665618896,
+        0.8648961186408997,
+        0.0775383859872818,
+        0.09624050557613373
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "celsius_energy_drink_can_wdvyke_3",
+      "category": "celsius_energy_drink_can",
+      "url": "objects/009_object_mesh_celsius_energy_drink_can__celsius_energy_drink_can_wdvyke.glb",
+      "position": [
+        -0.0745229423046112,
+        0.10034829378128052,
+        0.06937893480062485
+      ],
+      "quaternion_xyzw": [
+        0.007946252822875977,
+        0.006245759781450033,
+        0.35205334424972534,
+        0.9359253644943237
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "red_handled_pliers_nqtixa_0",
+      "category": "red_handled_pliers",
+      "url": "objects/010_object_mesh_red_handled_pliers__red_handled_pliers_nqtixa.glb",
+      "position": [
+        -0.1511332094669342,
+        -0.035736214369535446,
+        0.009505365043878555
+      ],
+      "quaternion_xyzw": [
+        0.0005150557262822986,
+        0.00582629069685936,
+        0.24582162499427795,
+        0.9692975282669067
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "wooden_tray_with_red_plaid_lining_neaoym_8",
+      "category": "wooden_tray_with_red_plaid_lining",
+      "url": "objects/011_object_mesh_wooden_tray_with_red_plaid_lining__wooden_tray_with_red_plaid_lining_neaoym.glb",
+      "position": [
+        0.24866138398647308,
+        0.321142315864563,
+        0.041685789823532104
+      ],
+      "quaternion_xyzw": [
+        -0.006662649568170309,
+        -0.005598781630396843,
+        -0.3994431793689728,
+        0.9167165756225586
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "red_plastic_cup_orbdql_6",
+      "category": "red_plastic_cup",
+      "url": "objects/012_object_mesh_red_plastic_cup__red_plastic_cup_orbdql.glb",
+      "position": [
+        0.2573791742324829,
+        0.3085634708404541,
+        0.06821442395448685
+      ],
+      "quaternion_xyzw": [
+        0.0009963633492588997,
+        -0.03083890862762928,
+        -0.42077210545539856,
+        0.9066414833068848
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "grey_wicker_basket_tyikpn_7",
+      "category": "grey_wicker_basket",
+      "url": "objects/013_object_mesh_grey_wicker_basket__grey_wicker_basket_tyikpn.glb",
+      "position": [
+        -0.03112994134426117,
+        0.32496869564056396,
+        0.11700519919395447
+      ],
+      "quaternion_xyzw": [
+        -0.0002827942371368408,
+        0.00020666047930717468,
+        0.44208061695098877,
+        0.8969752788543701
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      0.03931819275021553,
+      -1.1458698511123657,
+      0.5800806879997253
+    ],
+    "quaternion_xyzw": [
+      0.5518976449966431,
+      -0.002775728004053235,
+      0.004194021224975586,
+      0.8338966965675354
+    ]
+  },
+  "controls": {
+    "enablePan": false,
+    "minDistance": 0.433,
+    "maxDistance": 1.2,
+    "leftAzimuthDelta": 0.85,
+    "rightAzimuthDelta": 1.636,
+    "maxPolarDelta": 0.35
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "version": 1,
+  "scene": "nv_desk",
+  "world_up": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "splat": {
+    "url": "background.ksplat",
+    "format": "ksplat",
+    "position": [
+      -0.06300720572471619,
+      -0.12969858944416046,
+      0.6392434239387512
+    ],
+    "quaternion_xyzw": [
+      -0.14084680378437042,
+      0.14095064997673035,
+      -0.6122317910194397,
+      0.7651583552360535
+    ],
+    "scale": [
+      2.063373327255249,
+      2.063373327255249,
+      2.063373327255249
+    ]
+  },
+  "objects": [
+    {
+      "name": "tape_dispenser_with_tape_admixx_7",
+      "category": "tape_dispenser_with_tape",
+      "url": "objects/005_object_mesh_tape_dispenser_with_tape__tape_dispenser_with_tape_admixx.glb",
+      "position": [
+        0.810174822807312,
+        -0.16203652322292328,
+        0.22033123672008514
+      ],
+      "quaternion_xyzw": [
+        0.0024275779724121094,
+        -0.006985660642385483,
+        0.7535721063613892,
+        -0.6573235392570496
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "teal_plate_qdudop_16",
+      "category": "teal_plate",
+      "url": "objects/006_object_mesh_teal_plate__teal_plate_qdudop.glb",
+      "position": [
+        0.5432934761047363,
+        0.3593527376651764,
+        0.016175011172890663
+      ],
+      "quaternion_xyzw": [
+        -0.003926063422113657,
+        0.017352499067783356,
+        0.05699560046195984,
+        0.998215913772583
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "yellow_bowl_hmtriz_18",
+      "category": "yellow_bowl",
+      "url": "objects/007_object_mesh_yellow_bowl__yellow_bowl_hmtriz.glb",
+      "position": [
+        0.7077859044075012,
+        0.18790853023529053,
+        0.04440056532621384
+      ],
+      "quaternion_xyzw": [
+        0.009860736317932606,
+        -0.002751871244981885,
+        -0.6096246838569641,
+        0.7926239371299744
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "white_bottle_wzdaet_14",
+      "category": "white_bottle",
+      "url": "objects/008_object_mesh_white_bottle__white_bottle_wzdaet.glb",
+      "position": [
+        0.5722522735595703,
+        0.38613513112068176,
+        0.07669742405414581
+      ],
+      "quaternion_xyzw": [
+        -0.04899530112743378,
+        -0.02418270707130432,
+        0.8808649778366089,
+        0.4702039062976837
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "white_spray_bottle_clfkib_6",
+      "category": "white_spray_bottle",
+      "url": "objects/009_object_mesh_white_spray_bottle__white_spray_bottle_clfkib.glb",
+      "position": [
+        0.724606990814209,
+        -0.3319712281227112,
+        0.0677010715007782
+      ],
+      "quaternion_xyzw": [
+        0.0021755099296569824,
+        0.0008903294801712036,
+        -0.482968270778656,
+        0.8756346702575684
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "blue_cup_syvtml_19",
+      "category": "blue_cup",
+      "url": "objects/010_object_mesh_blue_cup__blue_cup_syvtml.glb",
+      "position": [
+        0.6118975877761841,
+        0.5440990924835205,
+        0.056580305099487305
+      ],
+      "quaternion_xyzw": [
+        -0.0003596395254135132,
+        0.0004265308380126953,
+        0.6811214089393616,
+        0.7321703433990479
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "black_eraser_nxvbgd_8",
+      "category": "black_eraser",
+      "url": "objects/011_object_mesh_black_eraser__black_eraser_nxvbgd.glb",
+      "position": [
+        0.6073025465011597,
+        -0.3559471666812897,
+        0.009150084108114243
+      ],
+      "quaternion_xyzw": [
+        -0.0014845739351585507,
+        0.0014427334535866976,
+        -0.7063297629356384,
+        0.7078799605369568
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "orange_marker_exeoom_4",
+      "category": "orange_marker",
+      "url": "objects/012_object_mesh_orange_marker__orange_marker_exeoom.glb",
+      "position": [
+        0.4174373149871826,
+        0.11998026072978973,
+        0.008330157957971096
+      ],
+      "quaternion_xyzw": [
+        0.049249421805143356,
+        0.0749368965625763,
+        -0.6161178350448608,
+        0.7825329303741455
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "yellow_tennis_ball_awiuca_0",
+      "category": "yellow_tennis_ball",
+      "url": "objects/013_object_mesh_yellow_tennis_ball__yellow_tennis_ball_awiuca.glb",
+      "position": [
+        0.3690192997455597,
+        -0.12167666107416153,
+        0.030899707227945328
+      ],
+      "quaternion_xyzw": [
+        -0.463925302028656,
+        0.4214068055152893,
+        -0.3792736232280731,
+        0.6806918382644653
+      ],
+      "scale": [
+        1.2762813568115234,
+        1.2762813568115234,
+        1.2762813568115234
+      ]
+    },
+    {
+      "name": "blue_marker_ouwlrh_3",
+      "category": "blue_marker",
+      "url": "objects/014_object_mesh_blue_marker__blue_marker_ouwlrh.glb",
+      "position": [
+        0.6125710606575012,
+        -0.3544726073741913,
+        0.027011830359697342
+      ],
+      "quaternion_xyzw": [
+        0.5817110538482666,
+        0.7187573909759521,
+        -0.2364518642425537,
+        0.29848045110702515
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "green_pear_qovthm_17",
+      "category": "green_pear",
+      "url": "objects/015_object_mesh_green_pear__green_pear_qovthm.glb",
+      "position": [
+        0.7170695662498474,
+        0.19232626259326935,
+        0.06574702262878418
+      ],
+      "quaternion_xyzw": [
+        -0.03240549564361572,
+        -0.026972956955432892,
+        0.8258047699928284,
+        -0.5623779296875
+      ],
+      "scale": [
+        1.5513277053833008,
+        1.5513277053833008,
+        1.5513277053833008
+      ]
+    },
+    {
+      "name": "black_marker_uzfkdu_12",
+      "category": "black_marker",
+      "url": "objects/016_object_mesh_black_marker__black_marker_uzfkdu.glb",
+      "position": [
+        0.8196122050285339,
+        -0.00978165678679943,
+        0.2019316554069519
+      ],
+      "quaternion_xyzw": [
+        0.5881094932556152,
+        0.44585585594177246,
+        0.5360152721405029,
+        -0.4099118113517761
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "blue_scissors_rxikjq_9",
+      "category": "blue_scissors",
+      "url": "objects/017_object_mesh_blue_scissors__blue_scissors_rxikjq.glb",
+      "position": [
+        0.6774330139160156,
+        -0.09462587535381317,
+        0.12447343021631241
+      ],
+      "quaternion_xyzw": [
+        0.7890937924385071,
+        -0.610704779624939,
+        0.05857003480195999,
+        -0.030663788318634033
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "black_pen_selodu_11",
+      "category": "black_pen",
+      "url": "objects/018_object_mesh_black_pen__black_pen_selodu.glb",
+      "position": [
+        0.8070517778396606,
+        -0.055503323674201965,
+        0.20032376050949097
+      ],
+      "quaternion_xyzw": [
+        -0.40308284759521484,
+        0.0935649573802948,
+        -0.5581210851669312,
+        0.7192155122756958
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "red_bottle_xycgwr_15",
+      "category": "red_bottle",
+      "url": "objects/019_object_mesh_red_bottle__red_bottle_xycgwr.glb",
+      "position": [
+        0.5729240775108337,
+        0.3401387631893158,
+        0.0785970389842987
+      ],
+      "quaternion_xyzw": [
+        -0.04308085888624191,
+        0.005371034145355225,
+        0.8580954670906067,
+        0.5116516351699829
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "orange_cup_iljebh_20",
+      "category": "orange_cup",
+      "url": "objects/020_object_mesh_orange_cup__orange_cup_iljebh.glb",
+      "position": [
+        0.7285340428352356,
+        0.44916877150535583,
+        0.052105750888586044
+      ],
+      "quaternion_xyzw": [
+        -0.0010181441903114319,
+        7.75754451751709e-05,
+        0.7894970774650574,
+        0.6137535572052002
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "wooden_organizer_with_drawer_vmufpr_13",
+      "category": "wooden_organizer_with_drawer",
+      "url": "objects/021_object_mesh_wooden_organizer_with_drawer__wooden_organizer_with_drawer_vmufpr__v_2.glb",
+      "position": [
+        0.7420105338096619,
+        -0.09736767411231995,
+        0.14157447218894958
+      ],
+      "quaternion_xyzw": [
+        0.007911967113614082,
+        -0.007614323403686285,
+        0.9998717904090881,
+        0.01165409479290247
+      ],
+      "scale": [
+        0.8573749661445618,
+        0.8573749661445618,
+        0.8573749661445618
+      ]
+    },
+    {
+      "name": "red_marker_qzbrph_5",
+      "category": "red_marker",
+      "url": "objects/022_object_mesh_red_marker__red_marker_qzbrph.glb",
+      "position": [
+        0.4387088418006897,
+        0.18107561767101288,
+        0.008627071045339108
+      ],
+      "quaternion_xyzw": [
+        -0.2373361587524414,
+        -0.20810925960540771,
+        0.7245273590087891,
+        -0.6127171516418457
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "toy_burger_sdzcvw_10",
+      "category": "toy_burger",
+      "url": "objects/023_object_mesh_toy_burger__toy_burger_sdzcvw.glb",
+      "position": [
+        0.5238990187644958,
+        0.34715428948402405,
+        0.03581172600388527
+      ],
+      "quaternion_xyzw": [
+        0.0767887607216835,
+        0.01161154918372631,
+        0.9670583009719849,
+        -0.2424190193414688
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "colorful_stand_xmhhxj_2",
+      "category": "colorful_stand",
+      "url": "objects/024_object_mesh_colorful_stand__colorful_stand_xmhhxj.glb",
+      "position": [
+        0.4780862629413605,
+        -0.21946324408054352,
+        0.04399671405553818
+      ],
+      "quaternion_xyzw": [
+        -0.001607273705303669,
+        -0.0029728307854384184,
+        0.999976634979248,
+        -0.005968472454696894
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "baseball_xamsjn_1",
+      "category": "baseball",
+      "url": "objects/025_object_mesh_baseball__baseball_xamsjn.glb",
+      "position": [
+        0.48147299885749817,
+        -0.21789970993995667,
+        0.11709409207105637
+      ],
+      "quaternion_xyzw": [
+        -0.42050522565841675,
+        -0.21725410223007202,
+        0.7375849485397339,
+        0.48160630464553833
+      ],
+      "scale": [
+        1.330069661140442,
+        1.330069661140442,
+        1.330069661140442
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      -0.03595109283924103,
+      -0.45922645926475525,
+      0.5296653509140015
+    ],
+    "quaternion_xyzw": [
+      0.46668222546577454,
+      -0.23822137713432312,
+      -0.3872424066066742,
+      0.7586182355880737
+    ]
+  },
+  "controls": {
+    "enablePan": false,
+    "minDistance": 0.433,
+    "maxDistance": 1.2,
+    "leftAzimuthDelta": 0.85,
+    "rightAzimuthDelta": 1.636,
+    "maxPolarDelta": 0.35
+  }
+}

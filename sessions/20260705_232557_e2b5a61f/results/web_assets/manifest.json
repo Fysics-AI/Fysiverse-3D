@@ -1,0 +1,103 @@
+{
+  "schema": "fysiverse_web_assets.v1",
+  "objects": [
+    {
+      "index": 0,
+      "mask_id": 1,
+      "name": "mask_001_object",
+      "semantic_label": "blue vase with flowers",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0000_mask_001_blue_vase_with_flowers.glb"
+    },
+    {
+      "index": 1,
+      "mask_id": 2,
+      "name": "mask_002_object",
+      "semantic_label": "yellow vase with flowers",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0001_mask_002_yellow_vase_with_flowers.glb"
+    },
+    {
+      "index": 2,
+      "mask_id": 3,
+      "name": "mask_003_object",
+      "semantic_label": "white cup",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0002_mask_003_white_cup.glb"
+    },
+    {
+      "index": 3,
+      "mask_id": 4,
+      "name": "mask_004_object",
+      "semantic_label": "blue cup",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0003_mask_004_blue_cup.glb"
+    },
+    {
+      "index": 4,
+      "mask_id": 5,
+      "name": "mask_005_object",
+      "semantic_label": "pink cup",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0004_mask_005_pink_cup.glb"
+    },
+    {
+      "index": 5,
+      "mask_id": 6,
+      "name": "mask_006_object",
+      "semantic_label": "green pear",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0005_mask_006_green_pear.glb"
+    },
+    {
+      "index": 6,
+      "mask_id": 7,
+      "name": "mask_007_object",
+      "semantic_label": "red apple",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0006_mask_007_red_apple.glb"
+    },
+    {
+      "index": 7,
+      "mask_id": 8,
+      "name": "mask_008_object",
+      "semantic_label": "white bowl",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0007_mask_008_white_bowl.glb"
+    },
+    {
+      "index": 8,
+      "mask_id": 9,
+      "name": "mask_009_object",
+      "semantic_label": "yellow cup",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0008_mask_009_yellow_cup.glb"
+    },
+    {
+      "index": 9,
+      "mask_id": 10,
+      "name": "mask_010_object",
+      "semantic_label": "white cup",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0009_mask_010_white_cup.glb"
+    },
+    {
+      "index": 10,
+      "mask_id": 11,
+      "name": "mask_011_object",
+      "semantic_label": "orange cup",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0010_mask_011_orange_cup.glb"
+    },
+    {
+      "index": 11,
+      "mask_id": 12,
+      "name": "mask_012_object",
+      "semantic_label": "green cup",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0011_mask_012_green_cup.glb"
+    },
+    {
+      "index": 12,
+      "mask_id": 13,
+      "name": "mask_013_object",
+      "semantic_label": "white teapot",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0012_mask_013_white_teapot.glb"
+    },
+    {
+      "index": 13,
+      "mask_id": 14,
+      "name": "mask_014_object",
+      "semantic_label": "tray",
+      "web_glb": "sessions/20260705_232557_e2b5a61f/results/web_assets/web_objects/0013_mask_014_tray.glb"
+    }
+  ]
+}

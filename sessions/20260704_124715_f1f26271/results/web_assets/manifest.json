@@ -1,0 +1,75 @@
+{
+  "schema": "fysiverse_web_assets.v1",
+  "objects": [
+    {
+      "index": 0,
+      "mask_id": 1,
+      "name": "mask_001_object",
+      "semantic_label": "small patterned cup",
+      "web_glb": "sessions/20260704_124715_f1f26271/results/web_assets/web_objects/0000_mask_001_small_patterned_cup.glb"
+    },
+    {
+      "index": 1,
+      "mask_id": 2,
+      "name": "mask_002_object",
+      "semantic_label": "wooden spoon",
+      "web_glb": "sessions/20260704_124715_f1f26271/results/web_assets/web_objects/0001_mask_002_wooden_spoon.glb"
+    },
+    {
+      "index": 2,
+      "mask_id": 3,
+      "name": "mask_003_object",
+      "semantic_label": "small spice jar",
+      "web_glb": "sessions/20260704_124715_f1f26271/results/web_assets/web_objects/0002_mask_003_small_spice_jar.glb"
+    },
+    {
+      "index": 3,
+      "mask_id": 4,
+      "name": "mask_004_object",
+      "semantic_label": "S&B spice jar",
+      "web_glb": "sessions/20260704_124715_f1f26271/results/web_assets/web_objects/0003_mask_004_S_B_spice_jar.glb"
+    },
+    {
+      "index": 4,
+      "mask_id": 5,
+      "name": "mask_005_object",
+      "semantic_label": "jar with black lid",
+      "web_glb": "sessions/20260704_124715_f1f26271/results/web_assets/web_objects/0004_mask_005_jar_with_black_lid.glb"
+    },
+    {
+      "index": 5,
+      "mask_id": 6,
+      "name": "mask_006_object",
+      "semantic_label": "white bowl",
+      "web_glb": "sessions/20260704_124715_f1f26271/results/web_assets/web_objects/0005_mask_006_white_bowl.glb"
+    },
+    {
+      "index": 6,
+      "mask_id": 7,
+      "name": "mask_007_object",
+      "semantic_label": "black tongs",
+      "web_glb": "sessions/20260704_124715_f1f26271/results/web_assets/web_objects/0006_mask_007_black_tongs.glb"
+    },
+    {
+      "index": 7,
+      "mask_id": 8,
+      "name": "mask_008_object",
+      "semantic_label": "olive oil bottle",
+      "web_glb": "sessions/20260704_124715_f1f26271/results/web_assets/web_objects/0007_mask_008_olive_oil_bottle.glb"
+    },
+    {
+      "index": 8,
+      "mask_id": 9,
+      "name": "mask_009_object",
+      "semantic_label": "oat milk carton",
+      "web_glb": "sessions/20260704_124715_f1f26271/results/web_assets/web_objects/0008_mask_009_oat_milk_carton.glb"
+    },
+    {
+      "index": 9,
+      "mask_id": 10,
+      "name": "mask_010_object",
+      "semantic_label": "lactose free milk carton",
+      "web_glb": "sessions/20260704_124715_f1f26271/results/web_assets/web_objects/0009_mask_010_lactose_free_milk_carton.glb"
+    }
+  ]
+}

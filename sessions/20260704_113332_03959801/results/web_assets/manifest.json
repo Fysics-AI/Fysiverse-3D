@@ -1,0 +1,82 @@
+{
+  "schema": "fysiverse_web_assets.v1",
+  "objects": [
+    {
+      "index": 0,
+      "mask_id": 1,
+      "name": "mask_001_object",
+      "semantic_label": "potted succulent plant",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0000_mask_001_potted_succulent_plant.glb"
+    },
+    {
+      "index": 1,
+      "mask_id": 2,
+      "name": "mask_002_object",
+      "semantic_label": "leather pouch",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0001_mask_002_leather_pouch.glb"
+    },
+    {
+      "index": 2,
+      "mask_id": 3,
+      "name": "mask_003_object",
+      "semantic_label": "compass",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0002_mask_003_compass.glb"
+    },
+    {
+      "index": 3,
+      "mask_id": 4,
+      "name": "mask_004_object",
+      "semantic_label": "smartphone",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0003_mask_004_smartphone.glb"
+    },
+    {
+      "index": 4,
+      "mask_id": 5,
+      "name": "mask_005_object",
+      "semantic_label": "laptop",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0004_mask_005_laptop.glb"
+    },
+    {
+      "index": 5,
+      "mask_id": 6,
+      "name": "mask_006_object",
+      "semantic_label": "water bottle",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0005_mask_006_water_bottle.glb"
+    },
+    {
+      "index": 6,
+      "mask_id": 7,
+      "name": "mask_007_object",
+      "semantic_label": "mug",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0006_mask_007_mug.glb"
+    },
+    {
+      "index": 7,
+      "mask_id": 8,
+      "name": "mask_008_object",
+      "semantic_label": "coaster",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0007_mask_008_coaster.glb"
+    },
+    {
+      "index": 8,
+      "mask_id": 9,
+      "name": "mask_009_object",
+      "semantic_label": "notebook",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0008_mask_009_notebook.glb"
+    },
+    {
+      "index": 9,
+      "mask_id": 10,
+      "name": "mask_010_object",
+      "semantic_label": "pen",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0009_mask_010_pen.glb"
+    },
+    {
+      "index": 10,
+      "mask_id": 11,
+      "name": "mask_011_object",
+      "semantic_label": "wooden desk organizer",
+      "web_glb": "sessions/20260704_113332_03959801/results/web_assets/web_objects/0010_mask_011_wooden_desk_organizer.glb"
+    }
+  ]
+}

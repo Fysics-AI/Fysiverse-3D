@@ -1,0 +1,99 @@
+{
+  "world_transform": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "quaternion_xyzw": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "matrix": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "note": "Identity by default. If the web viewer applies an initial scene-level transform to foreground objects, apply the same transform to the splat."
+  },
+  "alignment": {
+    "strategy": "background_splats_are_trained_and_exported_in_foreground_world_coordinates",
+    "camera_source": "nvdiffrast_optimized"
+  },
+  "splat": {
+    "url": "background.ksplat",
+    "format": "ksplat",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "quaternion_xyzw": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "alpha_removal_threshold": 5,
+    "spherical_harmonics_degree": 1,
+    "coordinate_system": "foreground_world_blender_z_up"
+  },
+  "world_up": [
+    0,
+    0,
+    1
+  ],
+  "coordinate_system": "foreground_world_blender_z_up",
+  "schema": "fysics_hybrid_3dgs_scene.v1",
+  "camera": {
+    "position": [
+      -0.04982751980423927,
+      0.1396206021308899,
+      1.491220235824585
+    ],
+    "look_at": [
+      -0.04460155294994311,
+      -0.4224410239664753,
+      0.6641413896803836
+    ],
+    "quaternion_xyzw": [
+      -0.003259805989205513,
+      0.294023715033647,
+      0.9557910364607496,
+      0.0017097613902116349
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fysiverse-3D: Simulation-Ready Scene Generation from a Single Image (in development)</title>
+    <link rel="stylesheet" href="./styles.css?v=20260706_copy_polish" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/",
+          "meshoptimizer": "https://cdn.jsdelivr.net/npm/meshoptimizer@0.22.0/meshopt_decoder.module.js",
+          "@dimforge/rapier3d-compat": "https://cdn.jsdelivr.net/npm/@dimforge/rapier3d-compat@0.19.3/rapier.mjs",
+          "@mkkellogg/gaussian-splats-3d": "https://cdn.jsdelivr.net/npm/@mkkellogg/gaussian-splats-3d@0.4.7/build/gaussian-splats-3d.module.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-link" href="#top">Fysiverse-3D</a>
+      <nav aria-label="Project sections">
+        <a href="#viewer">Playground</a>
+        <a href="#comparisons">Comparisons</a>
+        <a href="#reconstructed">More Cases</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="project-title-section">
+        <div class="container">
+          <h1>Fysiverse-3D: Simulation-Ready Scene Generation from a Single Image <span class="title-note">(in development)</span></h1>
+          <p class="release-note">We will release the technical report and code by the end of July. Stay tuned.</p>
+        </div>
+      </section>
+
+      <section class="page-section hero-section" id="viewer">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Playground</h2>
+            <p class="play-instruction">Choose a scene, move objects around, switch physics on or off, and load a robot or character.</p>
+            <p class="physics-note">Physics runs directly in the browser with Rapier. Since collisions are computed from simplified convex meshes, some object jitter is expected.</p>
+          </div>
+          <div class="tabs" id="showcase-tabs" role="tablist" aria-label="Fysiverse-3D scenes"></div>
+          <div class="viewer-stage">
+            <main id="sim-root" class="sim-root embedded-sim-root">
+              <div class="toolbar collapsible-panel" aria-label="Simulation controls" data-collapsible-panel>
+                <button
+                  class="panel-toggle toolbar-toggle"
+                  type="button"
+                  aria-label="Hide simulation controls"
+                  aria-expanded="true"
+                  title="Hide simulation controls"
+                  data-panel-toggle
+                  data-expanded-symbol="^"
+                  data-collapsed-symbol="v"
+                  data-collapse-label="Hide simulation controls"
+                  data-expand-label="Show simulation controls"
+                >^</button>
+                <div class="toolbar-content panel-body">
+                  <div class="brand">Fysiverse-3D</div>
+                  <button id="reset-button" type="button">Reset</button>
+                  <button id="physics-button" type="button" aria-pressed="false">Physics Off</button>
+                  <button id="debug-button" type="button" aria-pressed="false">Colliders Off</button>
+                  <span id="status" class="status">Loading</span>
+                </div>
+              </div>
+
+              <div class="playground-internals" hidden>
+                <select id="scene-select" aria-label="Scene"></select>
+                <button id="load-scene-button" type="button">Load</button>
+                <button id="clear-scene-button" type="button">Clear</button>
+                <input id="gs-checkbox" type="checkbox" checked />
+                <div id="generated-status">Choose a scene to load.</div>
+              </div>
+
+              <aside class="robot-panel collapsible-panel" aria-label="Robot and character controls" data-collapsible-panel>
+                <div class="panel-header">
+                  <div class="panel-title">Robot controls</div>
+                  <button
+                    class="panel-toggle"
+                    type="button"
+                    aria-label="Hide robot and character controls"
+                    aria-expanded="true"
+                    title="Hide robot and character controls"
+                    data-panel-toggle
+                    data-expanded-symbol=">"
+                    data-collapsed-symbol="<"
+                    data-collapse-label="Hide robot and character controls"
+                    data-expand-label="Show robot and character controls"
+                  >&gt;</button>
+                </div>
+                <div class="panel-body">
+                  <label class="manifest-row">
+                    <span>Robot</span>
+                    <select id="robot-select">
+                      <option value="franka">Franka Panda</option>
+                    </select>
+                  </label>
+                  <div class="scene-actions robot-actions">
+                    <button id="load-robot-button" type="button">Load</button>
+                    <button id="clear-robot-button" type="button">Clear</button>
+                  </div>
+                  <div id="robot-status" class="robot-status">Choose a robot to load.</div>
+                  <label class="manifest-row asset-section">
+                    <span>Character</span>
+                    <select id="character-select">
+                      <option value="mixamo-walk-kick">Mixamo Walk/Kick</option>
+                    </select>
+                  </label>
+                  <div class="scene-actions robot-actions">
+                    <button id="load-character-button" type="button">Load</button>
+                    <button id="clear-character-button" type="button">Clear</button>
+                  </div>
+                  <div id="character-status" class="robot-status">Choose a character to load.</div>
+                  <div id="robot-base-controls" class="robot-base-controls"></div>
+                  <div id="joint-controls" class="joint-controls"></div>
+                </div>
+              </aside>
+
+              <div id="playground-hint-layer" class="playground-hint-layer" aria-hidden="true"></div>
+            </main>
+            <img id="playground-input-overlay" class="viewer-input-overlay playground-input-overlay" alt="Input image" hidden />
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section" id="comparisons">
+        <div class="container">
+          <div class="section-heading">
+            <h2>3D Comparison with SimFoundry</h2>
+            <p class="comparison-note">
+              SimFoundry takes videos as input. All cases shown here come from the
+              <a href="https://research.nvidia.com/labs/gear/simfoundry/" target="_blank" rel="noreferrer">SimFoundry homepage</a>;
+              Fysiverse-3D uses a single frame from each video.
+            </p>
+          </div>
+          <div class="tabs" id="simfoundry-tabs" role="tablist" aria-label="SimFoundry comparison cases"></div>
+          <div class="compare-grid">
+            <figure class="media-card">
+              <div class="card-title">
+                <span>Input</span>
+              </div>
+              <img id="simfoundry-input" alt="SimFoundry comparison input" />
+            </figure>
+            <div class="viewer-card">
+              <div class="card-title">
+                <span>Fysiverse-3D</span>
+              </div>
+              <div class="comparison-viewer-shell" id="simfoundry-ours"></div>
+            </div>
+            <figure class="media-card">
+              <div class="card-title">
+                <span>SimFoundry</span>
+              </div>
+              <div class="comparison-viewer-shell" id="simfoundry-output-viewer"></div>
+              <video id="simfoundry-output-video" class="is-hidden" controls loop muted playsinline></video>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section reconstructed-section" id="reconstructed">
+        <div class="container">
+          <div class="section-heading">
+            <h2>More Cases</h2>
+          </div>
+          <div class="tabs" id="reconstructed-tabs" role="tablist" aria-label="Additional Fysiverse-3D cases"></div>
+          <div class="reconstructed-grid">
+            <div class="viewer-card reconstructed-card">
+              <div class="card-title">
+                <span>Fysiverse-3D</span>
+              </div>
+              <div class="comparison-viewer-shell reconstructed-viewer-shell">
+                <div id="reconstructed-viewer" class="reconstructed-viewer-root"></div>
+                <img id="reconstructed-input-overlay" class="viewer-input-overlay" alt="Input image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./src/sim-demo.js?v=20260706_copy_polish"></script>
+    <script type="module" src="./src/hybrid-viewer.js?v=20260706_copy_polish"></script>
+    <script type="module" src="./src/app.js?v=20260706_copy_polish"></script>
+  </body>
+</html>

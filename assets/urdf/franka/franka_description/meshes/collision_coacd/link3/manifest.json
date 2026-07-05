@@ -1,0 +1,19 @@
+{
+  "parts": [
+    "part_000.obj"
+  ],
+  "part_count": 1,
+  "max_parts": 8,
+  "format": "obj",
+  "generator": "preprocess_urdf_coacd.py",
+  "coacd": {
+    "threshold": 0.05,
+    "resolution": 2000,
+    "preprocess_resolution": 50,
+    "mcts_nodes": 20,
+    "mcts_iterations": 150,
+    "mcts_max_depth": 3,
+    "max_ch_vertex": 256,
+    "seed": 0
+  }
+}

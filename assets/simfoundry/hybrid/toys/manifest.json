@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "scene": "toys_1_demo",
+  "world_up": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "splat": {
+    "url": "background.ksplat",
+    "format": "ksplat",
+    "position": [
+      0.360894113779068,
+      -0.8338702917098999,
+      0.6200143694877625
+    ],
+    "quaternion_xyzw": [
+      -0.19278046488761902,
+      0.051956333220005035,
+      0.4643787145614624,
+      0.862837553024292
+    ],
+    "scale": [
+      1.5513277053833008,
+      1.5513277053833008,
+      1.5513277053833008
+    ]
+  },
+  "objects": [
+    {
+      "name": "toy_chocolate_chip_cookie___plastic_cookie_replica___fake_biscuit_with_chips___beige_and_brown_toy_snack___round_play_food_cookie_hogcrw_1",
+      "category": "toy_chocolate_chip_cookie___plastic_cookie_replica___fake_biscuit_with_chips___beige_and_brown_toy_snack___round_play_food_cookie",
+      "url": "objects/005_object_mesh_toy_chocolate_chip_cookie_plastic_cookie_replica__toy_chocolate_chip_cookie_plastic_cookie_replica_fake_bi_hog.glb",
+      "position": [
+        -0.0007612620247527957,
+        -0.20002959668636322,
+        0.007723485119640827
+      ],
+      "quaternion_xyzw": [
+        -0.00257605267688632,
+        0.005963207688182592,
+        0.27905866503715515,
+        0.9602521061897278
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "toy_red_chili_pepper___plastic_red_vegetable_with_green_stem___fake_hot_pepper___red_jalapeno_toy___curved_spicy_pepper_replica_mrqtar_2",
+      "category": "toy_red_chili_pepper___plastic_red_vegetable_with_green_stem___fake_hot_pepper___red_jalapeno_toy___curved_spicy_pepper_replica",
+      "url": "objects/006_object_mesh_toy_red_chili_pepper_plastic_red_vegetable_with__toy_red_chili_pepper_plastic_red_vegetable_with_green_stem_m.glb",
+      "position": [
+        0.1008547767996788,
+        -0.19042262434959412,
+        0.01066692266613245
+      ],
+      "quaternion_xyzw": [
+        0.7938085198402405,
+        -0.2747771739959717,
+        0.3005950450897217,
+        -0.4516727328300476
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "toy_chocolate_spread_jar___miniature_hazelnut_spread___brown_jar_with_white_lid___fake_food_jar___small_spread_container_pctllb_5",
+      "category": "toy_chocolate_spread_jar___miniature_hazelnut_spread___brown_jar_with_white_lid___fake_food_jar___small_spread_container",
+      "url": "objects/007_object_mesh_toy_chocolate_spread_jar_miniature_hazelnut_spre__toy_chocolate_spread_jar_miniature_hazelnut_spread_brown_pct.glb",
+      "position": [
+        0.002202511765062809,
+        -0.13345329463481903,
+        0.031926386058330536
+      ],
+      "quaternion_xyzw": [
+        -0.0015007108449935913,
+        -0.00012943148612976074,
+        0.3970600366592407,
+        0.9177914261817932
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "green_metal_bucket___small_green_pail___green_tin_pot___green_metal_planter___small_green_container_prbfti_9",
+      "category": "green_metal_bucket___small_green_pail___green_tin_pot___green_metal_planter___small_green_container",
+      "url": "objects/008_object_mesh_green_metal_bucket_small_green_pail_green_tin_po__green_metal_bucket_small_green_pail_green_tin_pot_gree_prbft.glb",
+      "position": [
+        0.03686286136507988,
+        -0.05483748018741608,
+        0.08388137072324753
+      ],
+      "quaternion_xyzw": [
+        0.007008194923400879,
+        -0.0013640634715557098,
+        0.817602813243866,
+        -0.5757384896278381
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "toy_pretzel___plastic_pretzel___orange_pretzel_toy___fake_salted_pretzel___miniature_bakery_item_utbbsr_3",
+      "category": "toy_pretzel___plastic_pretzel___orange_pretzel_toy___fake_salted_pretzel___miniature_bakery_item",
+      "url": "objects/009_object_mesh_toy_pretzel_plastic_pretzel_orange_pretzel_toy_f__toy_pretzel_plastic_pretzel_orange_pretzel_toy_fake_sa_utbbs.glb",
+      "position": [
+        0.03465016186237335,
+        -0.1982574760913849,
+        0.016684724017977715
+      ],
+      "quaternion_xyzw": [
+        -0.08517228811979294,
+        -0.14771761000156403,
+        0.3441410958766937,
+        0.9233051538467407
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "cluster_of_toy_blueberries___blue_plastic_fruit_bunch___fake_berry_cluster___blue_toy_grapes___miniature_blue_fruit_hbukov_0",
+      "category": "cluster_of_toy_blueberries___blue_plastic_fruit_bunch___fake_berry_cluster___blue_toy_grapes___miniature_blue_fruit",
+      "url": "objects/010_object_mesh_cluster_of_toy_blueberries_blue_plastic_fruit_bu__cluster_of_toy_blueberries_blue_plastic_fruit_bunch_fake_hbu.glb",
+      "position": [
+        -0.07103580236434937,
+        -0.22776685655117035,
+        0.017045650631189346
+      ],
+      "quaternion_xyzw": [
+        -0.011936433613300323,
+        0.0036649389658123255,
+        0.9146799445152283,
+        -0.40398579835891724
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "toy_ice_cream_cone___plastic_ice_cream_cone___miniature_vanilla_ice_cream___fake_ice_cream_toy___white_and_tan_cone_hacuiw_4",
+      "category": "toy_ice_cream_cone___plastic_ice_cream_cone___miniature_vanilla_ice_cream___fake_ice_cream_toy___white_and_tan_cone",
+      "url": "objects/011_object_mesh_toy_ice_cream_cone_plastic_ice_cream_cone_miniat__toy_ice_cream_cone_plastic_ice_cream_cone_miniature_vani_hac.glb",
+      "position": [
+        -0.12336453795433044,
+        -0.1711694747209549,
+        0.02351089008152485
+      ],
+      "quaternion_xyzw": [
+        -0.054073646664619446,
+        0.6217378377914429,
+        0.4948149621486664,
+        0.6047118902206421
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "white_toy_teacup___small_plastic_mug___miniature_white_cup___white_dollhouse_cup___small_toy_coffee_cup_aijxoe_8",
+      "category": "white_toy_teacup___small_plastic_mug___miniature_white_cup___white_dollhouse_cup___small_toy_coffee_cup",
+      "url": "objects/012_object_mesh_white_toy_teacup_small_plastic_mug_miniature_whi__white_toy_teacup_small_plastic_mug_miniature_white_cup_aijxo.glb",
+      "position": [
+        -0.08223701268434525,
+        -0.0788414478302002,
+        0.03408278152346611
+      ],
+      "quaternion_xyzw": [
+        0.003725208342075348,
+        0.007820883765816689,
+        0.48440122604370117,
+        0.8748033046722412
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "red_toy_cola_can___miniature_soda_can___small_red_beverage_can___fake_cola_drink_can___toy_pop_can_tbalcd_6",
+      "category": "red_toy_cola_can___miniature_soda_can___small_red_beverage_can___fake_cola_drink_can___toy_pop_can",
+      "url": "objects/013_object_mesh_red_toy_cola_can_miniature_soda_can_small_red_be__red_toy_cola_can_miniature_soda_can_small_red_beverage_c_tba.glb",
+      "position": [
+        0.08926361799240112,
+        -0.12365872412919998,
+        0.0419095978140831
+      ],
+      "quaternion_xyzw": [
+        -0.01303112506866455,
+        0.02836325764656067,
+        0.35459405183792114,
+        0.9344993233680725
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "yellow_toy_pineapple___small_plastic_pineapple___miniature_pineapple_fruit___yellow_textured_fruit_toy___fake_pineapple_replica_berzkk_7",
+      "category": "yellow_toy_pineapple___small_plastic_pineapple___miniature_pineapple_fruit___yellow_textured_fruit_toy___fake_pineapple_replica",
+      "url": "objects/014_object_mesh_yellow_toy_pineapple_small_plastic_pineapple_min__yellow_toy_pineapple_small_plastic_pineapple_miniature_p_ber.glb",
+      "position": [
+        -0.05632402375340462,
+        -0.16673263907432556,
+        0.027256986126303673
+      ],
+      "quaternion_xyzw": [
+        -0.01978272944688797,
+        0.11722488701343536,
+        -0.11050359904766083,
+        0.9867400527000427
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      0.0008942016866058111,
+      -0.583870530128479,
+      0.37001460790634155
+    ],
+    "quaternion_xyzw": [
+      0.4652218520641327,
+      -0.001641973271034658,
+      0.003124216105788946,
+      0.8851870894432068
+    ]
+  },
+  "controls": {
+    "enablePan": false,
+    "minDistance": 0.433,
+    "maxDistance": 1.2,
+    "leftAzimuthDelta": 0.85,
+    "rightAzimuthDelta": 1.636,
+    "maxPolarDelta": 0.35
+  }
+}

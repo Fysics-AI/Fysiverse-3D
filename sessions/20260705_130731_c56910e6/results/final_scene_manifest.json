@@ -1,0 +1,1558 @@
+{
+  "schema": "fysiverse_final_scene_manifest.v1",
+  "support": {
+    "bbox_snap_mode": "global_support_aware",
+    "support_adjust": true,
+    "support_gap": 0.001,
+    "support_relation_source": "scene_graph",
+    "support_relations": [],
+    "scene_graph_support_relations": [],
+    "support_actions": [],
+    "support_skipped_actions": [],
+    "root_names": null,
+    "global_translation": null,
+    "coordinate_system": "Blender/SAPIEN Z-up; all vertical support movement is along Blender Z."
+  },
+  "objects": [
+    {
+      "mask_id": 1,
+      "final_3d_object_name": "mask_001_object",
+      "semantic_label": "plate of shrimp",
+      "description": "A round plate filled with cooked pink shrimp arranged in a circle.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0000_mask_001_plate_of_shrimp.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9877121448516846,
+            -0.022470595315098763,
+            0.1546602100133896,
+            0.11175702512264252
+          ],
+          [
+            0.04746545851230621,
+            0.9859954118728638,
+            -0.1598750352859497,
+            -0.7094163298606873
+          ],
+          [
+            -0.1489017754793167,
+            0.16525152325630188,
+            0.9749462604522705,
+            0.09118889272212982
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_001_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.08081769198179245
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.6958099603652954
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.32933294773101807
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.14643441140651703,
+          -0.9308751225471497,
+          0.23646090924739838
+        ],
+        "bbox_max": [
+          0.30806979537010193,
+          -0.46074479818344116,
+          0.42220500111579895
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 2,
+      "final_3d_object_name": "mask_002_object",
+      "semantic_label": "plate of green vegetables",
+      "description": "A plate of green leafy vegetables topped with a savory sauce and chili peppers.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0001_mask_002_plate_of_green_vegetables.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9762067794799805,
+            0.015673242509365082,
+            0.2162746787071228,
+            -0.35250329971313477
+          ],
+          [
+            0.002591701690107584,
+            0.9964698553085327,
+            -0.08391159027814865,
+            -0.706549346446991
+          ],
+          [
+            -0.21682634949684143,
+            0.08247558027505875,
+            0.9727199673652649,
+            0.07243302464485168
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_002_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.37023141980171204
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.6992262601852417
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.25635001063346863
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.5923581123352051,
+          -0.9222068786621094,
+          0.167755588889122
+        ],
+        "bbox_max": [
+          -0.148104727268219,
+          -0.4762457013130188,
+          0.34494444727897644
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 3,
+      "final_3d_object_name": "mask_003_object",
+      "semantic_label": "plate of silkworm pupae",
+      "description": "A plate filled with dark brown fried silkworm pupae.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0002_mask_003_plate_of_silkworm_pupae.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.994160532951355,
+            0.0022190038580447435,
+            0.10788841545581818,
+            -0.8078277111053467
+          ],
+          [
+            0.0023545108269900084,
+            0.9991044998168945,
+            -0.042245298624038696,
+            -0.6113550662994385
+          ],
+          [
+            -0.10788553953170776,
+            0.04225262999534607,
+            0.9932650327682495,
+            0.08338264375925064
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_003_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.8154965043067932
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.6080226898193359
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.227922260761261
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -1.0323572158813477,
+          -0.823859453201294,
+          0.1320950984954834
+        ],
+        "bbox_max": [
+          -0.5986357927322388,
+          -0.3921859860420227,
+          0.3237494230270386
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 4,
+      "final_3d_object_name": "mask_004_object",
+      "semantic_label": "stir-fry with bok choy",
+      "description": "A dish featuring a central stir-fry mixture surrounded by a ring of green bok choy.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0003_mask_004_stir-fry_with_bok_choy.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.980199933052063,
+            -0.005429895594716072,
+            0.19793576002120972,
+            0.3771890103816986
+          ],
+          [
+            0.037494540214538574,
+            0.9866288900375366,
+            -0.15861132740974426,
+            -0.32879406213760376
+          ],
+          [
+            -0.19442790746688843,
+            0.16289234161376953,
+            0.9672971963882446,
+            0.10356689989566803
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_004_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.3573962152004242
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.30199581384658813
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.31547704339027405
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.12867164611816406,
+          -0.5341190695762634,
+          0.19690807163715363
+        ],
+        "bbox_max": [
+          0.5861207842826843,
+          -0.06987252831459045,
+          0.4340460002422333
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 5,
+      "final_3d_object_name": "mask_005_object",
+      "semantic_label": "braised pork trotters",
+      "description": "A bowl containing braised pork knuckles/trotters in a dark sauce.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0004_mask_005_braised_pork_trotters.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9999510645866394,
+            0.009765797294676304,
+            -0.0015689147403463721,
+            0.2898949384689331
+          ],
+          [
+            -0.00988192018121481,
+            0.9795803427696228,
+            -0.2008100003004074,
+            0.13254348933696747
+          ],
+          [
+            -0.0004241917049512267,
+            0.20081569254398346,
+            0.9796289205551147,
+            0.07074268162250519
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_005_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.2907881736755371
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.14857417345046997
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.21458281576633453
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.061273686587810516,
+          -0.07635777443647385,
+          0.12658128142356873
+        ],
+        "bbox_max": [
+          0.5203026533126831,
+          0.3735061287879944,
+          0.30258435010910034
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 6,
+      "final_3d_object_name": "mask_006_object",
+      "semantic_label": "braised whole fish",
+      "description": "A long rectangular platter holding a whole braised fish covered in sauce.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0005_mask_006_braised_whole_fish.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9958754181861877,
+            -0.045547664165496826,
+            -0.07846980541944504,
+            -0.13953053951263428
+          ],
+          [
+            0.022734498605132103,
+            0.962541937828064,
+            -0.270177960395813,
+            -0.12736432254314423
+          ],
+          [
+            0.08783645182847977,
+            0.26727962493896484,
+            0.9596074223518372,
+            0.04559401422739029
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_006_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.138286292552948
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.10344918072223663
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2665500342845917
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.3819003105163574,
+          -0.45998597145080566,
+          0.14617258310317993
+        ],
+        "bbox_max": [
+          0.10532774031162262,
+          0.2530876100063324,
+          0.3869274854660034
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 7,
+      "final_3d_object_name": "mask_007_object",
+      "semantic_label": "mixed vegetable salad",
+      "description": "A colorful dish with corn, carrots, peas, and cashews, garnished with cucumber slices.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0006_mask_007_mixed_vegetable_salad.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9982671141624451,
+            0.014362513087689877,
+            0.05706561729311943,
+            -0.20207208395004272
+          ],
+          [
+            -0.0004427572712302208,
+            0.9715628027915955,
+            -0.23678171634674072,
+            0.4168190062046051
+          ],
+          [
+            -0.05884360894560814,
+            0.23634612560272217,
+            0.969885528087616,
+            0.08614622056484222
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_007_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.20739568769931793
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.4384864866733551
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.17486953735351562
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.4168351888656616,
+          0.23683588206768036,
+          0.075440913438797
+        ],
+        "bbox_max": [
+          0.0020438162609934807,
+          0.6401370763778687,
+          0.27429816126823425
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 8,
+      "final_3d_object_name": "mask_008_object",
+      "semantic_label": "braised mushrooms and meat",
+      "description": "A bowl of dark braised ingredients, likely mushrooms and meat chunks.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0007_mask_008_braised_mushrooms_and_meat.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9898214936256409,
+            0.009985133074223995,
+            0.14196358621120453,
+            -0.6050844788551331
+          ],
+          [
+            0.004304098896682262,
+            0.9949789047241211,
+            -0.09999246150255203,
+            0.21496692299842834
+          ],
+          [
+            -0.1422492116689682,
+            0.09958571940660477,
+            0.9848085641860962,
+            0.07882379740476608
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_008_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.6171465516090393
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.2236667424440384
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1662902534008026
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.8283097743988037,
+          0.01822158508002758,
+          0.07848899811506271
+        ],
+        "bbox_max": [
+          -0.4059833288192749,
+          0.42911189794540405,
+          0.2540915012359619
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 9,
+      "final_3d_object_name": "mask_009_object",
+      "semantic_label": "fruit platter",
+      "description": "A decorative fruit arrangement with strawberries, tomatoes, oranges, and dragon fruit.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0008_mask_009_fruit_platter.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9976174235343933,
+            0.015566319227218628,
+            0.06721016019582748,
+            -0.4884152412414551
+          ],
+          [
+            0.00018775975331664085,
+            0.973595917224884,
+            -0.2282782793045044,
+            -0.23143115639686584
+          ],
+          [
+            -0.06898898631334305,
+            0.22774699330329895,
+            0.9712733030319214,
+            0.10060358792543411
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_009_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.4956311583518982
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.20556969940662384
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.22135061025619507
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.7039580345153809,
+          -0.4159693121910095,
+          0.09780237078666687
+        ],
+        "bbox_max": [
+          -0.28730425238609314,
+          0.004829916171729565,
+          0.34489884972572327
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 10,
+      "final_3d_object_name": "mask_010_object",
+      "semantic_label": "shredded cabbage salad",
+      "description": "A plate of shredded cabbage salad with dried chili peppers.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0009_mask_010_shredded_cabbage_salad.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.999800443649292,
+            0.002400680910795927,
+            0.01983162946999073,
+            -0.9021642804145813
+          ],
+          [
+            8.230691310018301e-05,
+            0.9922491312026978,
+            -0.12426433712244034,
+            -0.13646730780601501
+          ],
+          [
+            -0.019976237788796425,
+            0.1242411658167839,
+            0.9920509457588196,
+            0.08425240218639374
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_010_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.9040875434875488
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.12616094946861267
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.166948139667511
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -1.1127808094024658,
+          -0.3356633484363556,
+          0.07685822248458862
+        ],
+        "bbox_max": [
+          -0.6953942179679871,
+          0.08334143459796906,
+          0.25703805685043335
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 11,
+      "final_3d_object_name": "mask_011_object",
+      "semantic_label": "white bowl",
+      "description": "An empty white ceramic bowl with a pink rim.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0010_mask_011_white_bowl.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.991458535194397,
+            0.029145680367946625,
+            0.12712398171424866,
+            -0.14178305864334106
+          ],
+          [
+            0.006146063096821308,
+            0.9631865620613098,
+            -0.26876360177993774,
+            -1.034987211227417
+          ],
+          [
+            -0.13027739524841309,
+            0.26724928617477417,
+            0.9547803997993469,
+            0.07113702595233917
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_011_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.15264102816581726
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.012816309928894
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.3484157919883728
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.27602189779281616,
+          -1.1347565650939941,
+          0.26489078998565674
+        ],
+        "bbox_max": [
+          -0.029260162264108658,
+          -0.8908759951591492,
+          0.4319407641887665
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 12,
+      "final_3d_object_name": "mask_012_object",
+      "semantic_label": "glass of dark liquid",
+      "description": "A textured glass filled with a dark beverage, likely cola or soy sauce.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0011_mask_012_glass_of_dark_liquid.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9955944418907166,
+            0.02930370531976223,
+            0.08906751871109009,
+            -0.5460935235023499
+          ],
+          [
+            0.006392480805516243,
+            0.9264863133430481,
+            -0.37627413868904114,
+            -1.079842209815979
+          ],
+          [
+            -0.093546062707901,
+            0.3751858174800873,
+            0.9222173094749451,
+            0.08327431231737137
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_012_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.5542513132095337
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.0439801216125488
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.251143217086792
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.6399126052856445,
+          -1.1376773118972778,
+          0.15463489294052124
+        ],
+        "bbox_max": [
+          -0.4685899615287781,
+          -0.9502828121185303,
+          0.34765151143074036
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 13,
+      "final_3d_object_name": "mask_013_object",
+      "semantic_label": "chopsticks",
+      "description": "A pair of light-colored wooden chopsticks resting on the table.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0012_mask_013_chopsticks.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.8982251882553101,
+            0.19473271071910858,
+            0.39404407143592834,
+            -0.41387438774108887
+          ],
+          [
+            0.19094453752040863,
+            0.6346068382263184,
+            -0.7488753795623779,
+            -1.1246966123580933
+          ],
+          [
+            -0.3958936035633087,
+            0.7478992938995361,
+            0.5328366756439209,
+            0.007671437691897154
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_013_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.42059895396232605
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1120649576187134
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.26125669479370117
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.605027437210083,
+          -1.2192541360855103,
+          0.2423100769519806
+        ],
+        "bbox_max": [
+          -0.2361704558134079,
+          -1.0048757791519165,
+          0.28020331263542175
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 14,
+      "final_3d_object_name": "mask_014_object",
+      "semantic_label": "white bowl",
+      "description": "An empty white ceramic bowl with a floral pattern.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0013_mask_014_white_bowl.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9946350455284119,
+            -0.0027575907297432423,
+            -0.10340938717126846,
+            -0.5266394019126892
+          ],
+          [
+            -0.012655401602387428,
+            0.9888920783996582,
+            -0.14809550344944,
+            0.560680091381073
+          ],
+          [
+            0.1026691123843193,
+            0.14860965311527252,
+            0.9835518598556519,
+            0.07196066528558731
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_014_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.5189946889877319
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.5717034339904785
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15237122774124146
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.6328399181365967,
+          0.4386705458164215,
+          0.0770854726433754
+        ],
+        "bbox_max": [
+          -0.4051494002342224,
+          0.7047363519668579,
+          0.22765697538852692
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 15,
+      "final_3d_object_name": "mask_015_object",
+      "semantic_label": "chopsticks",
+      "description": "A pair of wooden chopsticks lying on the table.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0014_mask_015_chopsticks.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.6667036414146423,
+            0.12603215873241425,
+            0.7345898151397705,
+            -0.006625174544751644
+          ],
+          [
+            0.022524047642946243,
+            0.9817422032356262,
+            -0.1888781189918518,
+            0.43417370319366455
+          ],
+          [
+            -0.7449824810028076,
+            0.14247167110443115,
+            0.6516923308372498,
+            0.015179493464529514
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_015_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.020185116678476334
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.44008737802505493
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.13932988047599792
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -0.05546054616570473,
+          0.18633444607257843,
+          0.08961385488510132
+        ],
+        "bbox_max": [
+          0.01509031094610691,
+          0.6938403248786926,
+          0.18904589116573334
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 16,
+      "final_3d_object_name": "mask_016_object",
+      "semantic_label": "glass of dark liquid",
+      "description": "A glass filled with dark liquid.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0015_mask_016_glass_of_dark_liquid.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9894159436225891,
+            0.025385716930031776,
+            0.14286942780017853,
+            0.11984007805585861
+          ],
+          [
+            0.018154265359044075,
+            0.9551869034767151,
+            -0.2954461872577667,
+            0.43836915493011475
+          ],
+          [
+            -0.14396710693836212,
+            0.29491284489631653,
+            0.9446162581443787,
+            0.07862113416194916
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_016_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.10724751651287079
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.4645730257034302
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.12568457424640656
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.019476108253002167,
+          0.37003061175346375,
+          0.034858305007219315
+        ],
+        "bbox_max": [
+          0.19501893222332,
+          0.559115469455719,
+          0.2165108472108841
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 17,
+      "final_3d_object_name": "mask_017_object",
+      "semantic_label": "glass of dark liquid",
+      "description": "A glass filled with dark liquid.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0016_mask_017_glass_of_dark_liquid.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9898626804351807,
+            0.005939338821917772,
+            0.14190353453159332,
+            -0.9189954996109009
+          ],
+          [
+            0.008418473415076733,
+            0.9949150085449219,
+            -0.10036586225032806,
+            0.1829814910888672
+          ],
+          [
+            -0.14177806675434113,
+            0.10054303705692291,
+            0.9847791790962219,
+            0.083546482026577
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_017_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.9314378499984741
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.1917441040277481
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.10200302302837372
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -1.0103168487548828,
+          0.10727313160896301,
+          0.01275042537599802
+        ],
+        "bbox_max": [
+          -0.8525588512420654,
+          0.2762150764465332,
+          0.1912556141614914
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 18,
+      "final_3d_object_name": "mask_018_object",
+      "semantic_label": "chopsticks",
+      "description": "Wooden chopsticks partially visible near a bowl.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0017_mask_018_chopsticks.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9878724217414856,
+            -0.006394733674824238,
+            0.15513601899147034,
+            -0.9769546389579773
+          ],
+          [
+            0.006631438620388508,
+            0.9999775290489197,
+            -0.0010083126835525036,
+            -0.49738454818725586
+          ],
+          [
+            -0.15512609481811523,
+            0.0020248591899871826,
+            0.9878926277160645,
+            0.009738440625369549
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_018_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.9790029525756836
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.49752622842788696
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.14012345671653748
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -1.0766558647155762,
+          -0.5888756513595581,
+          0.1224844753742218
+        ],
+        "bbox_max": [
+          -0.881350040435791,
+          -0.40617677569389343,
+          0.15776245296001434
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 19,
+      "final_3d_object_name": "mask_019_object",
+      "semantic_label": "white bowl",
+      "description": "A white bowl with a floral pattern, partially visible.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0018_mask_019_white_bowl.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.9980200529098511,
+            -0.027584100142121315,
+            0.05652463808655739,
+            -1.0990272760391235
+          ],
+          [
+            0.032586719840765,
+            0.9954460263252258,
+            -0.08958428353071213,
+            -0.4212011396884918
+          ],
+          [
+            -0.05379612371325493,
+            0.09124886244535446,
+            0.9943739771842957,
+            0.08574425429105759
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_019_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -1.1053640842437744
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.4146321713924408
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.19929572939872742
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          -1.2371810674667358,
+          -0.5460950136184692,
+          0.11141818761825562
+        ],
+        "bbox_max": [
+          -0.9735470414161682,
+          -0.28316932916641235,
+          0.2871732711791992
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    },
+    {
+      "mask_id": 20,
+      "final_3d_object_name": "mask_020_object",
+      "semantic_label": "small wooden object",
+      "description": "A small round wooden object, possibly a bottle cap or stopper.",
+      "web_asset_glb": "sessions/20260705_130731_c56910e6/results/web_assets/web_objects/0019_mask_020_small_wooden_object.glb",
+      "sapien_final_pose": {
+        "final_pose": [
+          [
+            0.989361047744751,
+            0.014096913859248161,
+            0.14479641616344452,
+            0.32371893525123596
+          ],
+          [
+            0.018576646223664284,
+            0.974905252456665,
+            -0.2218436449766159,
+            -0.713701069355011
+          ],
+          [
+            -0.14429010450839996,
+            0.2221732884645462,
+            0.9642714262008667,
+            0.0201515331864357
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "sapien_export": {
+        "name": "mask_020_object",
+        "initial_pose": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.3192252814769745
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.7071576118469238
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.3114802837371826
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bbox_min": [
+          0.27737298607826233,
+          -0.7489483952522278,
+          0.2800321578979492
+        ],
+        "bbox_max": [
+          0.36107757687568665,
+          -0.6653667688369751,
+          0.3429284393787384
+        ],
+        "collision_path": "",
+        "collision_paths": [],
+        "collision_part_count": 0
+      }
+    }
+  ]
+}

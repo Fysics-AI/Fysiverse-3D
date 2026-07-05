@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "scene": "dining_1_demo",
+  "world_up": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "splat": {
+    "url": "background.ksplat",
+    "format": "ksplat",
+    "position": [
+      -0.06861265748739243,
+      -0.29771679639816284,
+      0.33496397733688354
+    ],
+    "quaternion_xyzw": [
+      -0.19501082599163055,
+      0.05351751670241356,
+      -0.016507159918546677,
+      0.9792007803916931
+    ],
+    "scale": [
+      0.6601073145866394,
+      0.6601073145866394,
+      0.6601073145866394
+    ]
+  },
+  "objects": [
+    {
+      "name": "small_ceramic_cup_white_cup_with_blue_lines_geometric_pattern_cup_sake_cup_small_drinking_vessel_xfbluv_1",
+      "category": "small_ceramic_cup_white_cup_with_blue_lines_geometric_pattern_cup_sake_cup_small_drinking_vessel",
+      "url": "objects/005_object_mesh_small_ceramic_cup_white_cup_with_blue_lines_geom__small_ceramic_cup_white_cup_with_blue_lines_geometric_patter.glb",
+      "position": [
+        -0.14169014990329742,
+        0.004552700091153383,
+        0.0267290361225605
+      ],
+      "quaternion_xyzw": [
+        0.025369957089424133,
+        0.07872916013002396,
+        0.44160929322242737,
+        0.8933864831924438
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "small_glass_spice_jar_spice_jar_with_wooden_cap_clear_seasoning_jar_salt_jar_condiment_container_veippg_2",
+      "category": "small_glass_spice_jar_spice_jar_with_wooden_cap_clear_seasoning_jar_salt_jar_condiment_container",
+      "url": "objects/006_object_mesh_small_glass_spice_jar_spice_jar_with_wooden_cap__small_glass_spice_jar_spice_jar_with_wooden_cap_clear_season.glb",
+      "position": [
+        -0.11704863607883453,
+        0.0669613927602768,
+        0.04411011561751366
+      ],
+      "quaternion_xyzw": [
+        0.011527426540851593,
+        -0.024954408407211304,
+        0.439167857170105,
+        0.897984504699707
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "trader_joe_s_lactose_free_milk_red_and_white_milk_carton_carton_of_lactose_free_milk_trader_joe_s_dairy_milk_half_gallon_milk_carton_azeihg_5",
+      "category": "trader_joe_s_lactose_free_milk_red_and_white_milk_carton_carton_of_lactose_free_milk_trader_joe_s_dairy_milk_half_gallon_milk_carton",
+      "url": "objects/007_object_mesh_trader_joe_s_lactose_free_milk_red_and_white_mil__trader_joe_s_lactose_free_milk_red_and_white_milk_carton_car.glb",
+      "position": [
+        0.1764865219593048,
+        0.11774855852127075,
+        0.09675416350364685
+      ],
+      "quaternion_xyzw": [
+        -0.011368900537490845,
+        0.00857459008693695,
+        0.973212718963623,
+        0.22946536540985107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "green_olive_oil_bottle_glass_bottle_of_olive_oil_trader_giotto_s_olive_oil_imported_olive_oil_bottle_bottle_with_gold_cap_qlkgow_9",
+      "category": "green_olive_oil_bottle_glass_bottle_of_olive_oil_trader_giotto_s_olive_oil_imported_olive_oil_bottle_bottle_with_gold_cap",
+      "url": "objects/008_object_mesh_green_olive_oil_bottle_glass_bottle_of_olive_oil__green_olive_oil_bottle_glass_bottle_of_olive_oil_trader_giot.glb",
+      "position": [
+        -0.0300966277718544,
+        0.2259858399629593,
+        0.10190405696630478
+      ],
+      "quaternion_xyzw": [
+        0.08937991410493851,
+        -0.011324217543005943,
+        -0.06187894195318222,
+        0.9940090179443359
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "black_tongs_black_plastic_tongs_pair_of_black_tongs_black_serving_utensil_black_kitchen_tongs_pbyiul_3",
+      "category": "black_tongs_black_plastic_tongs_pair_of_black_tongs_black_serving_utensil_black_kitchen_tongs",
+      "url": "objects/009_object_mesh_black_tongs_black_plastic_tongs_pair_of_black_to__black_tongs_black_plastic_tongs_pair_of_black_tongs_black_se.glb",
+      "position": [
+        0.06064394488930702,
+        0.07319694012403488,
+        0.06650608032941818
+      ],
+      "quaternion_xyzw": [
+        0.967678427696228,
+        -0.20482242107391357,
+        0.14624540507793427,
+        0.01608450338244438
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "large_wooden_spoon_wooden_cooking_spoon_light_brown_spoon_kitchen_utensil_wooden_serving_spoon_jrqfbi_0",
+      "category": "large_wooden_spoon_wooden_cooking_spoon_light_brown_spoon_kitchen_utensil_wooden_serving_spoon",
+      "url": "objects/010_object_mesh_large_wooden_spoon_wooden_cooking_spoon_light_br__large_wooden_spoon_wooden_cooking_spoon_light_brown_spoon_ki.glb",
+      "position": [
+        -0.0026573576033115387,
+        -0.02936675027012825,
+        0.04118739813566208
+      ],
+      "quaternion_xyzw": [
+        0.028442151844501495,
+        0.10073792189359665,
+        -0.1202552393078804,
+        0.9872090816497803
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "small_glass_spice_jar_glass_jar_with_wooden_lid_small_seasoning_bottle_clear_jar_with_beige_cap_miniature_spice_container_cnksal_4",
+      "category": "small_glass_spice_jar_glass_jar_with_wooden_lid_small_seasoning_bottle_clear_jar_with_beige_cap_miniature_spice_container",
+      "url": "objects/011_object_mesh_small_glass_spice_jar_glass_jar_with_wooden_lid__small_glass_spice_jar_glass_jar_with_wooden_lid_small_season.glb",
+      "position": [
+        -0.1478707492351532,
+        0.09781832993030548,
+        0.03682147338986397
+      ],
+      "quaternion_xyzw": [
+        0.04661475121974945,
+        0.045322149991989136,
+        0.3585154414176941,
+        0.9312572479248047
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "oatly_oat_milk_carton_blue_and_white_milk_carton_carton_of_oat_drink_oatly_brand_beverage_container_plant_based_milk_carton_vhszqm_8",
+      "category": "oatly_oat_milk_carton_blue_and_white_milk_carton_carton_of_oat_drink_oatly_brand_beverage_container_plant_based_milk_carton",
+      "url": "objects/012_object_mesh_oatly_oat_milk_carton_blue_and_white_milk_carton__oatly_oat_milk_carton_blue_and_white_milk_carton_carton_of_o.glb",
+      "position": [
+        0.12412742525339127,
+        0.24505719542503357,
+        0.09053276479244232
+      ],
+      "quaternion_xyzw": [
+        -0.11156480014324188,
+        -0.01173730194568634,
+        -0.049698323011398315,
+        0.9924442768096924
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "white_ceramic_bowl_empty_white_bowl_round_white_bowl_white_porcelain_bowl_clean_white_dish_ptiqlt_6",
+      "category": "white_ceramic_bowl_empty_white_bowl_round_white_bowl_white_porcelain_bowl_clean_white_dish",
+      "url": "objects/013_object_mesh_white_ceramic_bowl_empty_white_bowl_round_white__white_ceramic_bowl_empty_white_bowl_round_white_bowl_white_p.glb",
+      "position": [
+        0.004683278501033783,
+        0.09541475772857666,
+        0.03360530361533165
+      ],
+      "quaternion_xyzw": [
+        0.009638477116823196,
+        0.012898360379040241,
+        -0.37819233536720276,
+        0.9255872368812561
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "small_glass_jar_with_black_lid_jar_of_yellow_spice_paste_small_condiment_jar_glass_jar_containing_yellow_substance_yellow_curry_paste_jar_cjsfbz_7",
+      "category": "small_glass_jar_with_black_lid_jar_of_yellow_spice_paste_small_condiment_jar_glass_jar_containing_yellow_substance_yellow_curry_paste_jar",
+      "url": "objects/014_object_mesh_small_glass_jar_with_black_lid_jar_of_yellow_spi__small_glass_jar_with_black_lid_jar_of_yellow_spice_paste_sma.glb",
+      "position": [
+        -0.12039633840322495,
+        0.19841749966144562,
+        0.041395191103219986
+      ],
+      "quaternion_xyzw": [
+        -0.2254869043827057,
+        -0.00958588719367981,
+        0.0892484188079834,
+        0.9701023101806641
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      0.04138743132352829,
+      -0.46771669387817383,
+      0.41496410965919495
+    ],
+    "quaternion_xyzw": [
+      0.5016966462135315,
+      -0.000875259458553046,
+      0.0015091515379026532,
+      0.8650418519973755
+    ]
+  },
+  "controls": {
+    "enablePan": false,
+    "minDistance": 0.433,
+    "maxDistance": 1.2,
+    "leftAzimuthDelta": 0.85,
+    "rightAzimuthDelta": 1.636,
+    "maxPolarDelta": 0.35
+  }
+}
