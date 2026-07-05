@@ -127,6 +127,23 @@ h1 {
   line-height: 1.45;
 }
 
+.source-link-row {
+  margin: 14px 0 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.source-link-row a {
+  color: #325300;
+  font-weight: 720;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.source-link-row a:hover {
+  color: #1f3b00;
+}
+
 h2 {
   margin-bottom: 0;
   font-size: clamp(28px, 3.2vw, 46px);

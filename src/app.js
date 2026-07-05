@@ -3,12 +3,12 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import { MeshoptDecoder } from "meshoptimizer";
 
-import { HybridSceneViewer } from "./hybrid-viewer.js";
 import { PAGE_DATA } from "./data.js";
 
-const PAGE_CACHE_VERSION = "20260706_github_pages_paths";
+const PAGE_CACHE_VERSION = "20260706_source_link_readme";
 const transientViewers = new WeakMap();
 let playgroundHintTimer = 0;
+let hybridViewerModulePromise = null;
 
 class MeshSceneViewer {
   constructor(container) {
@@ -132,10 +132,17 @@ function disposeViewer(container) {
   const previous = transientViewers.get(container);
   previous?.dispose?.();
   transientViewers.delete(container);
+  delete container.dataset.viewerLoadToken;
 }
 
-function loadHybrid(container, manifest) {
+async function loadHybrid(container, manifest) {
   disposeViewer(container);
+  const loadToken = String(Date.now() + Math.random());
+  container.dataset.viewerLoadToken = loadToken;
+  container.innerHTML = '<div class="viewer-loading">Loading SimFoundry scene...</div>';
+  hybridViewerModulePromise ??= import("./hybrid-viewer.js");
+  const { HybridSceneViewer } = await hybridViewerModulePromise;
+  if (container.dataset.viewerLoadToken !== loadToken) return;
   const viewer = new HybridSceneViewer(container);
   transientViewers.set(container, viewer);
   viewer.load(manifest);
@@ -143,6 +150,7 @@ function loadHybrid(container, manifest) {
 
 function loadMesh(container, url) {
   disposeViewer(container);
+  container.dataset.viewerLoadToken = String(Date.now() + Math.random());
   const viewer = new MeshSceneViewer(container);
   transientViewers.set(container, viewer);
   viewer.load(url);
@@ -349,7 +357,7 @@ function initSimfoundryComparison() {
     outputVideo.src = item.simfoundryVideo;
     outputVideo.load();
   });
-  selectWhenVisible(document.getElementById("comparisons"), () => selectTab(tabs, 0));
+  selectTab(tabs, 0);
 }
 
 function initReconstructedScenes() {
@@ -365,7 +373,7 @@ function initReconstructedScenes() {
     inputOverlay.alt = `${item.title} input image`;
     viewer.loadScene(item.manifest, item.gsScene);
   });
-  selectWhenVisible(document.getElementById("reconstructed"), () => selectTab(tabs, 0));
+  selectTab(tabs, 0);
 }
 
 function clearVideo(video) {
@@ -374,7 +382,8 @@ function clearVideo(video) {
   video.load();
 }
 
-function selectWhenVisible(element, callback) {
+function initWhenVisible(element, callback) {
+  if (!element) return;
   let done = false;
   const run = () => {
     if (done) return;
@@ -390,7 +399,7 @@ function selectWhenVisible(element, callback) {
       observer.disconnect();
       run();
     }
-  }, { rootMargin: "220px 0px" });
+  }, { rootMargin: "0px 0px" });
   observer.observe(element);
 }
 
@@ -409,5 +418,5 @@ function waitForProjectViewer() {
 
 await waitForProjectViewer();
 initShowcaseTabs();
-initSimfoundryComparison();
-initReconstructedScenes();
+initWhenVisible(document.getElementById("comparisons"), initSimfoundryComparison);
+initWhenVisible(document.getElementById("reconstructed"), initReconstructedScenes);

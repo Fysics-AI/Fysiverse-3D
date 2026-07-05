@@ -54,7 +54,7 @@ const URDF_COACD_MANIFEST_NAME = "manifest.json";
 const DEFAULT_GS_ALIGNMENT_MODE = "none";
 const VISUAL_FRAME_ACTOR = "actor";
 const VISUAL_FRAME_WORLD = "world";
-const ASSET_CACHE_VERSION = "20260706_github_pages_paths";
+const ASSET_CACHE_VERSION = "20260706_source_link_readme";
 
 await RAPIER.init();
 
